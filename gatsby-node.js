@@ -3,22 +3,21 @@
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
+const siteConfig = require('./siteConfig');
 
-// You can delete this file if you're not using it
+// exports.onCreateNode = ({ node, getNode, actions }) => {
+//   // Not running this as the node contains the data we need at this time.
 
-exports.onCreateNode = ({ node, getNode, actions }) => {
-  // Not running this as the node contains the data we need at this time.
-
-  // const { createNodeField } = actions;
-  // if (node.internal.type === 'MarkdownRemark') {
-  //   console.log('onCreateNode', node.internal.type, node.frontmatter.slug);
-  //   createNodeField({
-  //     node,
-  //     name: 'slug',
-  //     value:node.frontmatter.slug
-  //   })
-  // }
-}
+//   const { createNodeField } = actions;
+//   if (node.internal.type === 'MarkdownRemark') {
+//     console.log('onCreateNode', node.internal.type, node.frontmatter.slug);
+//     createNodeField({
+//       node,
+//       name: 'slug',
+//       value:node.frontmatter.slug
+//     })
+//   }
+// }
 
 exports.createPages = async ({ graphql, actions }) => {
   const path = require('path');
@@ -52,9 +51,19 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `)
-  result.data.allMarkdownRemark.edges.forEach( ({node}) => {
+  if (result.errors) {
+    console.error('graphql error createPages', result.errors);
+    throw result.errors;
+  }
+
+  const postsEdges = result.data.allMarkdownRemark.edges;
+
+  // sort posts
+  // postEdges.sort()
+
+  postsEdges.forEach( ({node}) => {
     createPage({
-      path: node.frontmatter.slug,
+      path: `${siteConfig.blogPathPagePrefix}${node.frontmatter.slug}`,
       component: path.resolve(`./src/templates/blog-post.js`),
       context: {
         slug: node.frontmatter.slug
