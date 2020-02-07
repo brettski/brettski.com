@@ -1,0 +1,37 @@
+{
+  allMarkdownRemark {
+    edges {
+      node {
+        id
+        frontmatter {
+          date
+          title
+          slug
+          link
+          layout
+          author
+          categories
+          tags
+        }
+        excerpt
+        html
+        timeToRead
+        wordCount {
+          paragraphs
+          sentences
+          words
+        }
+      }
+    }
+  }
+-----
+{
+  allFile(filter: {sourceInstanceName: {eq:"images"}}) {
+    edges {
+      node {
+        sourceInstanceName
+      }
+    }
+  }
+}
+-----
