@@ -24,6 +24,7 @@ export const pageQuery = graphql`
             date
             title
             tags
+            slug
           }
         }
       }
