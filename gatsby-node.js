@@ -5,6 +5,7 @@
  */
 const siteConfig = require('./siteConfig');
 const lodash = require('lodash');
+const moment = require('moment');
 
 // exports.onCreateNode = ({ node, getNode, actions }) => {
 //   // Not running this as the node contains the data we need at this time.
@@ -64,7 +65,15 @@ exports.createPages = async ({ graphql, actions }) => {
   const postsEdges = result.data.allMarkdownRemark.edges;
 
   // sort posts
-  // postEdges.sort()
+  postsEdges.sort((a, b) => {
+    const da = moment(a.node.frontmatter.date, siteConfig.dateFrontFormat);
+    const db = moment(b.node.frontmatter.date, siteConfig.dateFrontFormat);
+    if (da.isBefore(db)) return 1;
+    if (db.isBefore(da)) return -1;
+    return 0;
+  })
+
+  // postsEdges.forEach(({node}) => console.log(node.frontmatter.date))
 
   postsEdges.forEach( ({node}) => {
     // generate a list of tags
@@ -76,7 +85,7 @@ exports.createPages = async ({ graphql, actions }) => {
       node.frontmatter.categories.forEach(category => categorySet.add(category));
     }
 
-    // All blog pages
+    // All blog pages - each
     createPage({
       path: `${siteConfig.blogPathPagePrefix}${node.frontmatter.slug}`,
       component: blogPostTemplate,
@@ -84,19 +93,18 @@ exports.createPages = async ({ graphql, actions }) => {
         slug: node.frontmatter.slug
       }
     })
+  })
 
-  
-    tagSet.forEach(tag => {
-      createPage({
-        path: `${siteConfig.blogPathPagePrefix}tags/${lodash.kebabCase(tag)}`,
-        component: tagTemplate,
-        context: { tag }, 
-      })
+  tagSet.forEach(tag => {
+    createPage({
+      path: `${siteConfig.blogPathPagePrefix}tags/${lodash.kebabCase(tag)}`,
+      component: tagTemplate,
+      context: { tag }, 
     })
+  })
+
     // TODO:create list of tags page
 
     // TODO:create category pages
     // TODO:create list of categories pages
-
-  })
-}
+  }
