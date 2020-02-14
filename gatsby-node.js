@@ -74,7 +74,7 @@ exports.createPages = async ({ graphql, actions }) => {
     return 0;
   })
 
-  // postsEdges.forEach(({node}) => console.log(node.frontmatter.date))
+  //postsEdges.forEach(({node}) => console.log(node.frontmatter.date))
 
   postsEdges.forEach( ({node}) => {
     // generate a list of tags
@@ -95,6 +95,8 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     })
   })
+
+  // TODO build post lists by year-month
 
   tagSet.forEach(tag => {
     createPage({

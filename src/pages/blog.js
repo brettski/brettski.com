@@ -19,7 +19,9 @@ export default ({data}) => (
 
 export const pageQuery = graphql`
   query getAllPosts {
-    allMarkdownRemark {
+    allMarkdownRemark (
+      sort: {fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           excerpt
