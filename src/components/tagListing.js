@@ -12,11 +12,17 @@ class TagListing extends React.Component {
       if (node.frontmatter.tags)
         node.frontmatter.tags.forEach(tag => tagSet.add(tag))
     });
-    console.log('tag count', tagSet.length);
-    tagSet.forEach(tag => {
+    console.log('tag count', tagSet.size);
+    const tags = [...tagSet];
+    tags.sort((a,b) => {
+      if (a.toLowerCase() < b.toLowerCase()) return -1;
+      if (a.toLowerCase() > b.toLowerCase()) return 1;
+      return 0;
+    });
+    tags.forEach(tag => {
       tagList.push({
         path: `${siteConfig.blogPathPagePrefix}tag/${lodash.kebabCase(tag)}`,
-        name: lodash.kebabCase(tag),
+        name: tag,
       });
     });
     return tagList;
@@ -26,6 +32,7 @@ class TagListing extends React.Component {
     const tagList = this.getTagList();
     return (
       <div>
+        <h5>Tags ({tagList.length})</h5>
         <ul>
         {
         tagList.map(tag => (

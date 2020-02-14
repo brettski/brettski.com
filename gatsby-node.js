@@ -104,13 +104,11 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 
-    // TODO:create category pages
-    categorySet.forEach(category => {
-      createPage({
-        path: `${siteConfig.blogPathPagePrefix}category/${lodash.kebabCase(category)}`,
-        component: categoryTemplate,
-        context: { category },
-      })
+  categorySet.forEach(category => {
+    createPage({
+      path: `${siteConfig.blogPathPagePrefix}category/${lodash.kebabCase(category)}`,
+      component: categoryTemplate,
+      context: { category },
     })
-    // TODO:create list of categories pages
-  }
+  })
+}
