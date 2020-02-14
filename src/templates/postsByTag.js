@@ -13,6 +13,7 @@ export default class PostsByTag extends React.Component {
       <Layout>
         <div className="tag-container">
           <Helmet title={`Posts tagged as '${tag}`} />
+          <h3>Showing Posts for Tag {tag}</h3>
           <PostListing postEdges={postEdges} />
         </div>
       </Layout>

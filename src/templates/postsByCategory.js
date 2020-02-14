@@ -13,6 +13,7 @@ export default class PostsByCategory extends React.Component {
       <Layout>
         <div className="category-container">
           <Helmet title={`Posts with category as '${category}`} />
+          <h3>Showing Posts for Category {category}</h3>
           <PostListing postEdges={postEdges} />
         </div>
       </Layout>
