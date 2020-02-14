@@ -15,7 +15,7 @@ class TagListing extends React.Component {
     console.log('tag count', tagSet.length);
     tagSet.forEach(tag => {
       tagList.push({
-        path: `${siteConfig.blogPathPagePrefix}tags/${lodash.kebabCase(tag)}`,
+        path: `${siteConfig.blogPathPagePrefix}tag/${lodash.kebabCase(tag)}`,
         name: lodash.kebabCase(tag),
       });
     });

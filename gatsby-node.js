@@ -25,6 +25,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const path = require('path');
   const blogPostTemplate = path.resolve(`./src/templates/blog-post.js`)
   const tagTemplate = path.resolve(`./src/templates/postsByTag.js`);
+  const categoryTemplate = path.resolve(`./src/templates/postsByCategory.js`);
   const { createPage } = actions;
   const result = await graphql(`
     query {
@@ -97,14 +98,19 @@ exports.createPages = async ({ graphql, actions }) => {
 
   tagSet.forEach(tag => {
     createPage({
-      path: `${siteConfig.blogPathPagePrefix}tags/${lodash.kebabCase(tag)}`,
+      path: `${siteConfig.blogPathPagePrefix}tag/${lodash.kebabCase(tag)}`,
       component: tagTemplate,
       context: { tag }, 
     })
   })
 
-    // TODO:create list of tags page
-
     // TODO:create category pages
+    categorySet.forEach(category => {
+      createPage({
+        path: `${siteConfig.blogPathPagePrefix}category/${lodash.kebabCase(category)}`,
+        component: categoryTemplate,
+        context: { category },
+      })
+    })
     // TODO:create list of categories pages
   }
