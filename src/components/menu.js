@@ -1,14 +1,12 @@
 import { Link } from "gatsby"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <div className="menu-container">
-    <ul>
-      <Link to="/"><li>Main</li></Link>
-      <Link to="/blog"><li>Blog</li></Link>
-      <Link to="/"><li>Tools</li></Link>
-    </ul>
-  </div>
+const Menu = ({ siteTitle }) => (
+    <div>
+        <Link to="/"><button>Main</button></Link>
+        <Link to="/blog"><button>Blog</button></Link>
+        <Link to="/tools"><button>Tool</button></Link>
+    </div>
 )
 
-export default Header;
+export default Menu;

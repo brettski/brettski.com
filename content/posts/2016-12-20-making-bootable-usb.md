@@ -19,64 +19,27 @@ Mount ISO image using OS or third party app like [Virtual Clone Drive](https://w
 
 For this run-through we assume the **USB** is mounted as **E:** and the **ISO** is mounted as **F:**
 
-
 ## Diskpart:
-
 
 _Assume the USB drive shows as Disk 2_
 
-
-
-	
-  * Select disk 2
-
-	
-  * clean
-
-	
-  * create partition primary
-
-	
-  * select partition
-
-	
-  * active
-
-	
-  * format fs=exfat quick label="mylabel"
-
-	
-  * exit
-
-
-
+* Select disk 2
+* clean
+* create partition primary
+* select partition
+* active
+* format fs=exfat quick label="mylabel"
+* exit
 
 ## Make bootable:
 
-
 _I used /net60 as I was doing Server 2016 at the time_
 
-
-
-	
-  * cd f:\boot
-
-	
-  * f:> bootsect /nt60 e:
-
-
-
+* cd f:\boot
+* f:> bootsect /nt60 e:
 
 ## Copy Files From ISO to USB:
 
-
-
-
-
-	
-  * robocopy f:\ e:\ /e /mt:24
-
+* robocopy f:\ e:\ /e /mt:24
 
 Should be all good to go
-
-
