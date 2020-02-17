@@ -22,18 +22,12 @@ const theme = {
   offWhite: '#EDEDED',
   maxWidth: '1000px',
   bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)',
+  fontFamily: '"Gill Sans", sans-serif',
 };
 
-/*
-@font-face {
-  font-family: 'radnika_next';
-  src: url('/static/radnikanext-medium-webfont.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-*/
 const GlobalStyle = createGlobalStyle`
 html {
+  
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -43,15 +37,15 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-size: 1.5rem;
-  line-height: 2;
-  font-family: 'radnika_next';
+  font-size: 1.25rem;
+  line-height: 1.3;
+  font-family: ${theme.fontFamily};
 }
 a {
   text-decoration: none;
   color: ${theme.black};
 }
-button {  font-family: 'radnika_next'; }
+button {  font-family: ${theme.fontFamily} }
 `;
 
 
