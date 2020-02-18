@@ -12,7 +12,7 @@ import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
 
 import Header from "../components/header"
 import Footer from "../components/footer"
-import "./layout.css"
+//import "./layout.css"
 
 const theme = {
   red: '#FF0000',
@@ -27,7 +27,6 @@ const theme = {
 
 const GlobalStyle = createGlobalStyle`
 html {
-  
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -40,14 +39,27 @@ body {
   font-size: 1.25rem;
   line-height: 1.3;
   font-family: ${theme.fontFamily};
+  box-sizing: border-box
 }
 a {
   text-decoration: none;
   color: ${theme.black};
 }
-button {  font-family: ${theme.fontFamily} }
 `;
 
+const SiteContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 960px;
+
+`;
+
+const ChildrenContainer = styled.div`
+  display: flex;
+  flex: 1;
+  padding: 0 1rem;
+`;
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -63,19 +75,13 @@ const Layout = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-    <>
+      <SiteContainer>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <ChildrenContainer>
         <main>{children}</main>
-        <Footer />
-      </div>
-    </>
+      </ChildrenContainer>
+      <Footer />
+    </SiteContainer>  
     </ThemeProvider>
   )
 }
