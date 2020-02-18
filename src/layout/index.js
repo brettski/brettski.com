@@ -20,7 +20,7 @@ const theme = {
   grey: '#3A3A3A',
   lightgrey: '#E1E1E1',
   offWhite: '#EDEDED',
-  maxWidth: '1000px',
+  maxWidth: '960px',
   bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)',
   fontFamily: '"Gill Sans", sans-serif',
 };
@@ -51,14 +51,12 @@ const SiteContainer = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  max-width: 960px;
+  max-width: ${theme.maxWidth};
 
 `;
 
 const ChildrenContainer = styled.div`
-  display: flex;
   flex: 1;
-  padding: 0 1rem;
 `;
 
 const Layout = ({ children }) => {

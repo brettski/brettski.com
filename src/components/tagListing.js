@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "gatsby";
 import siteConfig from "../../siteConfig";
 import lodash from 'lodash';
+import TagList from '../styles/listings'
 
 class TagListing extends React.Component {
   getTagList() {
@@ -31,7 +32,7 @@ class TagListing extends React.Component {
   render() {
     const tagList = this.getTagList();
     return (
-      <div>
+      <TagList>
         <h5>Tags ({tagList.length})</h5>
         <ul>
         {
@@ -42,7 +43,7 @@ class TagListing extends React.Component {
         ))
         }
         </ul>
-      </div>
+      </TagList>
     );
   }
 }
