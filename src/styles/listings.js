@@ -4,6 +4,7 @@ export default styled.div`
   > ul {
     list-style: none;
     padding-left: 0;
+    font-size: .8rem;
   }
 
   > ul li:hover {

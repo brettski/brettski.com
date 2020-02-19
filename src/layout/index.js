@@ -22,10 +22,15 @@ const theme = {
   offWhite: '#EDEDED',
   maxWidth: '960px',
   bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)',
-  fontFamily: '"Gill Sans", sans-serif',
+  //fontFamily: '"Gill Sans", sans-serif',
+  fontFamily: '"Roboto", sans-serif',
 };
 
 const GlobalStyle = createGlobalStyle`
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/*.ttf');
+}
 html {
   box-sizing: border-box;
   font-size: 16px;
