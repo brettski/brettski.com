@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "gatsby";
 import siteConfig from "../../siteConfig";
 import lodash from 'lodash';
+import CategoryList from '../styles/listings';
 
 class CategoryListing extends React.Component {
   getCategoryList() {
@@ -31,7 +32,7 @@ class CategoryListing extends React.Component {
   render() {
     const categoryList = this.getCategoryList();
     return (
-      <div>
+      <CategoryList>
         <h5>Categories ({categoryList.length})</h5>
         <ul>
         {
@@ -42,7 +43,7 @@ class CategoryListing extends React.Component {
         ))
         }
         </ul>
-      </div>
+      </CategoryList>
     );
   }
 }

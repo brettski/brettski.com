@@ -2,20 +2,24 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Menu from "../components/menu"
+import styled from "styled-components"
 
+const HeaderContainer = styled.div`
+  flex: 0 0 20vh;
+  background-color: rebeccapurple;
+  display: flex;
+  flex-direction: column;
+  
+  
+`;
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <HeaderContainer>
     <div
       style={{
-        margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: `1.45rem 1rem`,
+        flex: 1
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -31,7 +35,7 @@ const Header = ({ siteTitle }) => (
       </h1>
     </div>
     <Menu />
-  </header>
+  </HeaderContainer>
 )
 
 Header.propTypes = {

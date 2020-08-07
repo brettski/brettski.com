@@ -1,13 +1,29 @@
-# Hi
+# Brettski dot com
 
-A project to take an old website and an even older wordpress site and create something with them using Gatsby.
+## Who
 
-Ideas and guidence from:
+Me, Brett
 
-- [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/)
-- [Tania Rascia](https://www.taniarascia.com/)
-  - [The End of an Era: Migrating from WordPress to Gatsby](https://www.taniarascia.com/migrating-from-wordpress-to-gatsby/)
-- [Var9k/Gatsby-Dvanced-Starter](https://github.com/vagr9k/gatsby-advanced-starter/)
-  - Though I didn't use this starter, I got some good ideas from it
+## What
 
-I chose not to use the advanced started to provide the ability to build out the sections myself. I feel I am learning much more this way which is important as React innerds is quite new to me.
+Different attempts to replace the very aged asp.net mvc site which has served over the years.
+
+Along with that tie in the wordpress blog hosted at wordpress.com. Not that its a bad service or expensive in how I am using it, it would be nice to have everything static and in one place.
+
+## When
+
+As time allows and where it can be snuck in
+
+## Why
+
+Who doesn't like to try new things?
+
+## How
+
+Name it
+
+## Attempts
+
+**Gatsby**: No too bad, the static nature of things and my horrible lack of understadning of react made it not turn out as I was hoping.
+
+**Svelte**: Too new, can't comment yet...

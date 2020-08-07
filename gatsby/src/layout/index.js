@@ -12,7 +12,7 @@ import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
 
 import Header from "../components/header"
 import Footer from "../components/footer"
-import "./layout.css"
+//import "./layout.css"
 
 const theme = {
   red: '#FF0000',
@@ -20,14 +20,18 @@ const theme = {
   grey: '#3A3A3A',
   lightgrey: '#E1E1E1',
   offWhite: '#EDEDED',
-  maxWidth: '1000px',
+  maxWidth: '960px',
   bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)',
-  fontFamily: '"Gill Sans", sans-serif',
+  //fontFamily: '"Gill Sans", sans-serif',
+  fontFamily: '"Roboto", sans-serif',
 };
 
 const GlobalStyle = createGlobalStyle`
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/*.ttf');
+}
 html {
-  
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -40,14 +44,25 @@ body {
   font-size: 1.25rem;
   line-height: 1.3;
   font-family: ${theme.fontFamily};
+  box-sizing: border-box
 }
 a {
   text-decoration: none;
   color: ${theme.black};
 }
-button {  font-family: ${theme.fontFamily} }
 `;
 
+const SiteContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: ${theme.maxWidth};
+
+`;
+
+const ChildrenContainer = styled.div`
+  flex: 1;
+`;
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -63,19 +78,13 @@ const Layout = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-    <>
+      <SiteContainer>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <ChildrenContainer>
         <main>{children}</main>
-        <Footer />
-      </div>
-    </>
+      </ChildrenContainer>
+      <Footer />
+    </SiteContainer>  
     </ThemeProvider>
   )
 }
