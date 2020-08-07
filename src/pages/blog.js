@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../layout"
 import SEO from "../components/seo"
+import BlogNav from "../components/blognav"
 import PostListing from "../components/postListing";
 import TagListing from "../components/tagListing";
 import CategoryListing from "../components/categoryListing";
@@ -30,6 +31,7 @@ export default ({data}) => (
   <Layout>
     <SEO title="Blog" />
     <h1>Stuff From an IT Slug</h1>
+    <BlogNav />
     <BlogContainer>
       <LeftBlogNav>
         <TagListing postEdges={data.allMarkdownRemark.edges} />
