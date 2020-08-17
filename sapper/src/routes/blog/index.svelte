@@ -2,7 +2,7 @@
   import posts from '../../server/posts';
 </script>
 
-<h1>Blog</h1>
+<h1 class="text-4xl">Blog</h1>
 
 <!-- iterate through each post -->
 {#each posts().all() as post}
