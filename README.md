@@ -26,4 +26,6 @@ Name it
 
 **Gatsby**: No too bad, the static nature of things and my horrible lack of understadning of react made it not turn out as I was hoping.
 
-**Svelte**: Too new, can't comment yet...
+**Svelte**: They're doing away with Sapper, so not until the next gen of Svelte is out.
+
+**11ty**: Sure, why not. [This](https://github.com/josephdyer/skeleventy) looks like a decent starter to begin with.
