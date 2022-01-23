@@ -1,13 +1,13 @@
-<header class="bg-green-600">
+<header class="bg-emerald-600">
   <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
     <div class="w-full py-6 flex items-center justify-between border-b border-yellow-500 lg:border-none">
       <div class="flex items-center">
         <a href="/">
           <span class="sr-only">Workflow</span>
-          <img class="h-10 w-auto" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=black" alt="">
+          <img class="h-10 w-auto" src="/images/b2.svg" alt="">
         </a>
         <div class="hidden ml-10 space-x-8 lg:block">
-          <a href="/" class="text-base font-medium text-white hover:text-indigo-50">
+          <a href="/blog" class="text-base font-medium text-white hover:text-indigo-50">
             Blog
           </a>
 
