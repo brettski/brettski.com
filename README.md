@@ -28,4 +28,6 @@ Name it
 
 **Svelte**: They're doing away with Sapper, so not until the next gen of Svelte is out.
 
-**11ty**: Sure, why not. [This](https://github.com/josephdyer/skeleventy) looks like a decent starter to begin with.
+**11ty**: Sure, why not. [This](https://github.com/josephdyer/skeleventy) looks like a decent starter to begin with. Nope
+
+**Sveltekit**: okay, next
