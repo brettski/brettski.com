@@ -1,3 +1,15 @@
+<script>
+  let colorState = 'hidden';
+  const colorToggle = () => colorState ? colorState = '' : colorState = 'hidden';
+  const colorMinus = (state) => state ? 'hidden' : '';
+  const colorPlus = (state) => state ? '' : 'hidden';
+
+  let categoryState = 'hidden';
+  const categoryToggle = () => categoryState ? categoryState = '' : categoryState = 'hidden';
+  const categoryMinus = (state) => state ? 'hidden' : '';
+  const categoryPlus = (state) => state ?  '' : 'hidden';
+</script>
+
 <!--
   This example requires Tailwind CSS v2.0+ 
   
@@ -94,7 +106,7 @@
           <div class="border-t border-gray-200 px-4 py-6">
             <h3 class="-mx-2 -my-3 flow-root">
               <!-- Expand/collapse section button -->
-              <button type="button" class="px-2 py-3 bg-white w-full flex items-center justify-between text-gray-400 hover:text-gray-500" aria-controls="filter-section-mobile-0" aria-expanded="false">
+              <button type="button" on:click={colorToggle} class="px-2 py-3 bg-white w-full flex items-center justify-between text-gray-400 hover:text-gray-500" aria-controls="filter-section-mobile-0" aria-expanded="false">
                 <span class="font-medium text-gray-900">
                   Color
                 </span>
@@ -104,7 +116,7 @@
 
                     Heroicon name: solid/plus-sm
                   -->
-                  <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <svg class="h-5 w-5 {colorPlus(colorState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
                   </svg>
                   <!--
@@ -112,14 +124,14 @@
 
                     Heroicon name: solid/minus-sm
                   -->
-                  <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <svg class="h-5 w-5 {colorMinus(colorState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
                   </svg>
                 </span>
               </button>
             </h3>
             <!-- Filter section, show/hide based on section state. -->
-            <div class="pt-6" id="filter-section-mobile-0">
+            <div class="pt-6 {colorState}" id="filter-section-mobile-0">
               <div class="space-y-6">
                 <div class="flex items-center">
                   <input id="filter-mobile-color-0" name="color[]" value="white" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
@@ -169,7 +181,7 @@
           <div class="border-t border-gray-200 px-4 py-6">
             <h3 class="-mx-2 -my-3 flow-root">
               <!-- Expand/collapse section button -->
-              <button type="button" class="px-2 py-3 bg-white w-full flex items-center justify-between text-gray-400 hover:text-gray-500" aria-controls="filter-section-mobile-1" aria-expanded="false">
+              <button type="button" on:click={categoryToggle} class="px-2 py-3 bg-white w-full flex items-center justify-between text-gray-400 hover:text-gray-500" aria-controls="filter-section-mobile-1" aria-expanded="false">
                 <span class="font-medium text-gray-900">
                   Category
                 </span>
@@ -179,7 +191,7 @@
 
                     Heroicon name: solid/plus-sm
                   -->
-                  <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <svg class="h-5 w-5 {categoryPlus(categoryState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
                   </svg>
                   <!--
@@ -187,14 +199,14 @@
 
                     Heroicon name: solid/minus-sm
                   -->
-                  <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <svg class="h-5 w-5 {categoryMinus(categoryState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
                   </svg>
                 </span>
               </button>
             </h3>
             <!-- Filter section, show/hide based on section state. -->
-            <div class="pt-6" id="filter-section-mobile-1">
+            <div class="pt-6 {categoryState}" id="filter-section-mobile-1">
               <div class="space-y-6">
                 <div class="flex items-center">
                   <input id="filter-mobile-category-0" name="category[]" value="new-arrivals" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
@@ -427,7 +439,7 @@
             <div class="border-b border-gray-200 py-6">
               <h3 class="-my-3 flow-root">
                 <!-- Expand/collapse section button -->
-                <button type="button" class="py-3 bg-white w-full flex items-center justify-between text-sm text-gray-400 hover:text-gray-500" aria-controls="filter-section-0" aria-expanded="false">
+                <button type="button" on:click={colorToggle} class="py-3 bg-white w-full flex items-center justify-between text-sm text-gray-400 hover:text-gray-500" aria-controls="filter-section-0" aria-expanded="false">
                   <span class="font-medium text-gray-900">
                     Color
                   </span>
@@ -437,7 +449,7 @@
 
                       Heroicon name: solid/plus-sm
                     -->
-                    <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <svg class="h-5 w-5 {colorPlus(colorState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                       <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
                     </svg>
                     <!--
@@ -445,14 +457,14 @@
 
                       Heroicon name: solid/minus-sm
                     -->
-                    <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <svg class="h-5 w-5 {colorMinus(colorState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                       <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
                     </svg>
                   </span>
                 </button>
               </h3>
               <!-- Filter section, show/hide based on section state. -->
-              <div class="pt-6" id="filter-section-0">
+              <div class="pt-6 {colorState}" id="filter-section-0">
                 <div class="space-y-4">
                   <div class="flex items-center">
                     <input id="filter-color-0" name="color[]" value="white" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
@@ -502,7 +514,7 @@
             <div class="border-b border-gray-200 py-6">
               <h3 class="-my-3 flow-root">
                 <!-- Expand/collapse section button -->
-                <button type="button" class="py-3 bg-white w-full flex items-center justify-between text-sm text-gray-400 hover:text-gray-500" aria-controls="filter-section-1" aria-expanded="false">
+                <button type="button" on:click={categoryToggle} class="py-3 bg-white w-full flex items-center justify-between text-sm text-gray-400 hover:text-gray-500" aria-controls="filter-section-1" aria-expanded="false">
                   <span class="font-medium text-gray-900">
                     Category
                   </span>
@@ -512,7 +524,7 @@
 
                       Heroicon name: solid/plus-sm
                     -->
-                    <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <svg class="h-5 w-5 {categoryPlus(categoryState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                       <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
                     </svg>
                     <!--
@@ -520,14 +532,14 @@
 
                       Heroicon name: solid/minus-sm
                     -->
-                    <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <svg class="h-5 w-5 {categoryMinus(categoryState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                       <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
                     </svg>
                   </span>
                 </button>
               </h3>
               <!-- Filter section, show/hide based on section state. -->
-              <div class="pt-6" id="filter-section-1">
+              <div class="pt-6 {categoryState}" id="filter-section-1">
                 <div class="space-y-4">
                   <div class="flex items-center">
                     <input id="filter-category-0" name="category[]" value="new-arrivals" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
