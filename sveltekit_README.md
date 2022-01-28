@@ -39,4 +39,7 @@ npm run build
 
 ## No clue how to do the JS side of Tailwind CSS stuff
 
-Here's and example: [https://codepen.io/adamwathan/pen/BaoOExx](https://codepen.io/adamwathan/pen/BaoOExx)
+Here's and example:
+
+- [https://codepen.io/adamwathan/pen/BaoOExx](https://codepen.io/adamwathan/pen/BaoOExx)
+- End of the article: [https://codechips.me/tailwind-ui-react-vs-svelte/](https://codechips.me/tailwind-ui-react-vs-svelte/)

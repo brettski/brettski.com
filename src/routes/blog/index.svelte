@@ -92,12 +92,6 @@
 
             <li>
               <a href="#" class="block px-2 py-3">
-                Hip Bags
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="block px-2 py-3">
                 Laptop Sleeves
               </a>
             </li>
