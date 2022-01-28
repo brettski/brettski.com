@@ -73,104 +73,26 @@
           <h3 class="sr-only">Categories</h3>
           <ul role="list" class="font-medium text-gray-900 px-2 py-3">
             <li>
-              <a href="#" class="block px-2 py-3">
-                Totes
+              <a href="/" class="block px-2 py-3">
+                Home
               </a>
             </li>
-
             <li>
-              <a href="#" class="block px-2 py-3">
-                Backpacks
+              <a href="http://brettskisayings.blogspot.com/" target="_blank" class="block px-2 py-3">
+                The Bar Napkin
               </a>
             </li>
-
             <li>
-              <a href="#" class="block px-2 py-3">
-                Travel Bags
+              <a href="https://twitter.com/brettslaski" target="_blank" class="block px-2 py-3">
+                Twitter
               </a>
             </li>
-
             <li>
-              <a href="#" class="block px-2 py-3">
-                Laptop Sleeves
+              <a href="https://www.thatconference.com" target="_blank" class="block px-2 py-3">
+                THAT Conference
               </a>
             </li>
           </ul>
-
-          <div class="border-t border-gray-200 px-4 py-6">
-            <h3 class="-mx-2 -my-3 flow-root">
-              <!-- Expand/collapse section button -->
-              <button type="button" on:click={colorToggle} class="px-2 py-3 bg-white w-full flex items-center justify-between text-gray-400 hover:text-gray-500" aria-controls="filter-section-mobile-0" aria-expanded="false">
-                <span class="font-medium text-gray-900">
-                  Color
-                </span>
-                <span class="ml-6 flex items-center">
-                  <!--
-                    Expand icon, show/hide based on section open state.
-
-                    Heroicon name: solid/plus-sm
-                  -->
-                  <svg class="h-5 w-5 {colorPlus(colorState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
-                  </svg>
-                  <!--
-                    Collapse icon, show/hide based on section open state.
-
-                    Heroicon name: solid/minus-sm
-                  -->
-                  <svg class="h-5 w-5 {colorMinus(colorState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
-                  </svg>
-                </span>
-              </button>
-            </h3>
-            <!-- Filter section, show/hide based on section state. -->
-            <div class="pt-6 {colorState}" id="filter-section-mobile-0">
-              <div class="space-y-6">
-                <div class="flex items-center">
-                  <input id="filter-mobile-color-0" name="color[]" value="white" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
-                  <label for="filter-mobile-color-0" class="ml-3 min-w-0 flex-1 text-gray-500">
-                    White
-                  </label>
-                </div>
-
-                <div class="flex items-center">
-                  <input id="filter-mobile-color-1" name="color[]" value="beige" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
-                  <label for="filter-mobile-color-1" class="ml-3 min-w-0 flex-1 text-gray-500">
-                    Beige
-                  </label>
-                </div>
-
-                <div class="flex items-center">
-                  <input id="filter-mobile-color-2" name="color[]" value="blue" type="checkbox" checked class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
-                  <label for="filter-mobile-color-2" class="ml-3 min-w-0 flex-1 text-gray-500">
-                    Blue
-                  </label>
-                </div>
-
-                <div class="flex items-center">
-                  <input id="filter-mobile-color-3" name="color[]" value="brown" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
-                  <label for="filter-mobile-color-3" class="ml-3 min-w-0 flex-1 text-gray-500">
-                    Brown
-                  </label>
-                </div>
-
-                <div class="flex items-center">
-                  <input id="filter-mobile-color-4" name="color[]" value="green" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
-                  <label for="filter-mobile-color-4" class="ml-3 min-w-0 flex-1 text-gray-500">
-                    Green
-                  </label>
-                </div>
-
-                <div class="flex items-center">
-                  <input id="filter-mobile-color-5" name="color[]" value="purple" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
-                  <label for="filter-mobile-color-5" class="ml-3 min-w-0 flex-1 text-gray-500">
-                    Purple
-                  </label>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <div class="border-t border-gray-200 px-4 py-6">
             <h3 class="-mx-2 -my-3 flow-root">
@@ -234,6 +156,81 @@
                   <input id="filter-mobile-category-4" name="category[]" value="accessories" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
                   <label for="filter-mobile-category-4" class="ml-3 min-w-0 flex-1 text-gray-500">
                     Accessories
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="border-t border-gray-200 px-4 py-6">
+            <h3 class="-mx-2 -my-3 flow-root">
+              <!-- Expand/collapse section button -->
+              <button type="button" on:click={colorToggle} class="px-2 py-3 bg-white w-full flex items-center justify-between text-gray-400 hover:text-gray-500" aria-controls="filter-section-mobile-0" aria-expanded="false">
+                <span class="font-medium text-gray-900">
+                  Tags
+                </span>
+                <span class="ml-6 flex items-center">
+                  <!--
+                    Expand icon, show/hide based on section open state.
+
+                    Heroicon name: solid/plus-sm
+                  -->
+                  <svg class="h-5 w-5 {colorPlus(colorState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                  </svg>
+                  <!--
+                    Collapse icon, show/hide based on section open state.
+
+                    Heroicon name: solid/minus-sm
+                  -->
+                  <svg class="h-5 w-5 {colorMinus(colorState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
+                  </svg>
+                </span>
+              </button>
+            </h3>
+            <!-- Filter section, show/hide based on section state. -->
+            <div class="pt-6 {colorState}" id="filter-section-mobile-0">
+              <div class="space-y-6">
+                <div class="flex items-center">
+                  <input id="filter-mobile-color-0" name="color[]" value="white" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
+                  <label for="filter-mobile-color-0" class="ml-3 min-w-0 flex-1 text-gray-500">
+                    White
+                  </label>
+                </div>
+
+                <div class="flex items-center">
+                  <input id="filter-mobile-color-1" name="color[]" value="beige" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
+                  <label for="filter-mobile-color-1" class="ml-3 min-w-0 flex-1 text-gray-500">
+                    Beige
+                  </label>
+                </div>
+
+                <div class="flex items-center">
+                  <input id="filter-mobile-color-2" name="color[]" value="blue" type="checkbox" checked class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
+                  <label for="filter-mobile-color-2" class="ml-3 min-w-0 flex-1 text-gray-500">
+                    Blue
+                  </label>
+                </div>
+
+                <div class="flex items-center">
+                  <input id="filter-mobile-color-3" name="color[]" value="brown" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
+                  <label for="filter-mobile-color-3" class="ml-3 min-w-0 flex-1 text-gray-500">
+                    Brown
+                  </label>
+                </div>
+
+                <div class="flex items-center">
+                  <input id="filter-mobile-color-4" name="color[]" value="green" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
+                  <label for="filter-mobile-color-4" class="ml-3 min-w-0 flex-1 text-gray-500">
+                    Green
+                  </label>
+                </div>
+
+                <div class="flex items-center">
+                  <input id="filter-mobile-color-5" name="color[]" value="purple" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
+                  <label for="filter-mobile-color-5" class="ml-3 min-w-0 flex-1 text-gray-500">
+                    Purple
                   </label>
                 </div>
               </div>
@@ -344,7 +341,7 @@
                 From: "transform opacity-100 scale-100"
                 To: "transform opacity-0 scale-95"
             -->
-            <div class="origin-top-right absolute right-0 mt-2 w-40 rounded-md shadow-2xl bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+            <div class="hidden origin-top-right absolute right-0 mt-2 w-40 rounded-md shadow-2xl bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
               <div class="py-1" role="none">
                 <!--
                   Active: "bg-gray-100", Not Active: ""
@@ -400,110 +397,27 @@
             <h3 class="sr-only">Categories</h3>
             <ul role="list" class="text-sm font-medium text-gray-900 space-y-4 pb-6 border-b border-gray-200">
               <li>
-                <a href="#">
-                  Totes
+                <a href="/" >
+                  Home
                 </a>
               </li>
-
               <li>
-                <a href="#">
-                  Backpacks
+                <a href="http://sayings.brettski.com/" target="_blank">
+                  The Bar Napkin
                 </a>
               </li>
-
               <li>
-                <a href="#">
-                  Travel Bags
+                <a href="https://twitter.com/brettslaski" target="_blank">
+                  Twitter
                 </a>
               </li>
-
               <li>
-                <a href="#">
-                  Hip Bags
+                <a href="https://www.thatconference.com" target="_blank">
+                  THAT Conference
                 </a>
               </li>
+              </ul>
 
-              <li>
-                <a href="#">
-                  Laptop Sleeves
-                </a>
-              </li>
-            </ul>
-
-            <div class="border-b border-gray-200 py-6">
-              <h3 class="-my-3 flow-root">
-                <!-- Expand/collapse section button -->
-                <button type="button" on:click={colorToggle} class="py-3 bg-white w-full flex items-center justify-between text-sm text-gray-400 hover:text-gray-500" aria-controls="filter-section-0" aria-expanded="false">
-                  <span class="font-medium text-gray-900">
-                    Color
-                  </span>
-                  <span class="ml-6 flex items-center">
-                    <!--
-                      Expand icon, show/hide based on section open state.
-
-                      Heroicon name: solid/plus-sm
-                    -->
-                    <svg class="h-5 w-5 {colorPlus(colorState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
-                    </svg>
-                    <!--
-                      Collapse icon, show/hide based on section open state.
-
-                      Heroicon name: solid/minus-sm
-                    -->
-                    <svg class="h-5 w-5 {colorMinus(colorState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
-                    </svg>
-                  </span>
-                </button>
-              </h3>
-              <!-- Filter section, show/hide based on section state. -->
-              <div class="pt-6 {colorState}" id="filter-section-0">
-                <div class="space-y-4">
-                  <div class="flex items-center">
-                    <input id="filter-color-0" name="color[]" value="white" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
-                    <label for="filter-color-0" class="ml-3 text-sm text-gray-600">
-                      White
-                    </label>
-                  </div>
-
-                  <div class="flex items-center">
-                    <input id="filter-color-1" name="color[]" value="beige" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
-                    <label for="filter-color-1" class="ml-3 text-sm text-gray-600">
-                      Beige
-                    </label>
-                  </div>
-
-                  <div class="flex items-center">
-                    <input id="filter-color-2" name="color[]" value="blue" type="checkbox" checked class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
-                    <label for="filter-color-2" class="ml-3 text-sm text-gray-600">
-                      Blue
-                    </label>
-                  </div>
-
-                  <div class="flex items-center">
-                    <input id="filter-color-3" name="color[]" value="brown" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
-                    <label for="filter-color-3" class="ml-3 text-sm text-gray-600">
-                      Brown
-                    </label>
-                  </div>
-
-                  <div class="flex items-center">
-                    <input id="filter-color-4" name="color[]" value="green" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
-                    <label for="filter-color-4" class="ml-3 text-sm text-gray-600">
-                      Green
-                    </label>
-                  </div>
-
-                  <div class="flex items-center">
-                    <input id="filter-color-5" name="color[]" value="purple" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
-                    <label for="filter-color-5" class="ml-3 text-sm text-gray-600">
-                      Purple
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <div class="border-b border-gray-200 py-6">
               <h3 class="-my-3 flow-root">
@@ -567,6 +481,81 @@
                     <input id="filter-category-4" name="category[]" value="accessories" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
                     <label for="filter-category-4" class="ml-3 text-sm text-gray-600">
                       Accessories
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="border-b border-gray-200 py-6">
+              <h3 class="-my-3 flow-root">
+                <!-- Expand/collapse section button -->
+                <button type="button" on:click={colorToggle} class="py-3 bg-white w-full flex items-center justify-between text-sm text-gray-400 hover:text-gray-500" aria-controls="filter-section-0" aria-expanded="false">
+                  <span class="font-medium text-gray-900">
+                    Tags
+                  </span>
+                  <span class="ml-6 flex items-center">
+                    <!--
+                      Expand icon, show/hide based on section open state.
+
+                      Heroicon name: solid/plus-sm
+                    -->
+                    <svg class="h-5 w-5 {colorPlus(colorState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                    </svg>
+                    <!--
+                      Collapse icon, show/hide based on section open state.
+
+                      Heroicon name: solid/minus-sm
+                    -->
+                    <svg class="h-5 w-5 {colorMinus(colorState)}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                </button>
+              </h3>
+              <!-- Filter section, show/hide based on section state. -->
+              <div class="pt-6 {colorState}" id="filter-section-0">
+                <div class="space-y-4">
+                  <div class="flex items-center">
+                    <input id="filter-color-0" name="color[]" value="white" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
+                    <label for="filter-color-0" class="ml-3 text-sm text-gray-600">
+                      White
+                    </label>
+                  </div>
+
+                  <div class="flex items-center">
+                    <input id="filter-color-1" name="color[]" value="beige" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
+                    <label for="filter-color-1" class="ml-3 text-sm text-gray-600">
+                      Beige
+                    </label>
+                  </div>
+
+                  <div class="flex items-center">
+                    <input id="filter-color-2" name="color[]" value="blue" type="checkbox" checked class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
+                    <label for="filter-color-2" class="ml-3 text-sm text-gray-600">
+                      Blue
+                    </label>
+                  </div>
+
+                  <div class="flex items-center">
+                    <input id="filter-color-3" name="color[]" value="brown" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
+                    <label for="filter-color-3" class="ml-3 text-sm text-gray-600">
+                      Brown
+                    </label>
+                  </div>
+
+                  <div class="flex items-center">
+                    <input id="filter-color-4" name="color[]" value="green" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
+                    <label for="filter-color-4" class="ml-3 text-sm text-gray-600">
+                      Green
+                    </label>
+                  </div>
+
+                  <div class="flex items-center">
+                    <input id="filter-color-5" name="color[]" value="purple" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
+                    <label for="filter-color-5" class="ml-3 text-sm text-gray-600">
+                      Purple
                     </label>
                   </div>
                 </div>
@@ -652,7 +641,11 @@
           <!-- Product grid -->
           <div class="lg:col-span-3">
             <!-- Replace with your content -->
-            <div class="border-4 border-dashed border-gray-200 rounded-lg h-96 lg:h-full"></div>
+            <div class="border-4 border-dashed border-gray-200 rounded-lg h-96 lg:h-full">
+              <div class="p-5">
+                Content goes here!
+              </div>
+            </div>
             <!-- /End replace -->
           </div>
         </div>
