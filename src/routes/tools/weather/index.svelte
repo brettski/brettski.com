@@ -22,31 +22,35 @@
 
 <script>
 	import lname from './weather';
-	console.log(lname);
+	console.log('lname\n', lname);
+
+	function c2f(c) {
+		return (c * 1.8 + 32).toFixed(1);
+	}
 </script>
 
-<div class="p-10">hi {lname.brett}</div>
+<div class="p-10">hi {lname.env.NODE_ENV}</div>
 <h2>Palwaukee</h2>
-<div class="m-10 border-2 border-pink-200">
+<div class="mx-10 mt-5 mb-10">
 	<div>
-		Temp: {paw.properties.temperature.value}
+		Temp: {paw.properties.temperature.value} C° ({c2f(paw.properties.temperature.value)} F°)
 	</div>
 	<div>
-		Dewpoint: {paw.properties.dewpoint.value}
+		Dewpoint: {paw.properties.dewpoint.value} C° ({c2f(paw.properties.dewpoint.value)} F°)
 	</div>
 	<div>
-		Rel Hum: {paw.properties.relativeHumidity.value} %
+		Rel Hum: {paw.properties.relativeHumidity.value.toFixed(1)} %
 	</div>
 </div>
 <h2>O'Hare</h2>
-<div class="border-2 m-10 border-gray-400">
+<div class="mx-10 mt-5 mb-10">
 	<div>
-		Temp: {ord.properties.temperature.value}
+		Temp: {ord.properties.temperature.value} C° ({c2f(ord.properties.temperature.value)} F°)
 	</div>
 	<div>
-		Dewpoint: {ord.properties.dewpoint.value}
+		Dewpoint: {ord.properties.dewpoint.value} C° ({c2f(ord.properties.dewpoint.value)} F°)
 	</div>
 	<div>
-		Rel Hum: {ord.properties.relativeHumidity.value} %
+		Rel Hum: {ord.properties.relativeHumidity.value.toFixed(1)} %
 	</div>
 </div>

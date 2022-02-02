@@ -37,7 +37,7 @@
 
 			<div>
 				<dt>
-					<a href="/tools">
+					<a href="/tools/encode">
 						<div
 							class="flex items-center justify-center h-12 w-12 rounded-md bg-amber-500 text-gray-700 hover:bg-amber-600"
 						>
@@ -61,10 +61,7 @@
 						<p class="mt-5 text-lg leading-6 font-medium text-gray-900">Encoding</p>
 					</a>
 				</dt>
-				<dd class="mt-2 text-base text-gray-500">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis
-					suscipit eaque, iste dolor cupiditate blanditiis ratione.
-				</dd>
+				<dd class="mt-2 text-base text-gray-500">Base64 and other useful encoders</dd>
 			</div>
 
 			<div>
