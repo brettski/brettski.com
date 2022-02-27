@@ -12,11 +12,12 @@
 			d.json(),
 		);
 
-		return {
-			props: {
-				paw,
-			},
-		};
+		return {};
+		// return {
+		// 	props: {
+		// 		paw,
+		// 	},
+		// };
 	}
 </script>
 
@@ -24,12 +25,14 @@
 	import lname from './weather';
 	console.log('lname\n', lname);
 
+	const newName = lname.env;
+
 	function c2f(c) {
 		return (c * 1.8 + 32).toFixed(1);
 	}
 </script>
 
-<div class="p-10">hi {lname.env.NODE_ENV}</div>
+<div class="p-10">hi {newName}</div>
 <h2>Palwaukee</h2>
 <div class="mx-10 mt-5 mb-10">
 	<div>
