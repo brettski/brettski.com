@@ -13,7 +13,9 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter(),
 		alias: {
-			$blog: '/src/_blog'
+			$blog: '/src/_blog',
+			$components: '/src/_components',
+			$elements: '/src/_elements'
 		},
 		version: {
 			name: process.env?.npm_package_version ?? '0.0.0.0'
