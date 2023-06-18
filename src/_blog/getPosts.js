@@ -6,6 +6,10 @@ export async function getPosts() {
         return {
 
             metadata: r.metadata,
+            categories: r.metadata?.categories ?? [],
+            tags: r.metadata?.tags ?? [],
+            postDate: new Date(r.metadata.date),
+            slug: r.metadata.slug,
             content: r.default
         };   
     });

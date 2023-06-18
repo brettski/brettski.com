@@ -1,26 +1,17 @@
 import { error } from '@sveltejs/kit';
-import { getPosts } from '$blog/getPosts';
 
-export async function load({ params }) {
-    let post;
-    let content;
-    let metadata;
-    try {
-        const posts = await getPosts();
-        console.log('post count', posts?.length);
-        post = posts.find(p => p?.metadata?.slug === params.slug);
-        content = post.content
-        metadata = post.metadata;
-        console.log('shit:', post)
+export async function load({ parent, params }) {
+    const { posts } = await parent();
+    console.log('[]blog posts count', posts.length);
+    const post = posts.find(p => p.slug === params.slug);
+
+    if (post) 
+    return {
+        post
     }
-    catch (err) {
-        console.error(`post ${ params.slug } not found`, err);
-        throw error(404, 'Post not found');
+    else  {
+        console.error(`post '${params.slug}' not found`)
+        throw error(404, `post not found`)
     }
     
-    return {
-        content,
-        metadata,
-        post,
-    }
 }
