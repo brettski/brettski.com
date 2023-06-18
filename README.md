@@ -30,4 +30,4 @@ Name it
 
 **11ty**: Sure, why not. [This](https://github.com/josephdyer/skeleventy) looks like a decent starter to begin with. Nope
 
-**Sveltekit**: okay, next
+**Sveltekit**: okay, now
