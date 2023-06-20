@@ -1,6 +1,4 @@
 <script>
-    import { page } from '$app/stores';
-
     export let data;
 
     const { post } = data;

@@ -10,6 +10,7 @@ export async function getPosts() {
             tags: r.metadata?.tags ?? [],
             postDate: new Date(r.metadata.date),
             slug: r.metadata.slug,
+            title: r.metadata.title,
             content: r.default
         };   
     });

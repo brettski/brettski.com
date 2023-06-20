@@ -7,12 +7,10 @@
   const prettyDate = dayjs(date).format('dddd, MMMM D, YYYY (HH:mm)').toString()
 </script>
 
-<article class="prose">
-	<h1 class="text-green-400">{title}</h1>
+<article class="prose prose-rose prose-a:text-green-300 hover:prose-a:text-gray-300">
+	<h1 class="text-gray-600">{title}</h1>
 
-  <p class="italic text-gray-400 text-sm">{prettyDate}</p>
+  	<p class="italic text-gray-400 text-sm">{prettyDate}</p>
 
-	<div class="bg-red-400">
-		<slot />
-	</div>
+	<slot />
 </article>
