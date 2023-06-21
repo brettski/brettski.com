@@ -1,12 +1,15 @@
 <script>
     import "../app.css";
 
-    import Header from '$components/Header.svelte';
+    import Nav from '$components/Nav.svelte';
     import Footer from '$components/Footer.svelte';
 </script>
 
-<Header />
-<div class="container mx-auto px-4 sm:px-6 lg:px-8">
-    <slot />
-</div>
+<Nav />
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <!-- We've used 3xl here, but feel free to try other max-widths based on your needs -->
+    <div class="mx-auto max-w-6xl">
+      <slot />
+    </div>
+  </div>
 <Footer />
