@@ -1,17 +1,15 @@
 <script>
-    export let data;
+	export let data;
 
-    import Header from '$components/Header.svelte';
+	import Header from '$components/Header.svelte';
 
-    const { post } = data;
+	const { post } = data;
 
-    console.log('heres our post', post);
-
+	console.log('heres our post', post);
 </script>
 
 <Header title={post.title} />
 <div>
-    <p>Here:</p>
-    <svelte:component this={post.content} />
-
+	<p>Here:</p>
+	<svelte:component this={post.content} />
 </div>
