@@ -10,7 +10,7 @@ When trying to connect to a new database engine, I would would receive the follo
 
 > TITLE: Microsoft SQL Server Management Studio ------------------------------
 > 
-```
+```sh
 > Unable to cast COM object of type 'System.\_\_ComObject' to interface type 'Microsoft.VisualStudio.OLE.Interop.IServiceProvider'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{6D5140C1-7436-11CE-8034-00AA006009FA}' failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E\_NOINTERFACE)). (Microsoft.VisualStudio.OLE.Interop)
 ```
 

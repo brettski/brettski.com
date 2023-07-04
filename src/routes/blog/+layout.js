@@ -22,7 +22,8 @@ export async function load() {
         filterYear.add(dayjs(p.postDate).format('YYYY').toString())
         const post = {
         ...p,
-        postDate: dayjs(p.postDate).format('YYYY-MM-DD_HH:mm').toString(),
+        isoDate: p.postDate,
+        postDate: dayjs(p.postDate).format('YYYY-MM-DD HH:mm').toString(),
         };
 
         return post;

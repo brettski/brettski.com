@@ -23,7 +23,7 @@ For starters I want to list the ways I found to disable the inheritance and then
 
 First was the instructions from the [Arvixe](http://support.arvixe.com) staff (which I think they found on [SO](http://stackoverflow.com))
 
-```
+```xml
 <location path="." inheritInChildApplications="false">     <system.web>      ...     </system.web> </location> 
 ```
 

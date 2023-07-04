@@ -27,7 +27,7 @@ Well it is night now, and funny thing about the tikiwiki, I found where the issu
 
 File is /tiki/lib/setup/tikisetup.class.php and it's how the base pathe is retrieved.
 
-```
+```sh
        if (strpos($\_SERVER\['SERVER\_SOFTWARE'\],'IIS')==TRUE){
 		if (array\_key\_exists('PATH\_TRANSLATED', $\_SERVER)) {
         	$docroot = dirname($\_SERVER\['PATH\_TRANSLATED'\]);
@@ -39,7 +39,7 @@ File is /tiki/lib/setup/tikisetup.class.php and it's how the base pathe is retri
 
 Basically the software is using PATH\_TRANSLATED for IIS and my host is not sending the full physical path, but the physical path of the web root. So I simply changed it:
 
-```
+```sh
        if (strpos($\_SERVER\['SERVER\_SOFTWARE'\],'IIS')==TRUE){
 		if (array\_key\_exists('PATH\_TRANSLATED', $\_SERVER)) {
         	    // $docroot = dirname($\_SERVER\['PATH\_TRANSLATED'\]);

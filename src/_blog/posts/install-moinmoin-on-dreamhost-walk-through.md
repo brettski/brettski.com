@@ -37,12 +37,12 @@ The goal of this document is to walk through the installation of a [MoinMoin](ht
 
 1. Download MoinMoin wiki tarball from http://moinmo.in/MoinMoinDownload ([moin-1.8.5.tar.gz](http://static.moinmo.in/files/moin-1.8.5.tar.gz)) to your local workstation.
 2. From FTP: upload file to Dreamhost into folder ~/files \[/home/acctname/files\] \*\* All commands from now on are from your shell access \*\*
-3. cd ~/files
-4. tar -xvzf ~/files/moin-1.8.5.tar.gz \[new directory is created: ~/files/moin-1.8.5
+3. `cd ~/files`
+4. `tar -xvzf ~/files/moin-1.8.5.tar.gz \[new directory is created: ~/files/moin-1.8.5`
     
-5. cd ~/files/moin-1.8.5
+5. `cd ~/files/moin-1.8.5`
     
-6. python setup.py --quiet install --prefix=$HOME --record=install.log
+6. `python setup.py --quiet install --prefix=$HOME --record=install.log`
     
     \[two directories created: ~/share/moin; ~/lib/python2.4/site-packages/MoinMoin\]
 7. Setup environment variables
@@ -54,17 +54,17 @@ The goal of this document is to walk through the installation of a [MoinMoin](ht
         
     4. export INSTANCE=dhwiki
         
-8. cd $WIKILOC
+8. `cd $WIKILOC`
     
-9. mkdir $INSTANCE
+9. `mkdir $INSTANCE`
     
-10. cp -R $SHARE/data $INSTANCE
+10. `cp -R $SHARE/data $INSTANCE`
     
-11. cp -R $SHARE/underlay $INSTANCE
+11. `cp -R $SHARE/underlay $INSTANCE`
     
-12. cp $SHARE/config/wikiconfig.py $INSTANCE
+12. `cp $SHARE/config/wikiconfig.py $INSTANCE`
     
-13. chmod -R o+rwX $INSTANCE
+13. `chmod -R o+rwX $INSTANCE`
     
 14. Edit file $INSTANCE/wikiconfig.py Find and change the follwing lines:
     1. sitename = u'_Your Wiki Title_'
@@ -74,21 +74,21 @@ The goal of this document is to walk through the installation of a [MoinMoin](ht
     5. data\_underlay\_dir = '/home/_acctname_/share/moin/_dhwiki_/underlay/'
     6. url\_prefix\_static = '/wiki'   \[(remove # from line)\]
     7. mail\_smarhost = "_dreamhost smtp server_"
-15. cd ~/hosteddomain
+15. `cd ~/hosteddomain`
     
-16. cp -R $SHARE/htdocs wiki
+16. `cp -R $SHARE/htdocs wiki`
     
-17. chmod -R a+rX wiki
+17. `chmod -R a+rX wiki`
     
-18. cd wiki
+18. `cd wiki`
     
-19. mkdir ./cgi-bin
+19. `mkdir ./cgi-bin`
     
-20. cp $SHARE/server/moin.cgi ./cgi-bin
+20. `cp $SHARE/server/moin.cgi ./cgi-bin`
     
-21. chmod -R a+rx ./cgi-bin
+21. `chmod -R a+rx ./cgi-bin`
     
-22. cd ./cgi-bin
+22. `cd ./cgi-bin`
     
 23. Edit file moin.cgi Find and change the following lines.  Please remove the # if they exist on THESE lines:
     1. sys.path.insert(0, 'home/_acctname_/lib/python2.4/site-packages')
@@ -96,8 +96,8 @@ The goal of this document is to walk through the installation of a [MoinMoin](ht
 24. cd ..
     
 25. Edit file index.html Find and change the following lines:
-    1. <meta http-equiv="refresh" content="0; URL=cgi-bin/moin.cgi/">
-    2. Click <a href="cgi-bin/moin.cgi">here</a> to get to the FrontPage
+    1. `<meta http-equiv="refresh" content="0; URL=cgi-bin/moin.cgi/">`
+    2. Click `<a href="cgi-bin/moin.cgi">here</a> to get to the FrontPage`
 26. **Go to your favorite browser and enter your wiki's domain:** **Http://hosteddomain/wiki**
 
 _Use these instructions at your own risk.  I extend no warranties or guarantees about the accuracy or safety of your data or website._

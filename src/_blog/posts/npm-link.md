@@ -22,7 +22,7 @@ After a bunch of hacking, etc. its was time to test the npm package in the api p
 
 Starting with that-api
 
-```
+```sh
 $ cd ~/tc/that-api
 $ npm run validate
 $ npm run build
@@ -34,7 +34,7 @@ $ npm run dev
 
 Now at the api project that-api-members
 
-```
+```sh
 $ cd ~/tc/that-api-members
 $ npm run validate
 $ npm link @thatconference/api
@@ -48,16 +48,16 @@ So to undo this. I am not 100% sure this is correct, but it seems to work.
 
 Unlink the the package from that-api-members.
 
-```
+```sh
 $ ^c
 $ cd ~/tc/that-api-members
 $ npm unlink @thatconference/api
 $ npm i @thatconference/api
 ```
 
-Stop the running code and unlink to remove the link from npm which removes it from global location \`{prefix}/lib/node\_modules/<package>\`
+Stop the running code and unlink to remove the link from npm which removes it from global location `{prefix}/lib/node\_modules/<package>`
 
-```
+```sh
 $ ^c
 $ cd ~/tc/that-api/
 $ npm unlink
