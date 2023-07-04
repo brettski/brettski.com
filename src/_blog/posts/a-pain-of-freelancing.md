@@ -1,12 +1,12 @@
 ---
-title: "A pain of freelancing"
-date: "2009-09-17T17:31:45.000Z"
-categories: 
-  - "life"
-tags: 
-  - "freelancing"
-  - "taxes"
-slug: "a-pain-of-freelancing"
+title: 'A pain of freelancing'
+date: '2009-09-17T17:31:45.000Z'
+categories:
+  - 'life'
+tags:
+  - 'freelancing'
+  - 'taxes'
+slug: 'a-pain-of-freelancing'
 ---
 
 I know I am not the first one to bring this up by any means, but it's really bugging me.  I have done OK this year with my freelancing.  It hasn't been too much work where I am enslaved completely, but enough to help with the bills around the house.  Supporting a stay-at-home mom and two kids burns money faster than I could ever imagine.  So most of what I have made has been burned away, and nothing has been paid toward taxes.  I know it will be a lot, but how much? A headline caught my eye ([Extremely Important Tax Rules for Designers in the United States](http://blog.themeforest.net/general/extremely-important-tax-rules-for-freelance-designers-in-the-united-states/), at [In The Woods](http://blog.themeforest.net/) \[an [rss](http://feeds.feedburner.com/themeforest) I watch\]) and basically kicked me in the butt to look into this before I am sitting down filling out my 1040.[](http://blog.themeforest.net/general/extremely-important-tax-rules-for-freelance-designers-in-the-united-states/)

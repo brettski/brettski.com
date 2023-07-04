@@ -1,14 +1,14 @@
 ---
-title: "web.config inheritence in IIS7"
-date: "2011-08-12T04:52:50.000Z"
-categories: 
-  - "computer-hell"
-  - "nerdiness"
-tags: 
-  - "asp-net"
-  - "hosting"
-  - "iis7"
-slug: "web-config-inheritence-in-iis7"
+title: 'web.config inheritence in IIS7'
+date: '2011-08-12T04:52:50.000Z'
+categories:
+  - 'computer-hell'
+  - 'nerdiness'
+tags:
+  - 'asp-net'
+  - 'hosting'
+  - 'iis7'
+slug: 'web-config-inheritence-in-iis7'
 ---
 
 I learned something new over the last week which I not exactly sure of the benefit of.  Probably because I still not entirely sure on how it is implemented.
@@ -24,7 +24,7 @@ For starters I want to list the ways I found to disable the inheritance and then
 First was the instructions from the [Arvixe](http://support.arvixe.com) staff (which I think they found on [SO](http://stackoverflow.com))
 
 ```xml
-<location path="." inheritInChildApplications="false">     <system.web>      ...     </system.web> </location> 
+<location path="." inheritInChildApplications="false">     <system.web>      ...     </system.web> </location>
 ```
 
 There is also three examples in the IIS.NET bog: [http://blogs.iis.net/steveschofield/archive/2009/09/19/control-web-config-inheritance-with-iis-7-asp-net-options.aspx](http://blogs.iis.net/steveschofield/archive/2009/09/19/control-web-config-inheritance-with-iis-7-asp-net-options.aspx)
@@ -51,10 +51,10 @@ The only problem I have with the article is that there absolutely no details on 
 
 Now here are the details I have been looking for: [http://learn.iis.net/page.aspx/243/aspnet-integration-with-iis-7/](http://learn.iis.net/page.aspx/243/aspnet-integration-with-iis-7/)
 
- 
+
 
 [IIS7 Configuration Reference on IIS.NET](http://www.iis.net/ConfigReference)
 
- 
+
 
 Reading on...

@@ -1,12 +1,12 @@
 ---
-title: "Announce The Hour"
-date: "2015-09-19T03:30:30.000Z"
-categories: 
-  - "macbook-pro"
-  - "nerdiness"
-tags: 
-  - "hack"
-slug: "announce-the-hour"
+title: 'Announce The Hour'
+date: '2015-09-19T03:30:30.000Z'
+categories:
+  - 'macbook-pro'
+  - 'nerdiness'
+tags:
+  - 'hack'
+slug: 'announce-the-hour'
 ---
 
 In June I purchased my first MacBook Pro (I should really write about this sometime).  One simple feature I really enjoy is that the machine will announce the time at the top of each hour.  I don't know why, I just really like that feature.
@@ -26,4 +26,4 @@ Add-Type -AssemblyName System.speech
 $speech = New-Object System.Speech.Synthesis.SpeechSynthesizer
 $speech.Speak("It's $((Get-Date).hour) hours")
 
-I know have my machine at work saying the hour at the top of the hour.  I quite like it.
+I know have my machine at work saying the hour at the top of the hour. I quite like it.

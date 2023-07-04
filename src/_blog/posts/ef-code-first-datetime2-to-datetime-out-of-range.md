@@ -1,10 +1,10 @@
 ---
-title: "EF Code First datetime2 to datetime out-of-range"
-date: "2010-12-25T06:06:07.000Z"
-categories: 
-  - "programming"
-  - "that-poop-is-cold"
-slug: "ef-code-first-datetime2-to-datetime-out-of-range"
+title: 'EF Code First datetime2 to datetime out-of-range'
+date: '2010-12-25T06:06:07.000Z'
+categories:
+  - 'programming'
+  - 'that-poop-is-cold'
+slug: 'ef-code-first-datetime2-to-datetime-out-of-range'
 ---
 
 It has been /_interesting_/ working with Entity Framework (EF).  With my first couple of sites I used Linq to SQL, and I really liked it.  It's pretty simple once you get the gist of it.  Though now Microsoft recommends the use of Entity Framework (EF) and Linq to Entities.  Well using Linq against EF is really no different then Linq to SQL so the transition was pretty simple.  Here is a good [beginner walk-through](http://naspinski.net/post/Getting-started-with-Linq-To-Entities.aspx) I ran into.

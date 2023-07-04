@@ -1,9 +1,9 @@
 ---
-title: "Another Good M&M commercial"
-date: "2008-06-08T01:16:17.000Z"
-categories: 
-  - "life"
-slug: "another-good-mm-commercial"
+title: 'Another Good M&M commercial'
+date: '2008-06-08T01:16:17.000Z'
+categories:
+  - 'life'
+slug: 'another-good-mm-commercial'
 ---
 
 There is a new M&M commercial out for their M&M ice cream which really made me smile.  Enough, so I had to write about it.

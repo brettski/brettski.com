@@ -1,9 +1,9 @@
 ---
-title: "Let it snow, let it snow, let it snow"
-date: "2009-12-14T22:50:04.000Z"
-categories: 
-  - "general"
-slug: "let-it-snow-let-it-snow-let-it-snow"
+title: 'Let it snow, let it snow, let it snow'
+date: '2009-12-14T22:50:04.000Z'
+categories:
+  - 'general'
+slug: 'let-it-snow-let-it-snow-let-it-snow'
 ---
 
 Yeah, winters back.  Besides the really short days of sunlight I am really psyched.

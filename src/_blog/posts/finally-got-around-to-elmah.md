@@ -1,9 +1,9 @@
 ---
-title: "Finally got around to Elmah"
-date: "2008-11-30T23:59:46.000Z"
-categories: 
-  - "nerdiness"
-slug: "finally-got-around-to-elmah"
+title: 'Finally got around to Elmah'
+date: '2008-11-30T23:59:46.000Z'
+categories:
+  - 'nerdiness'
+slug: 'finally-got-around-to-elmah'
 ---
 
 It's been a few months since I have wanted to try this out and I finally have; I am using [Elmah](http://code.google.com/p/elmah/) on one of my website to track errors.  Thankfully there are very few, but the experience of getting it setup is always worth it.

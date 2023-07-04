@@ -1,9 +1,9 @@
 ---
-title: "Comcast — Here we go again! (Day 4)"
-date: "2008-09-10T20:17:10.000Z"
-categories: 
-  - "that-poop-is-cold"
-slug: "comcast-—-here-we-go-again-day-4"
+title: 'Comcast — Here we go again! (Day 4)'
+date: '2008-09-10T20:17:10.000Z'
+categories:
+  - 'that-poop-is-cold'
+slug: 'comcast-—-here-we-go-again-day-4'
 ---
 
 It's now 1514 CDT and I have not heard from Comcast today.  This disturbs me since they said they would keep me in the loop of what they are doing.  We will see what happens by the end of the day.
@@ -14,7 +14,7 @@ Night Update
 
 I received an email this evening from Marta, I have copied it here to share with you:
 
-* * *
+---
 
 Dear Mr. ......,
 
@@ -28,7 +28,7 @@ Marta P. Gardner/ Comcast Executive Customer Care
 
 800-630-2140 ext. 82005/ 2001 York Rd. / Oak Brook , IL 60523
 
-* * *
+---
 
 I actually felt a ray of hope and immediately called my father-in-law to have him try and call here.  Same story he receives a message that the number is not in service.  I wonder if they did anything at all?  I wonder when the FCC is going to pick up the case, I don't remember how long it took them last time, but I don't believe it was over a week or two.
 

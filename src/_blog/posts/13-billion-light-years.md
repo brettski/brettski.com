@@ -1,9 +1,9 @@
 ---
-title: "13 Billion Light Years"
-date: "2007-06-07T18:04:28.000Z"
-categories: 
-  - "nerdiness"
-slug: "13-billion-light-years"
+title: '13 Billion Light Years'
+date: '2007-06-07T18:04:28.000Z'
+categories:
+  - 'nerdiness'
+slug: '13-billion-light-years'
 ---
 
 While reading the news on [myyahoo](http://my.yahoo.com) today I came across this [story](http://news.yahoo.com/s/space/20070607/sc_space/mostdistantblackholediscovered;_ylt=Aip7l_JXSGF8CiCmeIWh2hoE1vAI) about a black hole found 13 Billion light years away. As I thought about it, I really realized that 13 billion light years is a completely incomprehensible distance. So being the curious type that I am I set out to find out how far that really is.

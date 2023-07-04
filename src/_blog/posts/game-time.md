@@ -1,23 +1,23 @@
 ---
-title: "Game Time"
-date: "2014-02-12T18:55:52.000Z"
-categories: 
-  - "nerdiness"
-  - "online-gaming"
-  - "programming"
-tags: 
-  - "gaming"
-  - "unity3d"
-slug: "game-time"
+title: 'Game Time'
+date: '2014-02-12T18:55:52.000Z'
+categories:
+  - 'nerdiness'
+  - 'online-gaming'
+  - 'programming'
+tags:
+  - 'gaming'
+  - 'unity3d'
+slug: 'game-time'
 ---
 
 I love computer games.  I have been playing them since I was able to use a computer.  I can't say I am an avid gamer, I really don't have the time for that, but I sure enjoy playing them.
 
 ![MC-Brettski111](http://brettski111.files.wordpress.com/2014/02/mc-brettski111.png?w=79)
 
-One game I play often, and usually with my sons, is [Minecraft](http://minecraft.net "Minecraft").  A sandbox adventure game which we have found very fun.  We have spent countless hours building different things, going on adventures and PvP fighting.
+One game I play often, and usually with my sons, is [Minecraft](http://minecraft.net 'Minecraft').  A sandbox adventure game which we have found very fun.  We have spent countless hours building different things, going on adventures and PvP fighting.
 
-On a cold night in November I started digging in to [Minecraft](http://www.minecraftforge.net)[Forge](http://files.minecraftforge.net/ "Downloads").  A modding system for Minecraft.  In short time my oldest son and I created two 'Mods' for Minecraft: [Stonecraft](https://github.com/brettski/Stonecraft-Mod "Stonecraft") and [GrackMod](https://github.com/brettski/Grack-Mod).
+On a cold night in November I started digging in to [Minecraft](http://www.minecraftforge.net)[Forge](http://files.minecraftforge.net/ 'Downloads').  A modding system for Minecraft.  In short time my oldest son and I created two 'Mods' for Minecraft: [Stonecraft](https://github.com/brettski/Stonecraft-Mod 'Stonecraft') and [GrackMod](https://github.com/brettski/Grack-Mod).
 
 I really enjoyed manipulating the game play.  I found it very satisfying to interact with items _we_ added to the game.  Play with rules we developed.  It was just cool.
 

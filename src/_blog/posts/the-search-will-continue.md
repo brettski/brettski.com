@@ -1,10 +1,10 @@
 ---
-title: "The Search Will continue"
-date: "2007-03-21T02:46:20.000Z"
-categories: 
-  - "computer-hell"
-  - "internet"
-slug: "the-search-will-continue"
+title: 'The Search Will continue'
+date: '2007-03-21T02:46:20.000Z'
+categories:
+  - 'computer-hell'
+  - 'internet'
+slug: 'the-search-will-continue'
 ---
 
 Well my new life with [WebHost4Life](http://www.webhost4life.com), isn't so good. There are still some issues with the site. I need to ask to have anything enabled, which should of been anyway, and my site seems very flaky now, now always coming up, or long delays for a page to load. These pages are nothing special at all. One small graphic and around 1k in text/code. Twice now the iis settings in the control panel just didn't show up. Of course I received the common answer of, "we can't find an issue with your control panel", and when I go back to it all it working fine. I guess it could always be me, I have been told more than once that I am jinxed.

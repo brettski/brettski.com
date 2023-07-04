@@ -1,9 +1,9 @@
 ---
-title: "Sometimes the news just makes my day"
-date: "2007-07-13T18:00:45.000Z"
-categories: 
-  - "general"
-slug: "sometimes-the-news-just-makes-my-day"
+title: 'Sometimes the news just makes my day'
+date: '2007-07-13T18:00:45.000Z'
+categories:
+  - 'general'
+slug: 'sometimes-the-news-just-makes-my-day'
 ---
 
 As written in the [Chicago Tribune](http://chicagotribune.com) and consumed at [Yahoo.com](http://my.yahoo.com)

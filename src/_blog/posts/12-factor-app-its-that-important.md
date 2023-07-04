@@ -1,10 +1,10 @@
 ---
 title: "12 Factor App, It's THAT Important"
-date: "2017-06-04T03:35:20.000Z"
-categories: 
-  - "life"
-  - "programming"
-slug: "12-factor-app-its-that-important"
+date: '2017-06-04T03:35:20.000Z'
+categories:
+  - 'life'
+  - 'programming'
+slug: '12-factor-app-its-that-important'
 ---
 
 The 12 factor app, guidelines to build applications which are scalable, flexible and simply great.

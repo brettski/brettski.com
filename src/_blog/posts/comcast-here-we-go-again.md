@@ -1,9 +1,9 @@
 ---
-title: "Comcast -- Here we go again!"
-date: "2008-09-08T02:29:56.000Z"
-categories: 
-  - "that-poop-is-cold"
-slug: "comcast-here-we-go-again"
+title: 'Comcast -- Here we go again!'
+date: '2008-09-08T02:29:56.000Z'
+categories:
+  - 'that-poop-is-cold'
+slug: 'comcast-here-we-go-again'
 ---
 
 Yes, it's our semi-annual call to Comcast as nobody on the Comcast network can call us again; they are receiving an message that our number is not in service.  If I call a number in the Comcast network I get through, but the person's caller id reads "Frank Schwab", which is not me; it's the name of the last person they tried to give my phone number away to.  If you have followed any of this Frank is probably the eighth Comcast customer they have given our phone number to since we ported it from Comcast to Vonage.

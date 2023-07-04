@@ -1,9 +1,9 @@
 ---
-title: "Going Out Of Business"
-date: "2010-12-05T01:24:11.000Z"
-categories: 
-  - "that-poop-is-cold"
-slug: "going-out-of-business"
+title: 'Going Out Of Business'
+date: '2010-12-05T01:24:11.000Z'
+categories:
+  - 'that-poop-is-cold'
+slug: 'going-out-of-business'
 ---
 
 I'm sure its not unique to the Chicago-land area but since shortly after the dot com demise in '99 furniture stores have had many "going out of business" sales. In the beginning  it seemed sad that all these stores where going out of business; some of them even more than once (wtf).  Now it is just a joke and obviously a scam to get sales.

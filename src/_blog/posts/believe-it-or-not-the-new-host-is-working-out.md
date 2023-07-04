@@ -1,9 +1,9 @@
 ---
-title: "Believe it or not the new host is working out"
-date: "2007-03-24T04:37:35.000Z"
-categories: 
-  - "internet"
-slug: "believe-it-or-not-the-new-host-is-working-out"
+title: 'Believe it or not the new host is working out'
+date: '2007-03-24T04:37:35.000Z'
+categories:
+  - 'internet'
+slug: 'believe-it-or-not-the-new-host-is-working-out'
 ---
 
 Yes, can you believe it? The new host is working out for me. Feels nice to work with people who know what the heck is going on and what a developer likes in a host.

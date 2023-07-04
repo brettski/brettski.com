@@ -1,9 +1,9 @@
 ---
-title: "2015 in review"
-date: "2016-01-03T01:45:42.000Z"
-categories: 
-  - "general"
-slug: "2015-in-review"
+title: '2015 in review'
+date: '2016-01-03T01:45:42.000Z'
+categories:
+  - 'general'
+slug: '2015-in-review'
 ---
 
 The WordPress.com stats helper monkeys prepared a 2015 annual report for this blog.

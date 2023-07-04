@@ -1,13 +1,13 @@
 ---
-title: "Taking all the way to the stop"
-date: "2010-06-17T04:52:22.000Z"
-categories: 
-  - "internet"
-  - "life"
-  - "nerdiness"
-tags: 
-  - "dreamhost"
-slug: "taking-all-the-way-to-the-stop"
+title: 'Taking all the way to the stop'
+date: '2010-06-17T04:52:22.000Z'
+categories:
+  - 'internet'
+  - 'life'
+  - 'nerdiness'
+tags:
+  - 'dreamhost'
+slug: 'taking-all-the-way-to-the-stop'
 ---
 
 Happy Summer!  The kids are out of school and already bored.  My oldest son though is really into reading this year, I mean REALLY into it.  He has probably read 10 books already on summer break.

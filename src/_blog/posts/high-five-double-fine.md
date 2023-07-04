@@ -1,21 +1,21 @@
 ---
-title: "High-Five Double Fine"
-date: "2014-06-22T18:14:40.000Z"
-categories: 
-  - "life"
-  - "nerdiness"
-  - "online-gaming"
-  - "programming"
-tags: 
-  - "gaming"
-  - "jr"
-  - "life"
-slug: "high-five-double-fine"
+title: 'High-Five Double Fine'
+date: '2014-06-22T18:14:40.000Z'
+categories:
+  - 'life'
+  - 'nerdiness'
+  - 'online-gaming'
+  - 'programming'
+tags:
+  - 'gaming'
+  - 'jr'
+  - 'life'
+slug: 'high-five-double-fine'
 ---
 
-A tall high-five to the employees at [Double Fine](http://www.doublefine.com/).  That cool indie game company out of San Francisco headed up by the legendary Tim Schafer.  Why? do you ask. Well let me tell you. 
+A tall high-five to the employees at [Double Fine](http://www.doublefine.com/).  That cool indie game company out of San Francisco headed up by the legendary Tim Schafer.  Why? do you ask. Well let me tell you.
 
- 
+
 
 My eldest son just finished the sixth grade where he was in the gifted program.  This year his teacher decided to try the [Genius Hour](http://www.geniushour.com/) program in her classroom.   Genius hour is a movement that allows students to explore their own passions and encourages creativity in the classroom.  It provides students a choice in what they learn during a set period of time during school. The teacher planed to have a few Genius Hours throughout the year.  The first two Genius hours the students may pick any subject that they don't already know about.  The third Genius hour the students needed to pick a future career.  After the students learn about their subject they put together a report and short presentation to explain what they learned, etc. to the rest of the class.
 
@@ -49,9 +49,9 @@ Needless to say, but I will anyway, _I am so proud of my son_.
 
 I have real simple advice for him, _"Never stop being awesome."_ Everything else will fall in to place.
 
- 
 
-To the great [people](http://www.doublefine.com/themes/site_themes/sideshow/_i/main/about_team_2013.png "Company Picture 2013") of [Double Fine](http://www.doublefine.com/about/):
+
+To the great [people](http://www.doublefine.com/themes/site_themes/sideshow/_i/main/about_team_2013.png 'Company Picture 2013') of [Double Fine](http://www.doublefine.com/about/):
 
 Thank you so much for taking time out of your day, your life, to give a little of yourself for the benefit of my son. I really appreciate you. And hey, you never know, maybe one day he may be the Senior Developer in an Indie Game Company at your company.  :)
 

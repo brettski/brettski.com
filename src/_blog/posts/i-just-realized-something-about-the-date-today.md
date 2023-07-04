@@ -1,9 +1,9 @@
 ---
-title: "I just realized something about the date today"
-date: "2010-02-10T22:31:37.000Z"
-categories: 
-  - "crooked-views"
-slug: "i-just-realized-something-about-the-date-today"
+title: 'I just realized something about the date today'
+date: '2010-02-10T22:31:37.000Z'
+categories:
+  - 'crooked-views'
+slug: 'i-just-realized-something-about-the-date-today'
 ---
 
 I just realized something about the date today, **02/10/2010**.

@@ -1,9 +1,9 @@
 ---
-title: "2012 in review"
-date: "2012-12-30T20:11:51.000Z"
-categories: 
-  - "internet"
-slug: "2012-in-review"
+title: '2012 in review'
+date: '2012-12-30T20:11:51.000Z'
+categories:
+  - 'internet'
+slug: '2012-in-review'
 ---
 
 The WordPress.com stats helper monkeys prepared a 2012 annual report for this blog.

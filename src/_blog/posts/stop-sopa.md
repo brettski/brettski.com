@@ -1,9 +1,9 @@
 ---
-title: "STOP SOPA"
-date: "2012-01-18T04:17:43.000Z"
-categories: 
-  - "that-poop-is-cold"
-slug: "stop-sopa"
+title: 'STOP SOPA'
+date: '2012-01-18T04:17:43.000Z'
+categories:
+  - 'that-poop-is-cold'
+slug: 'stop-sopa'
 ---
 
 I feel bad I am late to the game on this, but the most important part is that I am in the game.

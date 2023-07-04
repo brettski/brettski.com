@@ -1,9 +1,9 @@
 ---
-title: "Comcast is at it again"
-date: "2007-10-08T18:42:59.000Z"
-categories: 
-  - "that-poop-is-cold"
-slug: "comcast-is-at-it-again"
+title: 'Comcast is at it again'
+date: '2007-10-08T18:42:59.000Z'
+categories:
+  - 'that-poop-is-cold'
+slug: 'comcast-is-at-it-again'
 ---
 
 I can't believe it, yet again Comcast has tried to assign our phone number to a new client.  This has been going on for over three years now.  A while back I used Comcast phone service along with their data and cable.  The phone service was no better or cheaper then Ameritech, so bailed (which they didn't care at all when I left, nothing like customer retention).  I switched off of Comcast to go to Vonage and ported my number over to Vonage.  I filled out the needed paperwork and faxed it in, and Vonage took care of re-addressing my phone number to their network, or however that is done in telephony land.  It took almost a month for Comcast to release the number, I spent countless of hours on the phone with both carriers trying to figure out what is going on.  Eventually, it was straightened out and I was well on my way to Vonage bliss.

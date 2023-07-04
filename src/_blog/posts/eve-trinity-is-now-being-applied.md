@@ -1,9 +1,9 @@
 ---
-title: "EVE Trinity is now being applied"
-date: "2007-12-05T04:45:15.000Z"
-categories: 
-  - "online-gaming"
-slug: "eve-trinity-is-now-being-applied"
+title: 'EVE Trinity is now being applied'
+date: '2007-12-05T04:45:15.000Z'
+categories:
+  - 'online-gaming'
+slug: 'eve-trinity-is-now-being-applied'
 ---
 
 The day is here, and I can't play so I though I would write a post on some [EVE](https://secure.eve-online.com/ft/?aid=102929) happenings.  [EVE](https://secure.eve-online.com/ft/?aid=102929) [Trinity](http://www.eve-online.com/Trinity/index.html) expansion is currently in the process of being loaded.  There are a whole lot of people in Iceland who will not be getting any sleep over the next twenty-four hours.  The creators of EVE, [CCP](http://www.ccpgames.com/) are in Iceland and started their update at 0200 GMT. Trinity is [EVE](https://secure.eve-online.com/ft/?aid=102929)'s largest updates to date.  One of the most major changes that they are adding is a new graphics engine.  I finally got around to watching their [Trinity Trailer](http://ccp.vo.llnwd.net/o2/video/2/trinity_trailer_1280x720.wmv) and wow, what an improvement.  I can't wait to see this live in action.  The trailer in the link provided is actual in-game footage!  The game play look is nice now, but wow.

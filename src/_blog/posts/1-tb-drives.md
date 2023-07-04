@@ -1,12 +1,12 @@
 ---
-title: "1+ TB drives"
-date: "2009-08-31T15:09:09.000Z"
-categories: 
-  - "crooked-views"
-  - "life"
-  - "nerdiness"
-slug: "1-tb-drives"
-layout: "blog"
+title: '1+ TB drives'
+date: '2009-08-31T15:09:09.000Z'
+categories:
+  - 'crooked-views'
+  - 'life'
+  - 'nerdiness'
+slug: '1-tb-drives'
+layout: 'blog'
 ---
 
 It feels a bit strange seeing the one plus terabyte drives roll out to the market.  It reminds me a lot of when the one plus gigabyte drives came out.  It all really seems the same: sizes, pricing, amazement.

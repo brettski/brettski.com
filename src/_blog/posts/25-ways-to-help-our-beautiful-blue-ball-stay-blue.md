@@ -1,12 +1,12 @@
 ---
-title: "25 Ways to Help Our Beautiful Blue Ball Stay Blue"
-date: "2014-04-22T14:33:21.000Z"
-categories: 
-  - "life"
-tags: 
-  - "earth"
-  - "life"
-slug: "25-ways-to-help-our-beautiful-blue-ball-stay-blue"
+title: '25 Ways to Help Our Beautiful Blue Ball Stay Blue'
+date: '2014-04-22T14:33:21.000Z'
+categories:
+  - 'life'
+tags:
+  - 'earth'
+  - 'life'
+slug: '25-ways-to-help-our-beautiful-blue-ball-stay-blue'
 ---
 
 It's Earth Day which has grown into Earth Week.  Hopefully by the time my kids are my age it will be Earth Month or even Earth Year! I mean it needs to be part of our everyday lives.[![Earth Picture](http://brettski111.files.wordpress.com/2014/04/globe_west_2048.jpg?w=150)](http://brettski111.files.wordpress.com/2014/04/globe_west_2048.jpg)

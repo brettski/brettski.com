@@ -1,9 +1,9 @@
 ---
 title: "Alton Brown and My Son's View of Cooking"
-date: "2007-09-19T01:40:40.000Z"
-categories: 
-  - "life"
-slug: "alton-brown-and-my-sons-view-of-cooking"
+date: '2007-09-19T01:40:40.000Z'
+categories:
+  - 'life'
+slug: 'alton-brown-and-my-sons-view-of-cooking'
 ---
 
 I really enjoy [Alton Brown](http://http://altonbrown.com/) from the [Food Network](http://www.foodtv.com). His show "[Good Eats](http://www.foodnetwork.com/food/show_ea/0,1976,FOOD_9956,00.html)", has really taught me a lot about preparing foods over the last few years. I also own his book, "I Am Only Here For The Food", which is an excellent read and gets into all the reasons why things work the way they do in the kitchen. It's exactly the way I like to learn--why does it work that way--not just that it does.

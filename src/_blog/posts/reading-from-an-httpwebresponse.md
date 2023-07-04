@@ -1,9 +1,9 @@
 ---
-title: "Reading from an HttpWebResponse"
-date: "2008-02-02T03:38:23.000Z"
-categories: 
-  - "programming"
-slug: "reading-from-an-httpwebresponse"
+title: 'Reading from an HttpWebResponse'
+date: '2008-02-02T03:38:23.000Z'
+categories:
+  - 'programming'
+slug: 'reading-from-an-httpwebresponse'
 ---
 
 //Get response

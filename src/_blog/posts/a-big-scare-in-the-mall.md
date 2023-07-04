@@ -1,9 +1,9 @@
 ---
-title: "A big scare at the mall"
-date: "2008-03-25T21:25:47.000Z"
-categories: 
-  - "life"
-slug: "a-big-scare-in-the-mall"
+title: 'A big scare at the mall'
+date: '2008-03-25T21:25:47.000Z'
+categories:
+  - 'life'
+slug: 'a-big-scare-in-the-mall'
 ---
 
 My wife took our sons to the mall today to get them out of the house on spring break, they are 2 and 5. As often when visiting the mall, a visit is made to Rainforest Cafe were the kids like to look at the over priced nick-knacks and motorized alligator. Being spring break, it's very busy in the mall today.

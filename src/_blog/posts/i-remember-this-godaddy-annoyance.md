@@ -1,10 +1,10 @@
 ---
-title: "I Remember This GoDaddy Annoyance"
-date: "2009-01-09T22:01:32.000Z"
-categories: 
-  - "internet"
-  - "that-poop-is-cold"
-slug: "i-remember-this-godaddy-annoyance"
+title: 'I Remember This GoDaddy Annoyance'
+date: '2009-01-09T22:01:32.000Z'
+categories:
+  - 'internet'
+  - 'that-poop-is-cold'
+slug: 'i-remember-this-godaddy-annoyance'
 ---
 
 Forgot about this annoyance with [GoDaddy](http://www.godaddy.com); any time you change anything on your virtual host you have to wait for it to be processed.

@@ -1,9 +1,9 @@
 ---
-title: "Ruby Update"
-date: "2009-06-16T05:10:51.000Z"
-categories: 
-  - "computer-hell"
-slug: "ruby-update"
+title: 'Ruby Update'
+date: '2009-06-16T05:10:51.000Z'
+categories:
+  - 'computer-hell'
+slug: 'ruby-update'
 ---
 
 My trip through ruby has been an interesting one.  It's a pretty straight forward language.  I need some ideas to build so I can get more practice.

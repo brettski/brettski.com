@@ -1,9 +1,9 @@
 ---
-title: "2008 The Great Purge"
-date: "2008-01-07T13:00:41.000Z"
-categories: 
-  - "life"
-slug: "2008-the-great-purge"
+title: '2008 The Great Purge'
+date: '2008-01-07T13:00:41.000Z'
+categories:
+  - 'life'
+slug: '2008-the-great-purge'
 ---
 
 Welcome to 2008.  It pretty much feels like 2007 doesn't it?  Well I have a bug up my ass and I want it gone (it's itchy you know?).  My bug, you ask, the purging of all the crap I have been collecting, "Just in Case", since the early nineties.  Yes, early nineties, what a waist of space.

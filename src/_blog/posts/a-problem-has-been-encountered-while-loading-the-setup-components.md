@@ -1,11 +1,11 @@
 ---
-title: "A problem has been encountered while loading the setup components"
-date: "2009-01-11T17:17:33.000Z"
-categories: 
-  - "bug"
-  - "computer-hell"
-  - "internet"
-slug: "a-problem-has-been-encountered-while-loading-the-setup-components"
+title: 'A problem has been encountered while loading the setup components'
+date: '2009-01-11T17:17:33.000Z'
+categories:
+  - 'bug'
+  - 'computer-hell'
+  - 'internet'
+slug: 'a-problem-has-been-encountered-while-loading-the-setup-components'
 ---
 
 A new installation of VS2008 Team Edition said it was missing a dll.  Other methods I found to add the dll failed as the whole directory under c:\\windows\\WinSxS where the dll should be, was missing.  Perhaps I forgot something during the install; I went to Add/Remove programs and clicked the VS2008 installation.  After the installer, did this and that a dialog box poped up reading:

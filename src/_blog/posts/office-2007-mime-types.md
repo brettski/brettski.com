@@ -1,9 +1,9 @@
 ---
-title: "Office 2007 MIME types?"
-date: "2008-02-05T18:15:57.000Z"
-categories: 
-  - "programming"
-slug: "office-2007-mime-types"
+title: 'Office 2007 MIME types?'
+date: '2008-02-05T18:15:57.000Z'
+categories:
+  - 'programming'
+slug: 'office-2007-mime-types'
 ---
 
 Not sure on the accuracy of these, but I needed this info, found it, and wanted somewhere to stick it.

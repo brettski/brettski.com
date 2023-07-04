@@ -1,10 +1,10 @@
 ---
-title: "\"Error: `gyp` failed with exit code: 1\""
-date: "2020-02-03T13:46:17.000Z"
-categories: 
-  - "macbook-pro"
-  - "programming"
-slug: "error-gyp-failed-with-exit-code-1"
+title: '"Error: `gyp` failed with exit code: 1"'
+date: '2020-02-03T13:46:17.000Z'
+categories:
+  - 'macbook-pro'
+  - 'programming'
+slug: 'error-gyp-failed-with-exit-code-1'
 ---
 
 It seems after every MacOS update these days I get this reoccurring issue about not being able to build GYP in a node project. I got tired of looking up the references to fix it and am consolidating them here for future reference.  
@@ -16,9 +16,9 @@ The error that is thrown (or close to it is):
 
 gyp ERR! build error
 gyp ERR! stack Error: \`make\` failed with exit code: 1
-gyp ERR! stack     at ChildProcess.onExit (/usr/local/Cellar/node@10/10.18.1/lib/node\_modules/npm/node\_modules/node-gyp/lib/build.js:191:23)
-gyp ERR! stack     at ChildProcess.emit (events.js:198:13)
-gyp ERR! stack     at Process.ChildProcess.\_handle.onexit (internal/child\_process.js:248:12)
+gyp ERR! stack at ChildProcess.onExit (/usr/local/Cellar/node@10/10.18.1/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:191:23)
+gyp ERR! stack at ChildProcess.emit (events.js:198:13)
+gyp ERR! stack at Process.ChildProcess.\_handle.onexit (internal/child_process.js:248:12)
 gyp ERR! System Darwin 19.3.0
 gyp ER
 
@@ -45,10 +45,10 @@ Once the install is complete recheck if CLTools are present:
 
 You should received a response something like:
 
-com.apple.pkg.CLTools\_Executables
-com.apple.pkg.CLTools\_SDK\_macOS1015
-com.apple.pkg.CLTools\_SDK\_macOS1014
-com.apple.pkg.CLTools\_macOS\_SDK
+com.apple.pkg.CLTools_Executables
+com.apple.pkg.CLTools_SDK_macOS1015
+com.apple.pkg.CLTools_SDK_macOS1014
+com.apple.pkg.CLTools_macOS_SDK
 
 That's it, try your build again.
 

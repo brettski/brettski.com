@@ -1,9 +1,9 @@
 ---
-title: "Internet"
-date: "2008-06-28T05:05:13.000Z"
-categories: 
-  - "general"
-slug: "internet"
+title: 'Internet'
+date: '2008-06-28T05:05:13.000Z'
+categories:
+  - 'general'
+slug: 'internet'
 ---
 
 There is a simple beauty about the the Internet that just keeps me wanting more an more.

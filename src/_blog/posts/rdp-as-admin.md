@@ -1,9 +1,9 @@
 ---
-title: "RDP as Admin"
-date: "2012-02-04T05:23:41.000Z"
-categories: 
-  - "computer-hell"
-slug: "rdp-as-admin"
+title: 'RDP as Admin'
+date: '2012-02-04T05:23:41.000Z'
+categories:
+  - 'computer-hell'
+slug: 'rdp-as-admin'
 ---
 
 Switch to use to conect to a Windows server console from various OS’s:

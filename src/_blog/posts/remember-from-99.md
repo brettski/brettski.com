@@ -1,11 +1,11 @@
 ---
 title: "Remember from '99"
-date: "2016-02-03T14:08:24.000Z"
-categories: 
-  - "computer-hell"
-tags: 
-  - "funny"
-slug: "remember-from-99"
+date: '2016-02-03T14:08:24.000Z'
+categories:
+  - 'computer-hell'
+tags:
+  - 'funny'
+slug: 'remember-from-99'
 ---
 
 ## A HELPDESK LOG
@@ -136,9 +136,9 @@ slug: "remember-from-99"
 
 5:00 pm Night shift shows up. Tell that the hub is acting funny and to have a good weekend.
 
- 
 
-* * *
+
+---
 
 I am not sure who originally wrote this, though I would really like to know.  I am thinking it may be Markus Baur (https://www.cs.cmu.edu/~mbaur/j1.html).  I remember first seeing this around 1999, and being in system administration and support at the time I found it quite funny.  So much I have thought about it now again through the years.
 

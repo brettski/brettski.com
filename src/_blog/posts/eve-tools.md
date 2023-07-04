@@ -1,10 +1,10 @@
 ---
-title: "EVE Tools"
-date: "2007-04-05T23:15:46.000Z"
-categories: 
-  - "internet"
-  - "online-gaming"
-slug: "eve-tools"
+title: 'EVE Tools'
+date: '2007-04-05T23:15:46.000Z'
+categories:
+  - 'internet'
+  - 'online-gaming'
+slug: 'eve-tools'
 ---
 
 For those of you who enjoy [EVE Online](http://www.eve-online.com), I have built some tools for you. Sure there are others out there like these, but there are mine. They contain:

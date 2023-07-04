@@ -1,11 +1,11 @@
 ---
-title: "Boot From a VHD in Window 7"
-date: "2009-07-03T05:18:40.000Z"
-categories: 
-  - "nerdiness"
-tags: 
-  - "windows7"
-slug: "boot-from-a-vhd-in-window-7"
+title: 'Boot From a VHD in Window 7'
+date: '2009-07-03T05:18:40.000Z'
+categories:
+  - 'nerdiness'
+tags:
+  - 'windows7'
+slug: 'boot-from-a-vhd-in-window-7'
 ---
 
 I couldn't believe my ears when I heard this today on [DNR](http://dotnetrocks.com) show number [458](http://www.dotnetrocks.com/default.aspx?showNum=458) (great show by the way).  [Scott Hanselman](//www.hanselman.com/) was explaining how he mutli-boots his machine not using partitions but VHD (Virtual Hard Disk) files.  There is a way in Window 7 to point your boot loader to, and run from a VHD file.  The OS DOES NOT run in a VM, it is running on bare metal!  The only down side is a slight reduction in disk I/O, but hell, what a traid-off!

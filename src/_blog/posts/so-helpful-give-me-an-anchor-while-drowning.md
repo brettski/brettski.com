@@ -1,10 +1,10 @@
 ---
-title: "So helpful--Give me an anchor while drowning"
-date: "2008-03-25T14:49:34.000Z"
-categories: 
-  - "crooked-views"
-  - "that-poop-is-cold"
-slug: "so-helpful-give-me-an-anchor-while-drowning"
+title: 'So helpful--Give me an anchor while drowning'
+date: '2008-03-25T14:49:34.000Z'
+categories:
+  - 'crooked-views'
+  - 'that-poop-is-cold'
+slug: 'so-helpful-give-me-an-anchor-while-drowning'
 ---
 
 If they throw you an anchor while you are drowning, it will keep you form drifting down stream so you can be recued easier...

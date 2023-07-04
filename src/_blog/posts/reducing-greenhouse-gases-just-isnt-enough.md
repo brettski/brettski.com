@@ -1,9 +1,9 @@
 ---
 title: "Reducing greenhouse gases just isn't enough"
-date: "2007-04-10T17:34:25.000Z"
-categories: 
-  - "life"
-slug: "reducing-greenhouse-gases-just-isnt-enough"
+date: '2007-04-10T17:34:25.000Z'
+categories:
+  - 'life'
+slug: 'reducing-greenhouse-gases-just-isnt-enough'
 ---
 
 Global warming has been a really hot topic lately (sorry couldn't resist the pun).  The UN is putting together a letter stated in this news [article](http://news.yahoo.com/s/nm/20070410/ts_nm/globalwarming_dc_2)  via [Yahoo!](http://news.yahoo.com) ([Reuters](http://www.reuters.com)), explaining that there is little time to avert big temperature changes here on Earth.

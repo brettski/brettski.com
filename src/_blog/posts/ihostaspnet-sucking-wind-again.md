@@ -1,10 +1,10 @@
 ---
-title: "iHostAsp.net sucking wind again"
-date: "2008-01-30T00:18:46.000Z"
-categories: 
-  - "computer-hell"
-  - "that-poop-is-cold"
-slug: "ihostaspnet-sucking-wind-again"
+title: 'iHostAsp.net sucking wind again'
+date: '2008-01-30T00:18:46.000Z'
+categories:
+  - 'computer-hell'
+  - 'that-poop-is-cold'
+slug: 'ihostaspnet-sucking-wind-again'
 ---
 
 It has been a while since I have written about [IHost](http://www.ihostasp.net), but things are pretty bad right now. They have been having some big issues with one of their SQL servers, luckily not the one I am on, and there has been zero response out of the support. They much just be drowning out there.

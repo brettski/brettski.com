@@ -1,10 +1,10 @@
 ---
-title: "I Need a New Host"
-date: "2007-03-01T14:59:22.000Z"
-categories: 
-  - "general"
-  - "internet"
-slug: "i-need-a-new-host"
+title: 'I Need a New Host'
+date: '2007-03-01T14:59:22.000Z'
+categories:
+  - 'general'
+  - 'internet'
+slug: 'i-need-a-new-host'
 ---
 
 I have been using [GoDaddy.com](http://www.godaddy.com) for a few weeks now and I am quickly realizing that you get what you pay for. They have a lot to offer for a small price, but this causes shortfalls in some undesirable areas. The biggest one for me is backing up databases. GoDaddy doesn't allow any external connections to their databases (a little fact not mentioned in pre-sales info), and do not give you the ability to create .bak files (mssql). The only way to back up data and schema's is though text files, and frankly that just sucks. I have read a post here and there that there are tools which can purchased which will automate the task a little bit more, but it just doesn't seem right.

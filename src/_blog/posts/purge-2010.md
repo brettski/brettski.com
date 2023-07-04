@@ -1,11 +1,11 @@
 ---
-title: "Purge 2010"
-date: "2010-04-13T02:20:38.000Z"
-categories: 
-  - "life"
-tags: 
-  - "purge"
-slug: "purge-2010"
+title: 'Purge 2010'
+date: '2010-04-13T02:20:38.000Z'
+categories:
+  - 'life'
+tags:
+  - 'purge'
+slug: 'purge-2010'
 ---
 
 I back at it and nothing is safe this year.  I can't take the clutter, it's just too much for one person to bear.  If my wife gets in my way she may be surprised when 'stuff' just starts vanishing.  Hey, you don't want to clean, than I am making a decision on that 'thing' that has been on the dining room floor for two years.

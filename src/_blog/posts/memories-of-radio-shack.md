@@ -1,10 +1,10 @@
 ---
-title: "Memories of Radio Shack"
-date: "2009-01-02T06:08:57.000Z"
-categories: 
-  - "gadgets"
-  - "life"
-slug: "memories-of-radio-shack"
+title: 'Memories of Radio Shack'
+date: '2009-01-02T06:08:57.000Z'
+categories:
+  - 'gadgets'
+  - 'life'
+slug: 'memories-of-radio-shack'
 ---
 
 I remember spending much of my pre-teen and teen years flipping and drooling in the once defacto electronics guide, The Radio Shack Catalog.  No always the best products, but it sure had everything.

@@ -1,14 +1,14 @@
 ---
-title: "Mercurial on IIS: A Morning of Pain"
-date: "2013-11-24T20:46:52.000Z"
-categories: 
-  - "computer-hell"
-  - "nerdiness"
-tags: 
-  - "iis"
-  - "iis7"
-  - "mercurial"
-slug: "mercurial-on-iis-a-morning-of-pain"
+title: 'Mercurial on IIS: A Morning of Pain'
+date: '2013-11-24T20:46:52.000Z'
+categories:
+  - 'computer-hell'
+  - 'nerdiness'
+tags:
+  - 'iis'
+  - 'iis7'
+  - 'mercurial'
+slug: 'mercurial-on-iis-a-morning-of-pain'
 ---
 
 On and off for the last couple of months I have been learning Erlang.  My primary source for this is a decent booked named, "Learn You Some Erlang for Great Good!" (Fred Hebért, (c)2013 no starch press). What a great name, no starch press (:  I first found this tutorial online at [http://learnyousomeerlang.com/](http://learnyousomeerlang.com/).  The entire book is there, believe it or not.  I worked through the first few chapters and was hooked.  I decided to purchase the book to help pay for the work and for it to be more convenient to read.  But I digress, back to IIS & Mercurial.
@@ -30,16 +30,16 @@ If you don't like the command line, the IIS configuration in the Mercurial wiki 
 My suggestion after going though this, this morning is to use both articles.  Read through them first, before installing anything, then plan your attack and go for it. Oh and yeah, you'll need to refer to the [Publishing Repositories](http://mercurial.selenic.com/wiki/PublishingRepositories) wiki page.
 
 - "Setting up a Mercurial server under IIS7 on Windows Server 2008 R2"
-    -  [http://www.jeremyskinner.co.uk/mercurial-on-iis7/](http://www.jeremyskinner.co.uk/mercurial-on-iis7/)
+  - [http://www.jeremyskinner.co.uk/mercurial-on-iis7/](http://www.jeremyskinner.co.uk/mercurial-on-iis7/)
 - "Configuring HgWeb in IIS on Windows"
-    - [http://mercurial.selenic.com/wiki/HgWebInIisOnWindows](http://mercurial.selenic.com/wiki/HgWebInIisOnWindows)
+  - [http://mercurial.selenic.com/wiki/HgWebInIisOnWindows](http://mercurial.selenic.com/wiki/HgWebInIisOnWindows)
 
-[![New hg site](http://brettski111.files.wordpress.com/2013/11/newhgsite1.png?w=300 "Gold star if you can guess why I used the port number 6867")](http://brettski111.files.wordpress.com/2013/11/newhgsite1.png)
+[![New hg site](http://brettski111.files.wordpress.com/2013/11/newhgsite1.png?w=300 'Gold star if you can guess why I used the port number 6867')](http://brettski111.files.wordpress.com/2013/11/newhgsite1.png)
 
 A few things I learned from this morning's adventures
 
 - Within the hgweb.config file the section **\[collections\]** is no longer needed, the section **\[paths\]** may be used instead.  There is more information around this here: [http://mercurial.selenic.com/wiki/PublishingRepositories](http://mercurial.selenic.com/wiki/PublishingRepositories)
 - Within hgweb.config a path **of / = /path/to/repo/\*** will show (publish) all repositories.
-- Withing hgweb.config using **allow\_push = \*** allows any user to push to the repository. Using this settings negates the need to enable authentication on the web.  Yes this makes things insecure, but my setup is internal to my house only.
+- Withing hgweb.config using **allow_push = \*** allows any user to push to the repository. Using this settings negates the need to enable authentication on the web.  Yes this makes things insecure, but my setup is internal to my house only.
 
 So sure this took a bunch of hours to figure out and get working correctly.  Though now it is working correctly and I have my working Mercurial repository like I have been wanting for some time. Plus I have learned a bunch of stuff too.  Perhaps I'll go play a game now.

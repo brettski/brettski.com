@@ -1,9 +1,9 @@
 ---
-title: "What Has Happened to Dell?"
-date: "2007-08-17T02:41:35.000Z"
-categories: 
-  - "computer-hell"
-slug: "what-has-happened-to-dell"
+title: 'What Has Happened to Dell?'
+date: '2007-08-17T02:41:35.000Z'
+categories:
+  - 'computer-hell'
+slug: 'what-has-happened-to-dell'
 ---
 
 So I have had my Latitude D830 for a little over a month now, and I have to say, I am not impressed.  This is no shlock laptop, it has the 2.4 Duo cpu, 160G drive, 2G ram, 512M Nvidia Video.  I even opted for the finger thingy (no haven't set it up yet).  This thing is so cheap and the dell drivers are a joke.  Before I rant, I have to say, the 15" wide-screen 1920 x 1200 screen **rocks**.  It really is the _only_ thing I am impressed with on this computer.

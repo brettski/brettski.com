@@ -1,9 +1,9 @@
 ---
-title: "Dirty Forehead Day"
-date: "2007-02-21T18:34:37.000Z"
-categories: 
-  - "general"
-slug: "dirty-forehead-day"
+title: 'Dirty Forehead Day'
+date: '2007-02-21T18:34:37.000Z'
+categories:
+  - 'general'
+slug: 'dirty-forehead-day'
 ---
 
 The party is over, lent begins, and millions of people are going through the ceremony of Ash Wednesday. I was raised Catholic, and understand the tradition and would never belittle anyone's belief. If it makes you happy--whole, more power to you. My beliefs are my own, and your beliefs are yours.

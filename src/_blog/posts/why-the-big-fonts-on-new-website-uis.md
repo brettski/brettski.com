@@ -1,10 +1,10 @@
 ---
 title: "Why The Big Fonts On New Website UI's?"
-date: "2007-09-14T13:53:08.000Z"
-categories: 
-  - "internet"
-  - "programming"
-slug: "why-the-big-fonts-on-new-website-uis"
+date: '2007-09-14T13:53:08.000Z'
+categories:
+  - 'internet'
+  - 'programming'
+slug: 'why-the-big-fonts-on-new-website-uis'
 ---
 
 As I log into [My](http://my.yahoo.com) Yahoo! account I am greeted with a message that a new updated version of My Yahoo! site is available as a beta site. Since Yahoo! usually lets you go back to the old version again, I thought I would check it out. Basically it has become the typical AJAX'd to hell big font "Web2.0" site. Fooy. I don't get the new interfaces with all this Javascript, big-ass fonts, and bubbly edges, they are just such bloated pigs. The new font resolutions make it really difficult to use anything but a full-screened browser, which I hate to do. The UI is windowed for a reason. The My Yahoo! beta reminds me a lot of the new mail interface Yahoo! designed a few years ago. No I don't use it either, it was just to slow and clunky of an interface back then, though I haven't tried it again.  Another part that irked me is that many of the modules I had on My Yahoo! page no longer worked on the new site.  Why would you offer a new layout if many of the items which are used, aren't available any longer?  I don't get that.

@@ -1,11 +1,11 @@
 ---
-title: "When Brick and Mortar Fails to Deliver"
-date: "2013-04-20T23:02:11.000Z"
-categories: 
-  - "interesting-view"
-  - "internet"
-  - "life"
-slug: "when-brick-and-mortar-fails-to-deliver"
+title: 'When Brick and Mortar Fails to Deliver'
+date: '2013-04-20T23:02:11.000Z'
+categories:
+  - 'interesting-view'
+  - 'internet'
+  - 'life'
+slug: 'when-brick-and-mortar-fails-to-deliver'
 ---
 
 The other day our microwave quit working.  It was 10 years old, I wasn't heart broken.  It is an over-the-range style microwave where there is just barely enough room above the range for tall pots.  To start my search for a new appliance I started looking at the local stores: Lowe's, Menard's, Home Depot, etc.  Our current unit is broke, it will be good to pick one up today and get it installed.

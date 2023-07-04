@@ -1,9 +1,9 @@
 ---
-title: "EVE Skill Ending Date Calculator"
-date: "2007-09-25T02:32:00.000Z"
-categories: 
-  - "online-gaming"
-slug: "eve-skill-ending-date-calculator"
+title: 'EVE Skill Ending Date Calculator'
+date: '2007-09-25T02:32:00.000Z'
+categories:
+  - 'online-gaming'
+slug: 'eve-skill-ending-date-calculator'
 ---
 
 I have been really surprised by my usage logs that nobody in [eve](https://secure.eve-online.com/redir.asp?aid=102929) is using the [Skill Ending Date Calculator](http://eve-igbtools.com/Tools/skilldatecalc.aspx) on [eve-igbtools.com](http://eve-igbtools.com).  This is simply because it's the tool I use the most.  Perhaps it's use just isn't understood.

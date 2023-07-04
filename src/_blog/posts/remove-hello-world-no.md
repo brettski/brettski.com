@@ -1,10 +1,10 @@
 ---
-title: "Remove Hello, World!  NO"
-date: "2007-01-30T04:00:00.000Z"
-categories: 
-  - "crooked-views"
-  - "nerdiness"
-slug: "remove-hello-world-no"
+title: 'Remove Hello, World!  NO'
+date: '2007-01-30T04:00:00.000Z'
+categories:
+  - 'crooked-views'
+  - 'nerdiness'
+slug: 'remove-hello-world-no'
 ---
 
 I will not remove the Hello, World default post from WordPress, I just won't.

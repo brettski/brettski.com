@@ -1,9 +1,9 @@
 ---
-title: "Comcast Phone Number Porting Update"
-date: "2007-11-03T06:37:31.000Z"
-categories: 
-  - "that-poop-is-cold"
-slug: "comcast-phone-number-porting-update"
+title: 'Comcast Phone Number Porting Update'
+date: '2007-11-03T06:37:31.000Z'
+categories:
+  - 'that-poop-is-cold'
+slug: 'comcast-phone-number-porting-update'
 ---
 
 The saga continues! Calling Comcast support still hasn't progressed anywhere with my wife or I so I had a new idea, contact the [FCC](http://www.fcc.gov/). Now I understand the need for the FCC, but I haven't been a big fan since the day they raided a friends house and removed thousands of dollars in high-energy equipment for disturbing local radio communication. And yes, he ignored their prior warnings. :)

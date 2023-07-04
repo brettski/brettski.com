@@ -1,9 +1,9 @@
 ---
-title: "Making Bootable USB"
-date: "2016-12-20T19:31:34.000Z"
-categories: 
-  - "general"
-slug: "making-bootable-usb"
+title: 'Making Bootable USB'
+date: '2016-12-20T19:31:34.000Z'
+categories:
+  - 'general'
+slug: 'making-bootable-usb'
 ---
 
 Creating a bootable USB

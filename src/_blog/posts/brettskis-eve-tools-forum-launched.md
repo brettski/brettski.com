@@ -1,9 +1,9 @@
 ---
 title: "Brettski's EVE Tools Forum Launched"
-date: "2007-05-27T05:08:54.000Z"
-categories: 
-  - "online-gaming"
-slug: "brettskis-eve-tools-forum-launched"
+date: '2007-05-27T05:08:54.000Z'
+categories:
+  - 'online-gaming'
+slug: 'brettskis-eve-tools-forum-launched'
 ---
 
 Yet another useless unused forum has been added to the Internet.  Another place for spammers for other Counties to post adds for Viagra, watches and work at home scams.  Of course I will delete these.

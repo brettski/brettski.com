@@ -21,10 +21,7 @@ const config = {
 			name: process.env?.npm_package_version ?? '0.0.0.0'
 		}
 	},
-	preprocess: [
-		vitePreprocess(),
-		mdsvex(mdsvexConfig)
-	]
+	preprocess: [vitePreprocess(), mdsvex(mdsvexConfig)]
 };
 
 export default config;

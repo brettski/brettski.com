@@ -1,9 +1,9 @@
 ---
-title: "Kodos to the staff of CPP"
-date: "2007-12-06T00:17:18.000Z"
-categories: 
-  - "online-gaming"
-slug: "kodos-to-the-staff-of-cpp"
+title: 'Kodos to the staff of CPP'
+date: '2007-12-06T00:17:18.000Z'
+categories:
+  - 'online-gaming'
+slug: 'kodos-to-the-staff-of-cpp'
 ---
 
 Nice job so far CPP Staff. You got the world up ahead of schedule, that is awesome. Have a beer or two on me. I am sure it was a really long day and you all deserve some congratulations. Except for that slacker, there, who hid the whole time fubar'ing stuff.

@@ -1,13 +1,13 @@
 ---
-title: "Life Iteration Part B"
-date: "2014-04-25T23:09:38.000Z"
-categories: 
-  - "life"
-tags: 
-  - "career"
-  - "iteration"
-  - "life"
-slug: "life-iteration-part-b"
+title: 'Life Iteration Part B'
+date: '2014-04-25T23:09:38.000Z'
+categories:
+  - 'life'
+tags:
+  - 'career'
+  - 'iteration'
+  - 'life'
+slug: 'life-iteration-part-b'
 ---
 
 I had a bit of a realization today and I am not exactly sure what my next step should be.

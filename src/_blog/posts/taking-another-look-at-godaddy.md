@@ -1,10 +1,10 @@
 ---
-title: "Taking Another Look at GoDaddy"
-date: "2009-01-09T04:12:33.000Z"
-categories: 
-  - "computer-hell"
-  - "internet"
-slug: "taking-another-look-at-godaddy"
+title: 'Taking Another Look at GoDaddy'
+date: '2009-01-09T04:12:33.000Z'
+categories:
+  - 'computer-hell'
+  - 'internet'
+slug: 'taking-another-look-at-godaddy'
 ---
 
 It's been a bunch of months since I have look at other hosting.  For a few years now I have been using [iHostasp.net](http://www.ihostasp.net), and they are not a poor host, but I have had my [issues](http://brettski111.wordpress.com/2008/01/29/ihostaspnet-sucking-wind-again/) [with](http://brettski111.wordpress.com/2007/04/16/shortcomings-of-ihostasp/) [them](http://brettski111.wordpress.com/2007/06/03/big-issue-with-a-great-web-host/).

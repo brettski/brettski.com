@@ -1,9 +1,9 @@
 ---
-title: "Lost Through Logistics"
-date: "2015-10-27T20:52:16.000Z"
-categories: 
-  - "general"
-slug: "lost-through-logistics"
+title: 'Lost Through Logistics'
+date: '2015-10-27T20:52:16.000Z'
+categories:
+  - 'general'
+slug: 'lost-through-logistics'
 ---
 
 I don't recall where I saw this, which will become apparent in a minute, though I was either on twitter or an email where a company who said, get our free logo stickers.  The where cartoonish shark stickers, so why not.

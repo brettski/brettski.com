@@ -1,9 +1,9 @@
 ---
-title: "2013 in review"
-date: "2013-12-31T14:37:01.000Z"
-categories: 
-  - "general"
-slug: "2013-in-review"
+title: '2013 in review'
+date: '2013-12-31T14:37:01.000Z'
+categories:
+  - 'general'
+slug: '2013-in-review'
 ---
 
 The WordPress.com stats helper monkeys prepared a 2013 annual report for this blog.

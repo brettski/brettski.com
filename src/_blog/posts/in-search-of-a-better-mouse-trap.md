@@ -1,10 +1,10 @@
 ---
-title: "In Search Of A Better Mouse Trap"
-date: "2010-04-18T02:00:58.000Z"
-categories: 
-  - "experiment"
-  - "nerdiness"
-slug: "in-search-of-a-better-mouse-trap"
+title: 'In Search Of A Better Mouse Trap'
+date: '2010-04-18T02:00:58.000Z'
+categories:
+  - 'experiment'
+  - 'nerdiness'
+slug: 'in-search-of-a-better-mouse-trap'
 ---
 
 I have this really, really bad habit; I spend a lot of time searching and trying out new tools for my tool box.  Some times to such extent I never get around to actually using the tools to build something, and that is just silly.

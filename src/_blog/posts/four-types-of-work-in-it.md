@@ -1,9 +1,9 @@
 ---
-title: "Four Types of Work in IT"
-date: "2015-04-20T19:15:02.000Z"
-categories: 
-  - "general"
-slug: "four-types-of-work-in-it"
+title: 'Four Types of Work in IT'
+date: '2015-04-20T19:15:02.000Z'
+categories:
+  - 'general'
+slug: 'four-types-of-work-in-it'
 ---
 
 Business Projects IT Operations Projects Changes Unplanned Work

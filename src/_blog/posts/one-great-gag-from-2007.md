@@ -1,9 +1,9 @@
 ---
-title: "One Great Gag From 2007"
-date: "2009-07-13T15:41:25.000Z"
-categories: 
-  - "general"
-slug: "one-great-gag-from-2007"
+title: 'One Great Gag From 2007'
+date: '2009-07-13T15:41:25.000Z'
+categories:
+  - 'general'
+slug: 'one-great-gag-from-2007'
 ---
 
 Now this is surely the way to come back from vacation.  A gift to me from fellow employees!

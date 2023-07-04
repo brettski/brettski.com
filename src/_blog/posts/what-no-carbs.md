@@ -1,12 +1,12 @@
 ---
-title: "What, No Carbs?"
-date: "2015-09-28T03:13:38.000Z"
-categories: 
-  - "life"
-tags: 
-  - "keto"
-  - "life"
-slug: "what-no-carbs"
+title: 'What, No Carbs?'
+date: '2015-09-28T03:13:38.000Z'
+categories:
+  - 'life'
+tags:
+  - 'keto'
+  - 'life'
+slug: 'what-no-carbs'
 ---
 
 I am not going to get into details now, but basically I have changed my diet to remove almost all carbohydrates.  The plan is to consume 20g of carbs or less a day.   Some will know this as [Keto](https://docs.google.com/document/d/1gZfJejOM8fJsX1iCilmnpp1qmT_KncJwWCR4-EsaEHc/edit?pli=1). I am trying to record my experience but have no idea how well I will keep up with posts.

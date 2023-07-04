@@ -1,11 +1,11 @@
 ---
-title: "Let the people pump the money back into the credit markets"
-date: "2008-10-03T00:58:11.000Z"
-categories: 
-  - "life"
-tags: 
-  - "idea-bailout-money-debt"
-slug: "let-the-people-pump-the-money-back-into-the-credit-markets"
+title: 'Let the people pump the money back into the credit markets'
+date: '2008-10-03T00:58:11.000Z'
+categories:
+  - 'life'
+tags:
+  - 'idea-bailout-money-debt'
+slug: 'let-the-people-pump-the-money-back-into-the-credit-markets'
 ---
 
 I Really hate chain eMails, I really do...
@@ -22,7 +22,7 @@ OK, I really do hate chain eMails, I really do, and still do.  I should of neve
 
 So 85,000,000,000 / 200,000,000 = 425; not 425,000.  So $425 per person is more like the current administrations attempt to spark the economy, which basically I used to buy groceries.
 
-* * *
+---
 
 This idea sounds just crazy enough to possibly work, so naturally it won't be given serious consideration.  How great is our government??
 

@@ -1,9 +1,9 @@
 ---
-title: "The Irony of Sales"
-date: "2008-03-20T02:12:42.000Z"
-categories: 
-  - "crooked-views"
-slug: "the-irony-of-sales"
+title: 'The Irony of Sales'
+date: '2008-03-20T02:12:42.000Z'
+categories:
+  - 'crooked-views'
+slug: 'the-irony-of-sales'
 ---
 
 For many years the president of my current employer has told us to always look for prospective client.  "You meet people all day long, talk to them, find out who they work for", he would say.

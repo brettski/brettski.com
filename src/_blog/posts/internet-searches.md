@@ -1,9 +1,9 @@
 ---
-title: "Internet Searches"
-date: "2007-02-08T13:04:35.000Z"
-categories: 
-  - "internet"
-slug: "internet-searches"
+title: 'Internet Searches'
+date: '2007-02-08T13:04:35.000Z'
+categories:
+  - 'internet'
+slug: 'internet-searches'
 ---
 
 It seems to me, when you do Internet searches you need an option to specify the maximum number of words which separate your search items.

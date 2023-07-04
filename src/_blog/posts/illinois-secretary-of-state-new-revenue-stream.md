@@ -1,9 +1,9 @@
 ---
-title: "Illinois Secretary of State New Revenue Stream"
-date: "2008-07-28T22:54:16.000Z"
-categories: 
-  - "that-poop-is-cold"
-slug: "illinois-secretary-of-state-new-revenue-stream"
+title: 'Illinois Secretary of State New Revenue Stream'
+date: '2008-07-28T22:54:16.000Z'
+categories:
+  - 'that-poop-is-cold'
+slug: 'illinois-secretary-of-state-new-revenue-stream'
 ---
 
 ## **It's Residents!**

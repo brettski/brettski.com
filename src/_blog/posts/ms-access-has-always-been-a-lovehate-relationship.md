@@ -1,11 +1,11 @@
 ---
-title: "MS Access has always been a love/hate relationship"
-date: "2009-09-19T03:15:08.000Z"
-categories: 
-  - "computer-hell"
-tags: 
-  - "ms-access"
-slug: "ms-access-has-always-been-a-lovehate-relationship"
+title: 'MS Access has always been a love/hate relationship'
+date: '2009-09-19T03:15:08.000Z'
+categories:
+  - 'computer-hell'
+tags:
+  - 'ms-access'
+slug: 'ms-access-has-always-been-a-lovehate-relationship'
 ---
 
 I have spent much of my professional career among the windows of MS Access.  No matter where I am working or what type of work I am doing, it just seems to follow me.  MS Access is surly one of the most important business application to ever hit the market.  I really don't think too many people would argue that point.  Well, it's great until you get big, but its a wonderful way to get there.

@@ -1,13 +1,13 @@
 ---
-title: "A few weeks In"
-date: "2015-10-19T12:00:59.000Z"
-categories: 
-  - "food"
-  - "life"
-tags: 
-  - "keto"
-  - "life"
-slug: "a-few-weeks-in"
+title: 'A few weeks In'
+date: '2015-10-19T12:00:59.000Z'
+categories:
+  - 'food'
+  - 'life'
+tags:
+  - 'keto'
+  - 'life'
+slug: 'a-few-weeks-in'
 ---
 
 It's been two weeks of no carbs.  What an interesting ride.  I am not going to lie, there are a lot of foods I do miss.  First of all, bee r--Liquid bread as I have heard it called, and the second tacos! My first craving, popcorn.  At the mall with my son and he wanted some of that gourmet popcorn stuff.  Damn it smelled so good.  I didn't have any though.

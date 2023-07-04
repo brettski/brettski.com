@@ -1,9 +1,9 @@
 ---
-title: "Documentation"
-date: "2016-12-15T19:53:13.000Z"
-categories: 
-  - "general"
-slug: "documentation"
+title: 'Documentation'
+date: '2016-12-15T19:53:13.000Z'
+categories:
+  - 'general'
+slug: 'documentation'
 ---
 
 You mentioned that you can improve with documentation.

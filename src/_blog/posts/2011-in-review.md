@@ -1,11 +1,11 @@
 ---
-title: "2011 in review"
-date: "2012-01-02T05:52:59.000Z"
-categories: 
-  - "internet"
-tags: 
-  - "wordpress"
-slug: "2011-in-review"
+title: '2011 in review'
+date: '2012-01-02T05:52:59.000Z'
+categories:
+  - 'internet'
+tags:
+  - 'wordpress'
+slug: '2011-in-review'
 ---
 
 The WordPress.com stats helper monkeys prepared a 2011 annual report for this blog.

@@ -1,9 +1,9 @@
 ---
-title: "Billy Joel in Chicago"
-date: "2007-04-24T14:46:34.000Z"
-categories: 
-  - "general"
-slug: "billy-joel-in-chicago"
+title: 'Billy Joel in Chicago'
+date: '2007-04-24T14:46:34.000Z'
+categories:
+  - 'general'
+slug: 'billy-joel-in-chicago'
 ---
 
 The Piano Man returns! Wow what a really fun concert my wife and I experienced last night. I had never seen Billy Joel live before and am so glad I had the chance to. He is so incredibly talented.

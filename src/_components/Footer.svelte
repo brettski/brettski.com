@@ -15,7 +15,11 @@
 			</div>
 		</nav>
 		<div class="mt-8 flex justify-center space-x-6">
-			<a href="https://github.com/brettski" title="GitHub" class="text-gray-400 hover:text-gray-500">
+			<a
+				href="https://github.com/brettski"
+				title="GitHub"
+				class="text-gray-400 hover:text-gray-500"
+			>
 				<span class="sr-only">GitHub</span>
 				<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 					<path
@@ -26,7 +30,11 @@
 				</svg>
 			</a>
 
-			<a href="https://www.instagram.com/brettskigram/" title="Exchange-o-gram" class="text-gray-400 hover:text-gray-500">
+			<a
+				href="https://www.instagram.com/brettskigram/"
+				title="Exchange-o-gram"
+				class="text-gray-400 hover:text-gray-500"
+			>
 				<span class="sr-only">Instagram</span>
 				<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 					<path
@@ -37,7 +45,11 @@
 				</svg>
 			</a>
 
-			<a href="https://www.linkedin.com/in/brettslaski" title="LinkedIn" class="text-gray-400 hover:text-gray-500">
+			<a
+				href="https://www.linkedin.com/in/brettslaski"
+				title="LinkedIn"
+				class="text-gray-400 hover:text-gray-500"
+			>
 				<span class="sr-only">LinkedIn</span>
 				<svg
 					class="w-6 h-6 fill-current"
@@ -51,7 +63,11 @@
 				</svg>
 			</a>
 
-			<a href="https://www.twitter.com/brettslaski" title="Twitter" class="text-gray-400 hover:text-gray-500">
+			<a
+				href="https://www.twitter.com/brettslaski"
+				title="Twitter"
+				class="text-gray-400 hover:text-gray-500"
+			>
 				<span class="sr-only">Twitter</span>
 				<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 					<path
@@ -60,7 +76,11 @@
 				</svg>
 			</a>
 
-			<a href="https://www.strava.com/athletes/105225879" title="Strava" class="text-gray-400 hover:text-gray-500">
+			<a
+				href="https://www.strava.com/athletes/105225879"
+				title="Strava"
+				class="text-gray-400 hover:text-gray-500"
+			>
 				<span class="sr-only">Strava</span>
 				<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 					<path
@@ -68,7 +88,6 @@
 					/>
 				</svg>
 			</a>
-
 		</div>
 		<p class="mt-8 text-center text-base text-gray-400">
 			&copy; 2023 Brettski. All rights reserved.

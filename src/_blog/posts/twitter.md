@@ -1,9 +1,9 @@
 ---
-title: "Twitter"
-date: "2008-03-10T23:41:34.000Z"
-categories: 
-  - "general"
-slug: "twitter"
+title: 'Twitter'
+date: '2008-03-10T23:41:34.000Z'
+categories:
+  - 'general'
+slug: 'twitter'
 ---
 
 Ok, so I signed up for a twitter account. It all seems really lame, but I thought I would check out a few of these "community" services.

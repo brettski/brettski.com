@@ -1,18 +1,18 @@
 ---
 title: "I've decided,  Ruby"
-date: "2009-06-01T20:15:09.000Z"
-categories: 
-  - "internet"
-  - "nerdiness"
-  - "programming"
-tags: 
-  - "ruby"
-slug: "ive-decided-ruby"
+date: '2009-06-01T20:15:09.000Z'
+categories:
+  - 'internet'
+  - 'nerdiness'
+  - 'programming'
+tags:
+  - 'ruby'
+slug: 'ive-decided-ruby'
 ---
 
-For months and months now I have asked myself, "Self, what language next, [Ruby](http://www.ruby-lang.org/ "Ruby A Programmers Best Friend"), [Python](http://www.python.org/), something [else](http://en.wikipedia.org/wiki/Lisp_programming_language)?" and has driven me crazy.  Someday I will ask myself why I spent so much time thinking about it instead of just digging in to something.  Well the real truth to that is time.  Sure I have spent time on the Ruby site going through [browser-enabled 15 minute intro](http://tryruby.hobix.com/) and some general reading.  It never really sticks until you throw together a couple of apps.
+For months and months now I have asked myself, "Self, what language next, [Ruby](http://www.ruby-lang.org/ 'Ruby A Programmers Best Friend'), [Python](http://www.python.org/), something [else](http://en.wikipedia.org/wiki/Lisp_programming_language)?" and has driven me crazy.  Someday I will ask myself why I spent so much time thinking about it instead of just digging in to something.  Well the real truth to that is time.  Sure I have spent time on the Ruby site going through [browser-enabled 15 minute intro](http://tryruby.hobix.com/) and some general reading.  It never really sticks until you throw together a couple of apps.
 
-Over the last eight months I have been on a big web front end kick, getting myself up to speed on web display stuff like CSS, JavaScript, and jquery.  It's been a lot of fun, but I really am not a good page designer, so besides reproducting current layouts there wasn't a real lot for me to do.  
+Over the last eight months I have been on a big web front end kick, getting myself up to speed on web display stuff like CSS, JavaScript, and jquery.  It's been a lot of fun, but I really am not a good page designer, so besides reproducting current layouts there wasn't a real lot for me to do.
 
 And there is always [ASP.NET MVC](http://asp.net/mvc) which I have been following and learning off and on since August of 2008.  Having the web skills when putting together some learning MVC sites was really useful.  Don't worry, I wont go on another, "I love MVC...", rant.
 

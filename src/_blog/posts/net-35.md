@@ -1,9 +1,9 @@
 ---
-title: "Learning About .NET 3.5"
-date: "2008-10-15T14:34:46.000Z"
-categories: 
-  - "programming"
-slug: "net-35"
+title: 'Learning About .NET 3.5'
+date: '2008-10-15T14:34:46.000Z'
+categories:
+  - 'programming'
+slug: 'net-35'
 ---
 
 I am diving head-first into the world of .NET 3.5.  And not having the support of my employer, I am flying solo, using the Express versions of Visual studio.

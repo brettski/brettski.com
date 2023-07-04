@@ -1,10 +1,10 @@
 ---
-title: "Oh no CCP"
-date: "2007-12-06T19:16:11.000Z"
-categories: 
-  - "online-gaming"
-  - "that-poop-is-cold"
-slug: "oh-no-ccp"
+title: 'Oh no CCP'
+date: '2007-12-06T19:16:11.000Z'
+categories:
+  - 'online-gaming'
+  - 'that-poop-is-cold'
+slug: 'oh-no-ccp'
 ---
 
 I will not take back my kudos though, you still deserve that. This issue still has me rolling on the floor in laughter.

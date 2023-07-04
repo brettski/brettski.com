@@ -1,12 +1,12 @@
 ---
-title: "Loading Windows 7 RC 1"
-date: "2009-06-29T03:34:56.000Z"
-categories: 
-  - "experiment"
-  - "nerdiness"
-tags: 
-  - "windows7"
-slug: "loading-windows-7-rc-1"
+title: 'Loading Windows 7 RC 1'
+date: '2009-06-29T03:34:56.000Z'
+categories:
+  - 'experiment'
+  - 'nerdiness'
+tags:
+  - 'windows7'
+slug: 'loading-windows-7-rc-1'
 ---
 
 There has been a lot of positive buzz about Windows 7; a lot of stuff that has me excited about it.  As a user of Windows XP, I want to move on.  Vista is 'nice' but didn't really deliver anything extra for me.  Sure some nice eye candy, and perhaps nicer plug and pray, but what a pig.  It's just a system hog, and I wasn't ready to update any computers yet.

@@ -1,9 +1,9 @@
 ---
-title: "Symantec False-Positive on Superscan"
-date: "2007-02-05T21:28:38.000Z"
-categories: 
-  - "computer-hell"
-slug: "symantec-faulse-positive-on-superscan"
+title: 'Symantec False-Positive on Superscan'
+date: '2007-02-05T21:28:38.000Z'
+categories:
+  - 'computer-hell'
+slug: 'symantec-faulse-positive-on-superscan'
 ---
 
 To my suprise this afternoon, scanner.exe, the executable of Superscan 2.06, is being identified by Symantic Antivirus Corporate Addition version 10.1.x as being infected with the [backdoor.Graybird](http://www.symantec.com/security_response/writeup.jsp?docid=2003-040217-2506-99).

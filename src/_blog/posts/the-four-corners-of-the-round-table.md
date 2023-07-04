@@ -1,9 +1,9 @@
 ---
-title: "The Four Corners of the Round Table"
-date: "2007-10-18T19:00:59.000Z"
-categories: 
-  - "crooked-views"
-slug: "the-four-corners-of-the-round-table"
+title: 'The Four Corners of the Round Table'
+date: '2007-10-18T19:00:59.000Z'
+categories:
+  - 'crooked-views'
+slug: 'the-four-corners-of-the-round-table'
 ---
 
 While talking to a friend today via IM, an interesting thing was said,

@@ -1,12 +1,12 @@
 ---
-title: "Booting a MacBook Pro to Windows Using an External SSD"
-date: "2015-11-08T23:23:35.000Z"
-categories: 
-  - "macbook-pro"
-tags: 
-  - "apple"
-  - "howto"
-slug: "booting-a-macbook-pro-to-windows-using-an-external-ssd"
+title: 'Booting a MacBook Pro to Windows Using an External SSD'
+date: '2015-11-08T23:23:35.000Z'
+categories:
+  - 'macbook-pro'
+tags:
+  - 'apple'
+  - 'howto'
+slug: 'booting-a-macbook-pro-to-windows-using-an-external-ssd'
 ---
 
 Back in June I purchased my first MacBook Pro.  A big move for someone who has run Microsoft systems for the last 30 years.  Sure I have used Linux and OpenBSD servers, Ubuntu workstation on old hardware, but my primary OS has primarily remained Microsoft--All this time until now.  Since June when I purchased my new MacBook Pro, I spend 90% of my time in OSX (not including at work).  The only reason I go to my Windows machine is for Visual Studio and a few games.  Yes a few games, as so many of them work under OSX.
@@ -38,7 +38,7 @@ This is the point I wasted most of my time trying to get the drive to boot.  Th
 
 Ultimately I found a tool (yes this is a hack, but heck, it worked), [WinToUSB](http://www.easyuefi.com/wintousb) by EasyUEFI.  This tool quickly repaired the partition of the drive and made it bootable again.  No fuss, it just worked. Plus, you only need the free version to complete this as well.[![WinToUSB by easyuefi.com logo](images/easyuefi-logo.png)](https://brettski111.files.wordpress.com/2015/11/easyuefi-logo.png)
 
-The instructions for this is on their site which you can find here: [http://www.easyuefi.com/wintousb/faq/en\_US/How-to-convert-Local-Disk-To-Windows-To-Go.html](http://www.easyuefi.com/wintousb/faq/en_US/How-to-convert-Local-Disk-To-Windows-To-Go.html)
+The instructions for this is on their site which you can find here: [http://www.easyuefi.com/wintousb/faq/en_US/How-to-convert-Local-Disk-To-Windows-To-Go.html](http://www.easyuefi.com/wintousb/faq/en_US/How-to-convert-Local-Disk-To-Windows-To-Go.html)
 
 Once I ran this against the drive I could boot from it!
 

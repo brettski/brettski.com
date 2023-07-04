@@ -1,13 +1,13 @@
 ---
-title: "NPM Link"
-date: "2020-06-08T15:34:45.000Z"
-categories: 
-  - "programming"
-tags: 
-  - "hack"
-  - "javascript"
-  - "nodejs"
-slug: "npm-link"
+title: 'NPM Link'
+date: '2020-06-08T15:34:45.000Z'
+categories:
+  - 'programming'
+tags:
+  - 'hack'
+  - 'javascript'
+  - 'nodejs'
+slug: 'npm-link'
 ---
 
 Npm [link](https://docs.npmjs.com/cli/link), wait, what!? Yeah npm link, a way to test [npm](https://docs.npmjs.com) packages as you develop them. This is a little something I learned last week and need to write it down so I remember how to do it.
@@ -42,7 +42,7 @@ $ npm run validate
 $ npm run start:watch
 ```
 
-At this point the that-api-members project is running using the linked that-api package, not the one downloaded into its node\_modules folder.
+At this point the that-api-members project is running using the linked that-api package, not the one downloaded into its node_modules folder.
 
 So to undo this. I am not 100% sure this is correct, but it seems to work.
 
@@ -69,8 +69,8 @@ When you unlink a package it removes it from packages.json, so we need to then a
 ### A Few Notes
 
 - If you use a node version manager like nodenv, both the application and package need to run the same version or the application will not be able to locate the link.
-- Using the command `npm --link=true` may show linked location in your node\_modules.
+- Using the command `npm --link=true` may show linked location in your node_modules.
 
-* * *
+---
 
 oct 2020: instruction fixes

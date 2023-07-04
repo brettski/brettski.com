@@ -1,11 +1,11 @@
 ---
-title: "\"Heavenly Father, Divine Goalie\""
-date: "2015-06-24T01:55:59.000Z"
-categories: 
-  - "hockey"
-  - "life"
-  - "sports"
-slug: "heavenly-father-divine-goalie"
+title: '"Heavenly Father, Divine Goalie"'
+date: '2015-06-24T01:55:59.000Z'
+categories:
+  - 'hockey'
+  - 'life'
+  - 'sports'
+slug: 'heavenly-father-divine-goalie'
 ---
 
 Heavenly Father, Divine Goalie, we come before You this evening to seek Your blessing. . . ..Keep us free from actions that would put us in the Sin Bin of Hell. . . .Help us to stay within the blue line of Your commandments and the red line of Your grace. Protect us from being injured by the buck of pride. May we ever be delivered from the high stick of dishonesty. May the wings of Your angels play at the right and left of our teammates. May You always be the divine Center of our team, and when our summons comes for eternal retirement to the heavenly grandstand, may we find You ready to give us the everlasting bonus of a permanent seat in Your coliseum. Finally, grant us the courage to skate without tripping, to run without icing, and to score the goal that really counts--the one that makes each of us a winner, a champion, and All-Star in the hectic Hockey Game of Life. Amen
@@ -18,6 +18,6 @@ I found what may have been the original writing of this [here](http://xa.yimg.co
 
 I wish my brother was here now.  It has been so many years.
 
-* * *
+---
 
 Edited 6/13/2020. It turns out that Charles S. Prebish wrote about this excerpt in his paper which was actually delivered by Father Edward Rupp before the 1976 World Hockey Association All-Star game. I am only to assume at this point it was written by Father Rupp as well.

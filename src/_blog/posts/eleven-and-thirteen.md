@@ -1,9 +1,9 @@
 ---
-title: "Eleven and Thirteen"
-date: "2008-03-17T23:17:02.000Z"
-categories: 
-  - "crooked-views"
-slug: "eleven-and-thirteen"
+title: 'Eleven and Thirteen'
+date: '2008-03-17T23:17:02.000Z'
+categories:
+  - 'crooked-views'
+slug: 'eleven-and-thirteen'
 ---
 
 I find it strange how numbers correlate in your life. Recently I discovered a pattern that caught my fancy.

@@ -1,9 +1,9 @@
 ---
-title: "Free Insurance?"
-date: "2011-08-07T05:01:01.000Z"
-categories: 
-  - "crooked-views"
-slug: "free-insurance"
+title: 'Free Insurance?'
+date: '2011-08-07T05:01:01.000Z'
+categories:
+  - 'crooked-views'
+slug: 'free-insurance'
 ---
 
 Every insurance company advertising on Internet, radio, and TV says they can save me up to $400 on my insurance, or 20%, or whatever.

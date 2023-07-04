@@ -1,9 +1,9 @@
 ---
-title: "Little Bunny Foo Foo"
-date: "2007-06-05T17:17:51.000Z"
-categories: 
-  - "life"
-slug: "little-bunny-foo-foo"
+title: 'Little Bunny Foo Foo'
+date: '2007-06-05T17:17:51.000Z'
+categories:
+  - 'life'
+slug: 'little-bunny-foo-foo'
 ---
 
 This is a kids song/rhyme that my son loves to sing. I was thinking about him and the song just now and thought I would share it.

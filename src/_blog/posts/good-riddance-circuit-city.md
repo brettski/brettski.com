@@ -1,10 +1,10 @@
 ---
-title: "Good Riddance Circuit City"
-date: "2009-01-16T17:00:37.000Z"
-categories: 
-  - "that-poop-is-cold"
-  - "uncategorized"
-slug: "good-riddance-circuit-city"
+title: 'Good Riddance Circuit City'
+date: '2009-01-16T17:00:37.000Z'
+categories:
+  - 'that-poop-is-cold'
+  - 'uncategorized'
+slug: 'good-riddance-circuit-city'
 ---
 
 I have been surprised [Circuit City](http://www.circuitcity.com/) has lasted as long as they have.  They just didn't keep with the times and their prices were just out of line.  I don't think I have purchased anything from them in over 5 years.  Not that I haven't looked, they just never had what I needed at a reasonable price.  Plus, Internet shopping is where most of my stuff comes from.

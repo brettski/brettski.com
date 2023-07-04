@@ -1,9 +1,9 @@
 ---
-title: "10 Free Days of WoW"
-date: "2008-11-25T05:09:30.000Z"
-categories: 
-  - "online-gaming"
-slug: "10-free-days-of-wow"
+title: '10 Free Days of WoW'
+date: '2008-11-25T05:09:30.000Z'
+categories:
+  - 'online-gaming'
+slug: '10-free-days-of-wow'
 ---
 
 So I received another email from Blizzard  offering 10 free days of WoW.  Sure why not, I'll run around again for free.  I am sure glad I didn't start the free trial yet, I have been loading patches for days!  One of the patches was a 1GB is size, I just left that one for when I went to sleep.  Being extra busy at work and getting he house ready for Thanksgiving, I have literally spent five or six days loading patches here and there.

@@ -1,12 +1,12 @@
 ---
-title: "Code Highlighting at Wordpress.com"
-date: "2011-11-15T03:48:55.000Z"
-categories: 
-  - "internet"
-tags: 
-  - "blogging"
-  - "wordpress"
-slug: "code-highlighting-at-wordpress-com"
+title: 'Code Highlighting at Wordpress.com'
+date: '2011-11-15T03:48:55.000Z'
+categories:
+  - 'internet'
+tags:
+  - 'blogging'
+  - 'wordpress'
+slug: 'code-highlighting-at-wordpress-com'
 ---
 
 After four or so years of using wordpress.com for my blog I finally figured out how to highlight code (prettify) in a blog post.

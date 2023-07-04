@@ -1,9 +1,9 @@
 ---
-title: "Happy Kid Moment"
-date: "2008-02-11T23:38:07.000Z"
-categories: 
-  - "life"
-slug: "happy-kid-moment"
+title: 'Happy Kid Moment'
+date: '2008-02-11T23:38:07.000Z'
+categories:
+  - 'life'
+slug: 'happy-kid-moment'
 ---
 
 A cute story from my wife.

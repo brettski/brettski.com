@@ -1,13 +1,13 @@
 ---
-title: "MBP Now Always Booting to External Partition"
-date: "2015-12-05T18:20:29.000Z"
-categories: 
-  - "computer-hell"
-  - "macbook-pro"
-  - "nerdiness"
-tags: 
-  - "howto"
-slug: "mbp-now-always-booting-to-external-partition"
+title: 'MBP Now Always Booting to External Partition'
+date: '2015-12-05T18:20:29.000Z'
+categories:
+  - 'computer-hell'
+  - 'macbook-pro'
+  - 'nerdiness'
+tags:
+  - 'howto'
+slug: 'mbp-now-always-booting-to-external-partition'
 ---
 
 Another issue has arisen with my Windows 10 external boot on my Mac Book Pro.  There was an large update for Windows 10 which was failing. The reason, you can't install windows on a usb flash drive using setup.  Sigh.

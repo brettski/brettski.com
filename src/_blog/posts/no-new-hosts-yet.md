@@ -1,10 +1,10 @@
 ---
-title: "No New Hosts Yet"
-date: "2007-03-13T11:51:48.000Z"
-categories: 
-  - "computer-hell"
-  - "internet"
-slug: "no-new-hosts-yet"
+title: 'No New Hosts Yet'
+date: '2007-03-13T11:51:48.000Z'
+categories:
+  - 'computer-hell'
+  - 'internet'
+slug: 'no-new-hosts-yet'
 ---
 
 I am exhausted looking for hosts, so to divert my energy elsewhere I thought I may try something new. I have some stupid EVE [Tools](http://eve.brettski.com) I built for EVE Online and figured I would try building them in [PHP](http://php.net). Why PHP? Simple, everybody is doing it. I don't know why really, I have seen the language around for quite some time now and there are many, many websites and applications which use it, so what the heck.

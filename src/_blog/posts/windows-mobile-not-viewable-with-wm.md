@@ -1,9 +1,9 @@
 ---
-title: "Windows Mobile Not Viewable With WM?"
-date: "2007-04-10T11:45:01.000Z"
-categories: 
-  - "that-poop-is-cold"
-slug: "windows-mobile-not-viewable-with-wm"
+title: 'Windows Mobile Not Viewable With WM?'
+date: '2007-04-10T11:45:01.000Z'
+categories:
+  - 'that-poop-is-cold'
+slug: 'windows-mobile-not-viewable-with-wm'
 ---
 
 I use a mobile device which runs Windows Mobile 5, a hand-held based OS which reminds me a lot of windows 95. Anyway, the default home page on the device has a link to the Windows Mobil home [page](http://www.microsoft.com/windowsmobile), strangely enough, not very compatible at all with the browser which comes with Windows Mobile 5 (some hacked up version of IE 4 it seams). When I went to the site just now to verify the url, I noticed that there is a large flash area on the page. Mobile IE doesn't support flash, nor does the site redirect you based on your browser type, so it is almost impossible to navigate around the page

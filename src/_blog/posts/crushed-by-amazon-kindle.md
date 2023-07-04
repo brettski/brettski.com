@@ -1,10 +1,10 @@
 ---
-title: "Crushed by Amazon Kindle"
-date: "2013-05-31T05:02:36.000Z"
-categories: 
-  - "computer-hell"
-  - "that-poop-is-cold"
-slug: "crushed-by-amazon-kindle"
+title: 'Crushed by Amazon Kindle'
+date: '2013-05-31T05:02:36.000Z'
+categories:
+  - 'computer-hell'
+  - 'that-poop-is-cold'
+slug: 'crushed-by-amazon-kindle'
 ---
 
 It has been a frustrating day for me.  I rarely use my eReader, though I am feeling really lost without it.  I guess the worst time to lose a book is while you are in the middle of it.

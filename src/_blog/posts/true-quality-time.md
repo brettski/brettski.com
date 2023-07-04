@@ -1,9 +1,9 @@
 ---
-title: "True Quality Time"
-date: "2007-10-03T13:05:53.000Z"
-categories: 
-  - "life"
-slug: "true-quality-time"
+title: 'True Quality Time'
+date: '2007-10-03T13:05:53.000Z'
+categories:
+  - 'life'
+slug: 'true-quality-time'
 ---
 
 I can't wait, this is going to be great. This Thursday, Friday and Saturday I will be taking care of my kids, solo, while my wife is out of town. Being the IT Slug that I am and commuting 3+ hours a day I don't get a lot of time with my kids during the week. Now I have my chance. I am taking the next two days off from work and spending it at home. ahhhh.

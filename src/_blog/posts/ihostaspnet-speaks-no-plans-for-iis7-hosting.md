@@ -1,14 +1,14 @@
 ---
-title: "iHostasp.net Speaks, \"No plans for IIS7 hosting\""
-date: "2009-04-30T02:23:56.000Z"
-categories: 
-  - "computer-hell"
-  - "internet"
-  - "that-poop-is-cold"
-tags: 
-  - "asp-net-mvc"
-  - "ihostasp-net"
-slug: "ihostaspnet-speaks-no-plans-for-iis7-hosting"
+title: 'iHostasp.net Speaks, "No plans for IIS7 hosting"'
+date: '2009-04-30T02:23:56.000Z'
+categories:
+  - 'computer-hell'
+  - 'internet'
+  - 'that-poop-is-cold'
+tags:
+  - 'asp-net-mvc'
+  - 'ihostasp-net'
+slug: 'ihostaspnet-speaks-no-plans-for-iis7-hosting'
 ---
 
 Chomping at the bit to get ASP.NET MVC up and running on my regular hosting environment, iHostasp.net, I sent their support a ticket today asking if they plan IIS7 installations in their shared hosting environment.
@@ -50,7 +50,7 @@ My current plan, which runs around $16/mo, $88.83 every 6 months.  I have to sa
 - Microsoft ASP.NET AJAX extensions
 - Can run wide array of other ASP, PHP, .NET based web applications without any limits
 
-* * *
+---
 
 This is a bit silly, but I couldn't resist.  I replied to their support email and simply said
 
@@ -59,15 +59,15 @@ This is a bit silly, but I couldn't resist.  I replied to their support email a
 And their reply:
 
 > Hi Brett,
-> 
+>
 > We do not have IIS7 available within our shared hosting environment and do not have any plans to incorporate it in the near future. However, we do offer virtual dedicated server hosting environments and we could set you up with IIS7 on a virtual dedicated server. Our virtual dedicated server packages can be viewed at the link below.
-> 
+>
 > iHost Virtual Dedicated Server Hosting Packages: [http://www.ihostasp.net/HostedAppliance/Default.asp](http://www.ihostasp.net/HostedAppliance/Default.asp)
-> 
+>
 > IHOST, LLC Customer Support [https://support.ihostllc.net](https://support.ihostllc.net/) [support@ihostllc.net](mailto:support@ihostllc.net) Local/International: 1.440.793.0323 x2 Toll-free: 1.800.593.0238 x2
-> 
+>
 > UPDATE: (4/17/2010)
-> 
+>
 > It was really interesting to me that the owner of iHostasp.net left a message on this blog post about their service and how it was incorrect for their technician to say what they did.  But the truth holds; it is now April 17th of 2010 and still they have no known installations of II7 in their shared hosting environment.  What if I would of took him for his word and stayed with iHost?  I would be stuck and still without the environment I need.
-> 
+>
 > Trying to make good of your company is one thing, making up stories is something completely different.

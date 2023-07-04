@@ -1,9 +1,9 @@
 ---
-title: "Foamy soap refill, cheap"
-date: "2008-04-18T02:22:03.000Z"
-categories: 
-  - "general"
-slug: "foamy-soap-refill-cheap"
+title: 'Foamy soap refill, cheap'
+date: '2008-04-18T02:22:03.000Z'
+categories:
+  - 'general'
+slug: 'foamy-soap-refill-cheap'
 ---
 
 If you have kids, I am sure you are aware on how much they love foamy soap. You know that pump soap which comes out as a foam. They just love to pump the soap....

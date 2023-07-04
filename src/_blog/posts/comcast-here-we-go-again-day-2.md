@@ -1,9 +1,9 @@
 ---
-title: "Comcast -- Here we go again! (Day 2)"
-date: "2008-09-08T23:36:02.000Z"
-categories: 
-  - "that-poop-is-cold"
-slug: "comcast-here-we-go-again-day-2"
+title: 'Comcast -- Here we go again! (Day 2)'
+date: '2008-09-08T23:36:02.000Z'
+categories:
+  - 'that-poop-is-cold'
+slug: 'comcast-here-we-go-again-day-2'
 ---
 
 They can't be serious

@@ -1,9 +1,9 @@
 ---
-title: "Right Click Menu, Google Chrome"
-date: "2009-04-29T22:01:51.000Z"
-categories: 
-  - "general"
-slug: "right-click-menu-google-chrome"
+title: 'Right Click Menu, Google Chrome'
+date: '2009-04-29T22:01:51.000Z'
+categories:
+  - 'general'
+slug: 'right-click-menu-google-chrome'
 ---
 
 Recently I have been using Google Chrome more often.  It really is wicked-fast running Javascript.  Anyway, there is a small annoyance which catches me almost every time I use it.

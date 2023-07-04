@@ -1,9 +1,9 @@
 ---
-title: "Specifying a Different Port Number in SQL Management Studio"
-date: "2008-02-10T23:12:25.000Z"
-categories: 
-  - "computer-hell"
-slug: "specifying-a-different-port-number-in-sql-management-studio"
+title: 'Specifying a Different Port Number in SQL Management Studio'
+date: '2008-02-10T23:12:25.000Z'
+categories:
+  - 'computer-hell'
+slug: 'specifying-a-different-port-number-in-sql-management-studio'
 ---
 
 I couldn't believe the hassle it was trying to find how to specify a different port number when using SQL Server Management Studio. And of course it's pretty easy too.

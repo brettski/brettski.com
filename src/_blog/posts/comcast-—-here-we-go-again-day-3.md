@@ -1,9 +1,9 @@
 ---
-title: "Comcast — Here we go again! (Day 3)"
-date: "2008-09-09T13:44:49.000Z"
-categories: 
-  - "that-poop-is-cold"
-slug: "comcast-—-here-we-go-again-day-3"
+title: 'Comcast — Here we go again! (Day 3)'
+date: '2008-09-09T13:44:49.000Z'
+categories:
+  - 'that-poop-is-cold'
+slug: 'comcast-—-here-we-go-again-day-3'
 ---
 
 This is  a good start to the day Marta called at 08?? this morning and said she will be looking into the problem.  She confirmed the notes from the last person we worked with that they stated the issue was resolved.  I didn't speak with Marta, my wife did so I didn't get the last person's name.  Marta did say she would call back to give us an update, today.

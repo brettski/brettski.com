@@ -1,9 +1,9 @@
 ---
-title: "A New Blog, A New Day"
-date: "2007-01-30T02:19:10.000Z"
-categories: 
-  - "general"
-slug: "a-new-blog-a-new-day"
+title: 'A New Blog, A New Day'
+date: '2007-01-30T02:19:10.000Z'
+categories:
+  - 'general'
+slug: 'a-new-blog-a-new-day'
 ---
 
 Hey look a new home. I am a few year user of Blogger and was getting tired of some of it's shortcomings. You know, no titles, categories, difficult back links. Well difficult to me, they are just not straight forward enough and I can't figure out how to link to old posts.

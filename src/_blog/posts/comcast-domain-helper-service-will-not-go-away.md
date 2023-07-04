@@ -1,10 +1,10 @@
 ---
-title: "Comcast Domain Helper Service will not go away"
-date: "2010-07-30T21:37:20.000Z"
-categories: 
-  - "computer-hell"
-  - "that-poop-is-cold"
-slug: "comcast-domain-helper-service-will-not-go-away"
+title: 'Comcast Domain Helper Service will not go away'
+date: '2010-07-30T21:37:20.000Z'
+categories:
+  - 'computer-hell'
+  - 'that-poop-is-cold'
+slug: 'comcast-domain-helper-service-will-not-go-away'
 ---
 
 Comcast Domain helper service, a DNS breaking service which shows you search results when you try to access a site which doesn't exist on the Internet (e.g. http://blah.blah).

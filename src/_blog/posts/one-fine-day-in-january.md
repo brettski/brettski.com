@@ -1,9 +1,9 @@
 ---
-title: "One Fine Day in January"
-date: "2009-01-28T18:34:11.000Z"
-categories: 
-  - "that-poop-is-cold"
-slug: "one-fine-day-in-january"
+title: 'One Fine Day in January'
+date: '2009-01-28T18:34:11.000Z'
+categories:
+  - 'that-poop-is-cold'
+slug: 'one-fine-day-in-january'
 ---
 
 One sunny day in January, 2009 an old man approached the White House from across Pennsylvania Avenue, where he'd been sitting on a park bench.

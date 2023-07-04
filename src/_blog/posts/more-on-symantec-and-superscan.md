@@ -1,9 +1,9 @@
 ---
-title: "More on Symantec and SuperScan"
-date: "2007-02-06T23:41:20.000Z"
-categories: 
-  - "computer-hell"
-slug: "more-on-symantec-and-superscan"
+title: 'More on Symantec and SuperScan'
+date: '2007-02-06T23:41:20.000Z'
+categories:
+  - 'computer-hell'
+slug: 'more-on-symantec-and-superscan'
 ---
 
 I spent a little time today looking around at this dilemma of mine. It seems that an update was made to Hacktool.SuperScan on January 28, 2007, which was Sunday. The definition which caused this hell installed on Monday the 29th, so that fits. Now I just wonder why and if they will ever do anything about it.

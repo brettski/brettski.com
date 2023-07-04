@@ -1,9 +1,9 @@
 ---
-title: "Sticky Footers"
-date: "2010-02-10T20:07:26.000Z"
-categories: 
-  - "nerdiness"
-slug: "sticky-footers"
+title: 'Sticky Footers'
+date: '2010-02-10T20:07:26.000Z'
+categories:
+  - 'nerdiness'
+slug: 'sticky-footers'
 ---
 
 I have wondered for some time how to keep footers at the bottom of the page.  I have tried different methods of minimum heights, etc., but it only ever looked just "OK".

@@ -1,10 +1,10 @@
 ---
-title: "Coinstar"
-date: "2008-07-28T03:53:31.000Z"
-categories: 
-  - "general"
-  - "internet"
-slug: "coinstar"
+title: 'Coinstar'
+date: '2008-07-28T03:53:31.000Z'
+categories:
+  - 'general'
+  - 'internet'
+slug: 'coinstar'
 ---
 
 I have never been a big fan of [Coinstar](http://coinstar.com); I have always felt they were a ripoff.  To get paper for your change your are going to pay 8 9/10 (what is this gasoline?) cents per dollar for those machine to count it.  Fuck that!  No way I am paying anyone to give me my money.

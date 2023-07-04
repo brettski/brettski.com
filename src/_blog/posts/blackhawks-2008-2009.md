@@ -1,9 +1,9 @@
 ---
-title: "Blackhawks 2008 - 2009"
-date: "2008-12-21T04:46:50.000Z"
-categories: 
-  - "sports"
-slug: "blackhawks-2008-2009"
+title: 'Blackhawks 2008 - 2009'
+date: '2008-12-21T04:46:50.000Z'
+categories:
+  - 'sports'
+slug: 'blackhawks-2008-2009'
 ---
 
 This has been a really exciting season, it is fun to watch the Hawks again.  There is so much life in the team and the fans.  I can't wait to get back into the stadium to see them play!

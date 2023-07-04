@@ -1,13 +1,13 @@
 ---
 title: "My First IDP's"
-date: "2014-01-01T19:20:45.000Z"
-categories: 
-  - "general"
-  - "interesting-view"
-tags: 
-  - "continual-improvement"
-  - "management"
-slug: "idps"
+date: '2014-01-01T19:20:45.000Z'
+categories:
+  - 'general'
+  - 'interesting-view'
+tags:
+  - 'continual-improvement'
+  - 'management'
+slug: 'idps'
 ---
 
 2013 is the first year ever that I setup an IDP (Individual Development Plan) for my employees. ![small_336716715](images/small_336716715.jpg) That is any employees I have ever managed throughout my career.  I have to say when presented with the notion of having to do this, I questioned my ability to do it and its true worth.  Now into our first few months of the IDP, I have to say they are a good tool for learning more about your employees and helping them succeed in a direction they want to go.
@@ -18,19 +18,19 @@ For me I did a small amount of reading to learn what they are.  Reviewed the co
 
 At the meeting with my employees I explained about the IDP and that we will start putting these together on a one-on-one basis. Sure there were a lot of eye rolling, etc., but gratefully most everyone went back to their desks and put some thought behind where they want their career to go.
 
-According to Wikipedia an [IDP](http://en.wikipedia.org/wiki/Individual_development_plan "Individual Development Plan") is, "...a document completed by individual for the plan of self-development over the next period, usually one year."
+According to Wikipedia an [IDP](http://en.wikipedia.org/wiki/Individual_development_plan 'Individual Development Plan') is, "...a document completed by individual for the plan of self-development over the next period, usually one year."
 
 Sounds pretty dry to me, but I guess it covers it. An IDP is a document of individual for the plan of self development. Though for the most part the document doesn't really mean much, its the process of creating the document that has all the impact.
 
-Recall I said _most_ employees went back to their desks to put some thought behind their careers.  There where a few who really doubted the IDP and considered it another corporate paper waste of time.  And it easily can be, and this is where I come in, to work hard with these employees to reveal some direction they want for their career.
+Recall I said *most* employees went back to their desks to put some thought behind their careers.  There where a few who really doubted the IDP and considered it another corporate paper waste of time.  And it easily can be, and this is where I come in, to work hard with these employees to reveal some direction they want for their career.
 
 After the initial meeting I called meetings with each employee.  The meetings where set for an hour, but I left a half hour of slack afterwards, just in case.  Since I was learning here as well, I wanted to ensure there was enough time to formulate a plan, or at least have a good start of one.  I didn't fully know what to expect.  The order I set the meetings was not random.  During the initial meeting and a short time after I paid attention to employees reaction to the IDP.  Since this is my first time doing this, I wanted to make sure that I had more willing participants in the beginning--their plans will be easier to put together and this will be a way to get a few under my belt before tackling the more difficult cases.
 
 ![boat_bows_320](images/boat_bows_320.jpg)
 
-What happened during the first month was absolutely amazing to me; my employees were generally excited about their plan and what I was trying to do for them.  It made me excited.  I look forward to our next meetings to find out what they have learned and the progress made on their goals. 
+What happened during the first month was absolutely amazing to me; my employees were generally excited about their plan and what I was trying to do for them.  It made me excited.  I look forward to our next meetings to find out what they have learned and the progress made on their goals.
 
-There are four steps in an IDP, create, capture, execute, reflect. It's a circular process, where creation occurs again after refection. 
+There are four steps in an IDP, create, capture, execute, reflect. It's a circular process, where creation occurs again after refection.
 
 During creation the employee considers their strengths, development areas and short/long term career goals.  This information is captured and brought with them to the meetings with their manager.  It is amazing how difficult this step can be for some.  In a couple first meetings, I assisted the employee on focusing on future goals; what it is they want to do.  The focus here isn't what you may need to do to excel at your current position, but provide the skills required to keep you moving forward.  I found it helpful to remind the employee that this is not, in any way, part of the review process.  This plan is here strictly for them.  I am providing them an outlet to improve themselves and it is up to them to run with it.  I will help in any way I can, but obviously cannot do it for them.
 
@@ -48,7 +48,7 @@ For the employees there are three important question they should ask themselves:
 
 - Does my manager know and support my short- and long-term career goals?
 - Can I articulate how I will close critical development gaps and continue to build key strengths to achieve my goals?
-- Have I improved at least one skill in the past three months? 
+- Have I improved at least one skill in the past three months?
 
 If you have answered "no" to one or more of these questions it is likely you are not performing at your highest level, and may not be fully engaged within your role.  I found these three questions really important and a great way to understand my employees future desires and goals.  Working through the IDP provided great insight into these areas and taught me things about my employees that I never new.  I also believe it taught things to the employees that they didn't know about themselves.
 

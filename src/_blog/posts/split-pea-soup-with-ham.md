@@ -1,19 +1,19 @@
 ---
-title: "Split Pea Soup with Ham"
-date: "2011-12-27T02:57:38.000Z"
-categories: 
-  - "food"
-  - "life"
-tags: 
-  - "cooking"
-slug: "split-pea-soup-with-ham"
+title: 'Split Pea Soup with Ham'
+date: '2011-12-27T02:57:38.000Z'
+categories:
+  - 'food'
+  - 'life'
+tags:
+  - 'cooking'
+slug: 'split-pea-soup-with-ham'
 ---
 
 There is noting special about this recipe, I am only recording it because it turned out awesome.  It stared with a ham shank bone left over from a ham dinner the family ate.    It was a Cook's spiral cut ham, hickory smoked and not glazed.  I used whole cloves when warming the ham; I love cloves in ham, the wife does not, what does she know about flavor?  Can't believe we were fighting over such a thing.  She didn't even eat any left-over sandwiches. Anyway, I only mention the cloves because I strongly feel they add another layer of goodness to this soup.
 
 I kept the bone and part of the ham which was not sliced by Cook's machines.  I put it in a plastic bag right away after carving up the shank to ensure I had it for the soup.  There was a good chunk of meat and skin, oh the flavor that brings.
 
-On soup making day I gathered the following _fresh_ materials:
+On soup making day I gathered the following *fresh* materials:
 
 1    Lbs split peas 1    cup chopped onion 1    cup chopped carrot 1    cup chopped celery 4    cloves garlic, minced 2    Tbsp unsalted butter 4    cups of chicken stock (Used Swanson in a box) 4    cups of cold tap water 1    can Swanson vegetable broth (almost 2 cups) 2    tsp dry Thyme 2    tsp cumin 3    dry bay leaves (Loral leaves) 1    large white (baking potato) 2    red potatoes
 

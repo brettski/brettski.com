@@ -1,10 +1,10 @@
 ---
-title: "I Want a New Fuel"
-date: "2007-05-21T13:03:07.000Z"
-categories: 
-  - "crooked-views"
-  - "that-poop-is-cold"
-slug: "i-want-a-new-fuel"
+title: 'I Want a New Fuel'
+date: '2007-05-21T13:03:07.000Z'
+categories:
+  - 'crooked-views'
+  - 'that-poop-is-cold'
+slug: 'i-want-a-new-fuel'
 ---
 
 As the song by Huey Lewis and the News rings through my head, with strange new lyrics saying, "I want a new fuel, one that does what it should..."

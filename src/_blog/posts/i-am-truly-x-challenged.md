@@ -1,9 +1,9 @@
 ---
-title: "I Am Truly X Challenged"
-date: "2008-02-25T22:58:24.000Z"
-categories: 
-  - "computer-hell"
-slug: "i-am-truly-x-challenged"
+title: 'I Am Truly X Challenged'
+date: '2008-02-25T22:58:24.000Z'
+categories:
+  - 'computer-hell'
+slug: 'i-am-truly-x-challenged'
 ---
 
 I am truly X challenged, X windows that is.  I just cannot get X to run for anything.  I get the gist of it, I have surely used it, but set it up form nothing, and I get nowhere.

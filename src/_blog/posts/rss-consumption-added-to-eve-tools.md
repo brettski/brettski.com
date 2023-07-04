@@ -1,9 +1,9 @@
 ---
-title: "RSS Consumption Added to EVE Tools"
-date: "2007-04-20T22:20:03.000Z"
-categories: 
-  - "general"
-slug: "rss-consumption-added-to-eve-tools"
+title: 'RSS Consumption Added to EVE Tools'
+date: '2007-04-20T22:20:03.000Z'
+categories:
+  - 'general'
+slug: 'rss-consumption-added-to-eve-tools'
 ---
 
 I actually completed this a couple of weeks ago--none the less I am still pretty excited about it. I was looking for some ways to help increase search engine rankings with my EVE [Tools](http://eve.brettski.com) page. Since I have put this stuff together and some people find it useful, maybe others will to and provide some feedback on stuff they would like to see, or just tell me it sucks, none-the-less, it's always a nice feeling when people use your stuff.

@@ -1,9 +1,9 @@
 ---
 title: "A Response from Landry's"
-date: "2008-03-27T19:16:18.000Z"
-categories: 
-  - "life"
-slug: "a-response-from-landrys"
+date: '2008-03-27T19:16:18.000Z'
+categories:
+  - 'life'
+slug: 'a-response-from-landrys'
 ---
 
 A day or two ago I wrote about and [incident](http://brettski111.wordpress.com/2008/03/25/a-big-scare-in-the-mall/) my wife had at the mall in [RainForest](http://rainforestcafe.com/) Cafe. I had emailed [Landry's](http://www.landrysrestaurants.com) Restaurants, owners of RainForest cafe, and actually received a quick response back (today).  I have emailed my phone number back to them, lets see how this progresses.

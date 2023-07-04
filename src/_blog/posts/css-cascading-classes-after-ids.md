@@ -1,12 +1,12 @@
 ---
 title: "CSS Cascading classes after Id's"
-date: "2011-11-15T03:34:46.000Z"
-categories: 
-  - "programming"
-  - "that-poop-is-cold"
-tags: 
-  - "css"
-slug: "css-cascading-classes-after-ids"
+date: '2011-11-15T03:34:46.000Z'
+categories:
+  - 'programming'
+  - 'that-poop-is-cold'
+tags:
+  - 'css'
+slug: 'css-cascading-classes-after-ids'
 ---
 
 I ran into a styling issue last night and it is driving me nuts.  I have found a work-around, but I want to see if I can figure out how to do this way.
@@ -22,7 +22,12 @@ CSS:
 HTML:
 
 ```html
-<span id="VerifyBlogClick" onclick="javascript:verifyBlog\_click()" title="Tries to send an unpublished test post to your blog">Verify Blog</span>
+<span
+	id="VerifyBlogClick"
+	onclick="javascript:verifyBlog\_click()"
+	title="Tries to send an unpublished test post to your blog"
+	>Verify Blog</span
+>
 ```
 
 JavaScript:

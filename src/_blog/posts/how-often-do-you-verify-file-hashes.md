@@ -1,12 +1,12 @@
 ---
-title: "How often do you verify file hashes?"
-date: "2010-09-22T14:32:00.000Z"
-categories: 
-  - "experiment"
-  - "internet"
-tags: 
-  - "bdfilehash"
-slug: "how-often-do-you-verify-file-hashes"
+title: 'How often do you verify file hashes?'
+date: '2010-09-22T14:32:00.000Z'
+categories:
+  - 'experiment'
+  - 'internet'
+tags:
+  - 'bdfilehash'
+slug: 'how-often-do-you-verify-file-hashes'
 ---
 
 I want to know, [how often do you verify file hashes](http://www.surveymonkey.com/s/S98MKHS)?

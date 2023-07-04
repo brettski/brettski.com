@@ -1,10 +1,10 @@
 ---
-title: "Big issue with a great web host"
-date: "2007-06-04T00:51:04.000Z"
-categories: 
-  - "computer-hell"
-  - "internet"
-slug: "big-issue-with-a-great-web-host"
+title: 'Big issue with a great web host'
+date: '2007-06-04T00:51:04.000Z'
+categories:
+  - 'computer-hell'
+  - 'internet'
+slug: 'big-issue-with-a-great-web-host'
 ---
 
 On Friday afternoon I made some simple changes to my EVE [Tools](http://eve.brettski.com) website and posted them as usual. But as you may have guessed, everything didn't upload as usual. A major file for the site, a web user control used for the header menu, was locked by the server.

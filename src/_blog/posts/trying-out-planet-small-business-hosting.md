@@ -1,12 +1,12 @@
 ---
-title: "Trying out Planet Small Business hosting"
-date: "2009-05-01T21:05:37.000Z"
-categories: 
-  - "internet"
-  - "nerdiness"
-tags: 
-  - "hosting"
-slug: "trying-out-planet-small-business-hosting"
+title: 'Trying out Planet Small Business hosting'
+date: '2009-05-01T21:05:37.000Z'
+categories:
+  - 'internet'
+  - 'nerdiness'
+tags:
+  - 'hosting'
+slug: 'trying-out-planet-small-business-hosting'
 ---
 
 After searching and searching for a new web host who can provide me with Windows 2008 server and decent number of MS SQL databases without breaking the bank (>$20 / mo.), I finally found one to sign up with and try out.  That company is [Planet Small Business](https://www.planetsmb.com) hosting, wish me luck!

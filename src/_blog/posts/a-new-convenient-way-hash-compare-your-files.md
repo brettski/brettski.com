@@ -1,12 +1,12 @@
 ---
-title: "A new convenient way hash compare your files"
-date: "2010-06-14T03:52:42.000Z"
-categories: 
-  - "nerdiness"
-  - "programming"
-tags: 
-  - "bdfilehash"
-slug: "a-new-convenient-way-hash-compare-your-files"
+title: 'A new convenient way hash compare your files'
+date: '2010-06-14T03:52:42.000Z'
+categories:
+  - 'nerdiness'
+  - 'programming'
+tags:
+  - 'bdfilehash'
+slug: 'a-new-convenient-way-hash-compare-your-files'
 ---
 
 I just finished a new file hashing tool, [BD File Hash](http://bdfilehash.codeplex.com/), which is hosted on [CodePlex](http://www.codeplex.com) under the Microsoft Public License (Ms-PL).
@@ -21,7 +21,7 @@ BD File Hash has the following capabilities:
 - Use a file picker to select the file with the authors hash value, it will automatically be parsed from the file and entered into the BD File has application
 - Easily hash to files to see if they are the same
 - Supports MD5, SHA-1, and SHA-256
-    - Please recommend any other hashing algorithms you may need.
+  - Please recommend any other hashing algorithms you may need.
 - Save your default hash type to the one you use most often
 
 BD File Hash requirements:

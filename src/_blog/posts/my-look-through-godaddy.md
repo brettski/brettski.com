@@ -1,10 +1,10 @@
 ---
-title: "My Look Through GoDaddy"
-date: "2009-01-10T03:53:19.000Z"
-categories: 
-  - "experiment"
-  - "internet"
-slug: "my-look-through-godaddy"
+title: 'My Look Through GoDaddy'
+date: '2009-01-10T03:53:19.000Z'
+categories:
+  - 'experiment'
+  - 'internet'
+slug: 'my-look-through-godaddy'
 ---
 
 Instead of creating a bunch of short articles, I am going to consolidate my experiences here. _Please note that this experiment is being conducted on GoDaddy's economy plan which came free with a domain purchase.  I assume its functional, just with the annoyance of ads.  Thinking about this now this experiment may not have much weight, since I don't know if these 'free' trials are throttled, etc._

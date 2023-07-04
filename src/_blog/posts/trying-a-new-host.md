@@ -1,10 +1,10 @@
 ---
-title: "Trying a New Host"
-date: "2007-03-20T02:06:56.000Z"
-categories: 
-  - "computer-hell"
-  - "internet"
-slug: "trying-a-new-host"
+title: 'Trying a New Host'
+date: '2007-03-20T02:06:56.000Z'
+categories:
+  - 'computer-hell'
+  - 'internet'
+slug: 'trying-a-new-host'
 ---
 
 I broke it down to a host I thought worth giving a try for my hosting. As you know I have been having a heck of a [time](http://brettski111.wordpress.com/2007/03/01/i-need-a-new-host/) [locating](http://brettski111.wordpress.com/2007/03/06/finding-shared-web-hosts-sucks/) a [new](http://brettski111.wordpress.com/2007/03/13/no-new-hosts-yet/) hosting service. While investigating [dotNetNuke](http://dotnetnuke.com), I came across [WebHost4Life](http://www.webhost4life.com), and booked marked them. Today I was going through my hosting research bookmarks and came across them again. After reading through there offer and comparing it to others in the same price range $10, I decided to try them out.

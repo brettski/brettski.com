@@ -1,19 +1,19 @@
 ---
-title: "VBA Convert Unicode to ASCII"
-date: "2009-12-04T21:18:16.000Z"
-categories: 
-  - "nerdiness"
-  - "programming"
-slug: "vba-convert-unicode-to-ascii"
+title: 'VBA Convert Unicode to ASCII'
+date: '2009-12-04T21:18:16.000Z'
+categories:
+  - 'nerdiness'
+  - 'programming'
+slug: 'vba-convert-unicode-to-ascii'
 ---
 
 ## Unicode Characters converted to ASCII string
 
 I hacking together a report today and discovered the Unicode text I received was actually in Unicode not ASCII.
 
-Basically I have this:  こんにちは
+Basically I have this:   こんにちは
 
-And I want this:   [![](images/unicodestring.png "Unicode String as Text")](http://brettski111.files.wordpress.com/2009/12/unicodestring.png)
+And I want this:   [![](images/unicodestring.png 'Unicode String as Text')](http://brettski111.files.wordpress.com/2009/12/unicodestring.png)
 
 By using AscW(Char) you can convert a Unicode character into an integer value.  Add some delimiters to encode the string and you have a [Unicode HTML Entity Reference](http://en.wikipedia.org/wiki/Unicode_and_HTML).  It isn't perfect, as AscW(Char) sometimes returns a negative number, which isn't allowed, though this is an easy work around explained [here](http://support.microsoft.com/kb/272138).  It is used below.
 
@@ -22,14 +22,14 @@ Public Function UnicodeToAscii(sText As String) As String Dim x As Long, sAscii 
 
 If Len(sText) = 0 Then Exit Function End If
 
-sAscii = "" For x = 1 To Len(sText) ascval = AscW(Mid(sText, x, 1)) If (ascval < 0) Then ascval = 65536 + ascval ' http://support.microsoft.com/kb/272138 End If sAscii = sAscii & "&#" & ascval & ";" Next UnicodeToAscii = sAscii End Function 
+sAscii = "" For x = 1 To Len(sText) ascval = AscW(Mid(sText, x, 1)) If (ascval < 0) Then ascval = 65536 + ascval ' http://support.microsoft.com/kb/272138 End If sAscii = sAscii & "&#" & ascval & ";" Next UnicodeToAscii = sAscii End Function
 ```
 
 ## Now lets go the other way: ASCII string to Unicode
 
-Now I have this:  [![](images/unicodestring.png "UnicodeString")](http://brettski111.files.wordpress.com/2009/12/unicodestring.png)
+Now I have this:  [![](images/unicodestring.png 'UnicodeString')](http://brettski111.files.wordpress.com/2009/12/unicodestring.png)
 
-And I want this:  こんにちは
+And I want this:   こんにちは
 
 I remembered that ChrW(int) will convert character codes to their associated character.  I really wasn't in the mood to write parsing logic and test it, but luckily I came across a class which does this.  I ripped out the method I needed and it worked great in all it's simplicity.  I have included this function below:
 

@@ -1,13 +1,13 @@
 ---
-title: "Enterprise Class Mobile Phones"
-date: "2012-01-30T02:02:52.000Z"
-categories: 
-  - "interesting-view"
-  - "internet"
-  - "security"
-tags: 
-  - "mobile-phone"
-slug: "enterprise-class-mobile-phones"
+title: 'Enterprise Class Mobile Phones'
+date: '2012-01-30T02:02:52.000Z'
+categories:
+  - 'interesting-view'
+  - 'internet'
+  - 'security'
+tags:
+  - 'mobile-phone'
+slug: 'enterprise-class-mobile-phones'
 ---
 
 ## You Just Can't Secure Them

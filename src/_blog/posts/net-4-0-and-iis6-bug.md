@@ -1,14 +1,14 @@
 ---
-title: ".NET 4.0 and IIS6 bug (eurl.axd)"
-date: "2011-07-28T14:28:19.000Z"
-categories: 
-  - "bug"
-  - "computer-hell"
-tags: 
-  - "asp-net"
-  - "iis"
-  - "iis6"
-slug: "net-4-0-and-iis6-bug"
+title: '.NET 4.0 and IIS6 bug (eurl.axd)'
+date: '2011-07-28T14:28:19.000Z'
+categories:
+  - 'bug'
+  - 'computer-hell'
+tags:
+  - 'asp-net'
+  - 'iis'
+  - 'iis6'
+slug: 'net-4-0-and-iis6-bug'
 ---
 
 I ran in to an interesting issue yesterday.  In an IIS 6 web server we have a website set to run ASP.NET 4.0.  I was configuring a virtual directory to run under ASP.NET 2.0 to run [ScrewTurn Wiki](http://www.screwturn.eu). Our standard config has the DefaultAppPool configured with ASP.NET 2.0 applications which don't require their own pool.  The wiki was running without issue.  I decided to put the wiki in it's own pool for various other reasons.

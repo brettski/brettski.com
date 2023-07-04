@@ -1,10 +1,10 @@
 ---
-title: "Looking Through the Wiki Glass"
-date: "2008-08-21T18:41:58.000Z"
-categories: 
-  - "computer-hell"
-  - "nerdiness"
-slug: "looking-through-the-wiki-glass"
+title: 'Looking Through the Wiki Glass'
+date: '2008-08-21T18:41:58.000Z'
+categories:
+  - 'computer-hell'
+  - 'nerdiness'
+slug: 'looking-through-the-wiki-glass'
 ---
 
 I am no newcomer to wiki's though it has been a couple years since I have seen the new products.  Since a few of us at work have been throwing around ideas of wiki's as knowledgebases, I thought I was look into them again.
@@ -37,7 +37,7 @@ File is /tiki/lib/setup/tikisetup.class.php and it's how the base pathe is retri
         }
 ```
 
-Basically the software is using PATH\_TRANSLATED for IIS and my host is not sending the full physical path, but the physical path of the web root. So I simply changed it:
+Basically the software is using PATH_TRANSLATED for IIS and my host is not sending the full physical path, but the physical path of the web root. So I simply changed it:
 
 ```sh
        if (strpos($\_SERVER\['SERVER\_SOFTWARE'\],'IIS')==TRUE){
