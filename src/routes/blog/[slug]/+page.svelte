@@ -1,7 +1,7 @@
 <script>
 	export let data;
 
-	import Header from '$components/Header.svelte';
+	import Header from '../_components/Header.svelte';
 
 	const { post } = data;
 
@@ -10,6 +10,5 @@
 
 <Header title={post.title} />
 <div>
-	<p>Here:</p>
 	<svelte:component this={post.content} />
 </div>
