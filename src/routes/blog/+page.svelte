@@ -5,13 +5,14 @@
 	// import Header from '$components/Header.svelte';
 	import Pagination from './_components/Pagination.svelte';
 	import BlogEntry from './_components/BlogEntry.svelte';
+	import { onMount } from 'svelte';
 
 	const { posts, filterYear, filterCategory, filterTag } = data;
 	posts.sort((a, b) => dayjs(b.isoDate) - dayjs(a.isoDate));
-	// setup pages of posts
 
+	// filters
 	console.log(
-		'counts: year, category, tag',
+		'🚓 counts: year, category, tag',
 		filterYear.length,
 		filterCategory.length,
 		filterTag.length
@@ -20,15 +21,10 @@
 	const categoryFilterItems = filterCategory.map((f) => ({ name: f, isSelected: false }));
 	const tagFilterItems = filterTag.map((f) => ({ name: f, isSelected: false }));
 
-	const prettyDate = (date) => {
-		return dayjs(date).format('YYYY-MM-DD_HH:mm').toString();
-	};
-
 	// menu control
 	let yearState = 'hidden';
 	let categoryState = 'hidden';
 	let tagState = 'hidden';
-
 	const plusState = (stateValue) => (stateValue ? '' : 'hidden');
 	const minusState = (stateValue) => (stateValue ? 'hidden' : '');
 	const toggleYear = () => (yearState === 'hidden' ? (yearState = '') : (yearState = 'hidden'));
@@ -36,10 +32,33 @@
 		categoryState === 'hidden' ? (categoryState = '') : (categoryState = 'hidden');
 	const toggleTag = () => (tagState === 'hidden' ? (tagState = '') : (tagState = 'hidden'));
 
-	// array.slice((page_number - 1) * page_size, page_number * page_size);
+	let filteredPosts = posts;
 	let pageNumber = 1;
-	let pageSize = 5;
-	const pagedPosts = posts.slice((pageNumber - 1) * pageSize, pageNumber * pageSize);
+	let pageSize = 15;
+	let pagedPosts;
+
+	function filterSelectHandler() {
+		setTimeout(() => {
+			let selectedYears = yearFilterItems.filter((y) => y.isSelected).map((z) => z.name);
+			let selectedCategories = categoryFilterItems.filter((y) => y.isSelected).map((z) => z.name);
+			let selectedTags = tagFilterItems.filter((y) => y.isSelected).map((z) => z.name);
+			filteredPosts = posts;
+			if (selectedYears.length > 0 || selectedCategories.length > 0 || selectedTags.length > 0) {
+				console.log('🧪 filter selection');
+				filteredPosts = posts.filter(
+					(f) =>
+						selectedYears.includes(f.postYear) ||
+						f.categories.reduce((a, c) => a || selectedCategories.includes(c), false) ||
+						f.tags.reduce((a, c) => a || selectedTags.includes(c), false)
+				);
+			}
+		}, 0);
+	}
+
+	$: {
+		console.log('filteredPosts.slice');
+		pagedPosts = filteredPosts.slice((pageNumber - 1) * pageSize, pageNumber * pageSize);
+	}
 </script>
 
 <!--
@@ -173,6 +192,7 @@
 												value={item.name}
 												type="checkbox"
 												class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+												on:click={filterSelectHandler}
 											/>
 											<label for="filter-mobile-tag-{idx}" class="ml-3 min-w-0 flex-1 text-gray-500"
 												>{item.name}</label
@@ -245,6 +265,7 @@
 												value={item.name}
 												type="checkbox"
 												class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+												on:click={filterSelectHandler}
 											/>
 											<label
 												for="filter-mobile-category-{idx}"
@@ -318,6 +339,7 @@
 												value={item.name}
 												type="checkbox"
 												class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+												on:click={filterSelectHandler}
 											/>
 											<label for="filter-mobile-tag-{idx}" class="ml-3 min-w-0 flex-1 text-gray-500"
 												>{item.name}</label
@@ -515,6 +537,7 @@
 												value={item.name}
 												type="checkbox"
 												class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+												on:click={filterSelectHandler}
 											/>
 											<label for="filter-year-{idx}" class="ml-3 text-sm text-gray-600"
 												>{item.name}</label
@@ -587,6 +610,7 @@
 												value={item.name}
 												type="checkbox"
 												class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+												on:click={filterSelectHandler}
 											/>
 											<label for="filter-category-{idx}" class="ml-3 text-sm text-gray-600"
 												>{item.name}</label
@@ -659,6 +683,7 @@
 												value={item.name}
 												type="checkbox"
 												class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+												on:click={filterSelectHandler}
 											/>
 											<label for="filter-tag-{idx}" class="ml-3 text-sm text-gray-600"
 												>{item.name}</label
@@ -685,14 +710,12 @@
 					<!-- Product grid -->
 					<div class="lg:col-span-3">
 						<!-- Your content -->
-						<div
-							class="mt-10 space-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 divide-y divide-blue-300"
-						>
+						<div class="space-y-16 divide-y divide-blue-300">
 							{#each pagedPosts as blogPost}
-								<BlogEntry {blogPost} />
+								<BlogEntry {...blogPost} />
 							{/each}
 						</div>
-						<Pagination />
+						<!-- <Pagination /> -->
 					</div>
 				</div>
 			</section>

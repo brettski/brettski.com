@@ -1,9 +1,10 @@
 <script>
-	export let blogPost;
-
-	console.log('blogPost', blogPost);
-
-	const { categories, tags, postDate, slug, title, content } = blogPost;
+	export let categories;
+	export let tags;
+	export let postDate;
+	export let slug;
+	export let title;
+	export let content;
 
 	/*
       blogPost {
