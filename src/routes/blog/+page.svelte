@@ -90,28 +90,28 @@
 		{#if mobileFilterMenuIsOpen}
 			<div class="relative z-40 lg:hidden" role="dialog" aria-modal="true">
 				<!--
-		  Off-canvas menu backdrop, show/hide based on off-canvas menu state.
-  
-		  Entering: "transition-opacity ease-linear duration-300"
-			From: "opacity-0"
-			To: "opacity-100"
-		  Leaving: "transition-opacity ease-linear duration-300"
-			From: "opacity-100"
-			To: "opacity-0"
+			Off-canvas menu backdrop, show/hide based on off-canvas menu state.
+	
+			Entering: "transition-opacity ease-linear duration-300"
+				From: "opacity-0"
+				To: "opacity-100"
+			Leaving: "transition-opacity ease-linear duration-300"
+				From: "opacity-100"
+				To: "opacity-0"
 		-->
 				<div class="fixed inset-0 bg-black bg-opacity-25" />
 
 				<div class="fixed inset-0 z-40 flex">
 					<!--
-			Off-canvas menu, show/hide based on off-canvas menu state.
-  
-			Entering: "transition ease-in-out duration-300 transform"
-			  From: "translate-x-full"
-			  To: "translate-x-0"
-			Leaving: "transition ease-in-out duration-300 transform"
-			  From: "translate-x-0"
-			  To: "translate-x-full"
-		  -->
+				Off-canvas menu, show/hide based on off-canvas menu state.
+	
+				Entering: "transition ease-in-out duration-300 transform"
+				From: "translate-x-full"
+				To: "translate-x-0"
+				Leaving: "transition ease-in-out duration-300 transform"
+				From: "translate-x-0"
+				To: "translate-x-full"
+			-->
 					<div
 						class="relative ml-auto flex h-full w-full max-w-xs flex-col overflow-y-auto bg-white py-4 pb-12 shadow-xl"
 					>
@@ -141,6 +141,7 @@
 							<h3 class="sr-only">Categories</h3>
 							<ul role="list" class="px-2 py-3 font-medium text-gray-900">
 								<li>
+									<!-- svelte-ignore a11y-invalid-attribute -->
 									<a href="#" class="block px-2 py-3">Top Link A</a>
 								</li>
 								<li>
@@ -208,17 +209,17 @@
 											</div>
 										{/each}
 										<!-- <div class="flex items-center">
-					  <input id="filter-mobile-color-0" name="year[]" value="white" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-					  <label for="filter-mobile-color-0" class="ml-3 min-w-0 flex-1 text-gray-500">White</label>
-					</div>
-					<div class="flex items-center">
-					  <input id="filter-mobile-color-1" name="year[]" value="beige" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-					  <label for="filter-mobile-color-1" class="ml-3 min-w-0 flex-1 text-gray-500">Beige</label>
-					</div>
-					<div class="flex items-center">
-					  <input id="filter-mobile-color-2" name="year[]" value="blue" type="checkbox" checked class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-					  <label for="filter-mobile-color-2" class="ml-3 min-w-0 flex-1 text-gray-500">Blue</label>
-					</div> -->
+									<input id="filter-mobile-color-0" name="year[]" value="white" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+									<label for="filter-mobile-color-0" class="ml-3 min-w-0 flex-1 text-gray-500">White</label>
+									</div>
+									<div class="flex items-center">
+									<input id="filter-mobile-color-1" name="year[]" value="beige" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+									<label for="filter-mobile-color-1" class="ml-3 min-w-0 flex-1 text-gray-500">Beige</label>
+									</div>
+									<div class="flex items-center">
+									<input id="filter-mobile-color-2" name="year[]" value="blue" type="checkbox" checked class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+									<label for="filter-mobile-color-2" class="ml-3 min-w-0 flex-1 text-gray-500">Blue</label>
+									</div> -->
 									</div>
 								</div>
 							</div>
@@ -357,17 +358,17 @@
 										{/each}
 
 										<!-- <div class="flex items-center">
-					  <input id="filter-mobile-size-0" name="tag[]" value="2l" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-					  <label for="filter-mobile-size-0" class="ml-3 min-w-0 flex-1 text-gray-500">2L</label>
-					</div>
-					<div class="flex items-center">
-					  <input id="filter-mobile-size-1" name="tag[]" value="6l" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-					  <label for="filter-mobile-size-1" class="ml-3 min-w-0 flex-1 text-gray-500">6L</label>
-					</div>
-					<div class="flex items-center">
-					  <input id="filter-mobile-size-2" name="tag[]" value="12l" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-					  <label for="filter-mobile-size-2" class="ml-3 min-w-0 flex-1 text-gray-500">12L</label>
-					</div>  -->
+									<input id="filter-mobile-size-0" name="tag[]" value="2l" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+									<label for="filter-mobile-size-0" class="ml-3 min-w-0 flex-1 text-gray-500">2L</label>
+									</div>
+									<div class="flex items-center">
+									<input id="filter-mobile-size-1" name="tag[]" value="6l" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+									<label for="filter-mobile-size-1" class="ml-3 min-w-0 flex-1 text-gray-500">6L</label>
+									</div>
+									<div class="flex items-center">
+									<input id="filter-mobile-size-2" name="tag[]" value="12l" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+									<label for="filter-mobile-size-2" class="ml-3 min-w-0 flex-1 text-gray-500">12L</label>
+									</div>  -->
 									</div>
 								</div>
 							</div>
@@ -409,15 +410,15 @@
 						</div>
 
 						<!--
-									Dropdown menu, show/hide based on menu state.
-					
-									Entering: "transition ease-out duration-100"
-									From: "transform opacity-0 scale-95"
-									To: "transform opacity-100 scale-100"
-									Leaving: "transition ease-in duration-75"
-									From: "transform opacity-100 scale-100"
-									To: "transform opacity-0 scale-95"
-								-->
+							Dropdown menu, show/hide based on menu state.
+			
+							Entering: "transition ease-out duration-100"
+							From: "transform opacity-0 scale-95"
+							To: "transform opacity-100 scale-100"
+							Leaving: "transition ease-in duration-75"
+							From: "transform opacity-100 scale-100"
+							To: "transform opacity-0 scale-95"
+						-->
 						{#if isShowSort}
 							<div
 								class="absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none"
@@ -428,10 +429,10 @@
 							>
 								<div class="py-1" role="none">
 									<!--
-					Active: "bg-gray-100", Not Active: ""
-  
-					Selected: "font-medium text-gray-900", Not Selected: "text-gray-500"
-				  -->
+									Active: "bg-gray-100", Not Active: ""
+				
+									Selected: "font-medium text-gray-900", Not Selected: "text-gray-500"
+									-->
 									<a
 										href="#"
 										class="font-medium text-gray-900 block px-4 py-2 text-sm"
@@ -447,8 +448,8 @@
 										id="menu-item-1">Date descending</a
 									>
 									<!-- <a href="#" class="text-gray-500 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Newest</a>
-				  <a href="#" class="text-gray-500 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-3">Price: Low to High</a>
-				  <a href="#" class="text-gray-500 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-4">Price: High to Low</a> -->
+									<a href="#" class="text-gray-500 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-3">Price: Low to High</a>
+									<a href="#" class="text-gray-500 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-4">Price: High to Low</a> -->
 								</div>
 							</div>
 						{/if}
@@ -559,17 +560,17 @@
 										</div>
 									{/each}
 									<!-- <div class="flex items-center">
-					  <input id="filter-color-0" name="year[]" value="white" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-					  <label for="filter-color-0" class="ml-3 text-sm text-gray-600">White</label>
-					</div>
-					<div class="flex items-center">
-					  <input id="filter-color-1" name="year[]" value="beige" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-					  <label for="filter-color-1" class="ml-3 text-sm text-gray-600">Beige</label>
-					</div>
-					<div class="flex items-center">
-					  <input id="filter-color-2" name="year[]" value="blue" type="checkbox" checked class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-					  <label for="filter-color-2" class="ml-3 text-sm text-gray-600">Blue</label>
-					</div> -->
+								<input id="filter-color-0" name="year[]" value="white" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+								<label for="filter-color-0" class="ml-3 text-sm text-gray-600">White</label>
+								</div>
+								<div class="flex items-center">
+								<input id="filter-color-1" name="year[]" value="beige" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+								<label for="filter-color-1" class="ml-3 text-sm text-gray-600">Beige</label>
+								</div>
+								<div class="flex items-center">
+								<input id="filter-color-2" name="year[]" value="blue" type="checkbox" checked class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+								<label for="filter-color-2" class="ml-3 text-sm text-gray-600">Blue</label>
+								</div> -->
 								</div>
 							</div>
 						</div>
@@ -632,17 +633,17 @@
 										</div>
 									{/each}
 									<!-- <div class="flex items-center">
-					  <input id="filter-category-0" name="category[]" value="new-arrivals" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-					  <label for="filter-category-0" class="ml-3 text-sm text-gray-600">New Arrivals</label>
-					</div>
-					<div class="flex items-center">
-					  <input id="filter-category-1" name="category[]" value="sale" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-					  <label for="filter-category-1" class="ml-3 text-sm text-gray-600">Sale</label>
-					</div>
-					<div class="flex items-center">
-					  <input id="filter-category-2" name="category[]" value="travel" type="checkbox" checked class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-					  <label for="filter-category-2" class="ml-3 text-sm text-gray-600">Travel</label>
-					</div> -->
+								<input id="filter-category-0" name="category[]" value="new-arrivals" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+								<label for="filter-category-0" class="ml-3 text-sm text-gray-600">New Arrivals</label>
+								</div>
+								<div class="flex items-center">
+								<input id="filter-category-1" name="category[]" value="sale" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+								<label for="filter-category-1" class="ml-3 text-sm text-gray-600">Sale</label>
+								</div>
+								<div class="flex items-center">
+								<input id="filter-category-2" name="category[]" value="travel" type="checkbox" checked class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+								<label for="filter-category-2" class="ml-3 text-sm text-gray-600">Travel</label>
+								</div> -->
 								</div>
 							</div>
 						</div>
@@ -656,7 +657,7 @@
 									aria-controls="filter-section-2"
 									aria-expanded="false"
 								>
-									<span class="font-medium text-gray-900">Size</span>
+									<span class="font-medium text-gray-900">Tags</span>
 									<span class="ml-6 flex items-center">
 										<!-- Expand icon, show/hide based on section open state. -->
 										<svg
@@ -705,17 +706,17 @@
 										</div>
 									{/each}
 									<!-- <div class="flex items-center">
-					  <input id="filter-size-0" name="tag[]" value="2l" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-					  <label for="filter-size-0" class="ml-3 text-sm text-gray-600">2L</label>
-					</div>
-					<div class="flex items-center">
-					  <input id="filter-size-1" name="tag[]" value="6l" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-					  <label for="filter-size-1" class="ml-3 text-sm text-gray-600">6L</label>
-					</div>
-					<div class="flex items-center">
-					  <input id="filter-size-2" name="tag[]" value="12l" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-					  <label for="filter-size-2" class="ml-3 text-sm text-gray-600">12L</label>
-					</div> -->
+								<input id="filter-size-0" name="tag[]" value="2l" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+								<label for="filter-size-0" class="ml-3 text-sm text-gray-600">2L</label>
+								</div>
+								<div class="flex items-center">
+								<input id="filter-size-1" name="tag[]" value="6l" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+								<label for="filter-size-1" class="ml-3 text-sm text-gray-600">6L</label>
+								</div>
+								<div class="flex items-center">
+								<input id="filter-size-2" name="tag[]" value="12l" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+								<label for="filter-size-2" class="ml-3 text-sm text-gray-600">12L</label>
+								</div> -->
 								</div>
 							</div>
 						</div>
