@@ -1,5 +1,12 @@
 <script>
 	import { fade } from 'svelte/transition';
+	import { page } from '$app/stores';
+
+	let pathname = '';
+
+	$: pathname = $page.url.pathname;
+	console.log('pathname', pathname);
+	console.log('page', $page.url.pathname);
 
 	let menuIsOpen = false;
 	let profileIsOpen = false;
@@ -70,20 +77,25 @@
 					<!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
 					<a
 						href="/"
-						class="inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900"
+						class="{pathname === '/'
+							? 'border-indigo-500 text-gray-900'
+							: 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'} inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium"
 						>Home</a
 					>
 					<a
 						href="/blog"
-						class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+						class="{pathname.includes('/blog')
+							? 'border-indigo-500 text-gray-900'
+							: 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'} inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium"
 						>Blog</a
 					>
 					<a
 						href="/about"
-						class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+						class="{pathname.includes('/about')
+							? 'border-indigo-500 text-gray-900'
+							: 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'} inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium"
 						>About</a
 					>
-					<!-- <a href="#" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Calendar</a> -->
 				</div>
 			</div>
 			<div
@@ -152,21 +164,21 @@
 							<!-- Active: "bg-gray-100", Not Active: "" -->
 							<a
 								href="#"
-								class="block px-4 py-2 text-sm text-gray-700"
+								class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
 								role="menuitem"
 								tabindex="-1"
 								id="user-menu-item-0">Your Profile</a
 							>
 							<a
 								href="#"
-								class="block px-4 py-2 text-sm text-gray-700"
+								class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
 								role="menuitem"
 								tabindex="-1"
 								id="user-menu-item-1">Settings</a
 							>
 							<a
 								href="#"
-								class="block px-4 py-2 text-sm text-gray-700"
+								class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
 								role="menuitem"
 								tabindex="-1"
 								id="user-menu-item-2">Sign out</a
