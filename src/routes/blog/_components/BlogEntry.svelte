@@ -52,7 +52,6 @@
 			</a>
 		</h2>
 		<p class="mt-5 line-clamp-6 text-sm leading-6 text-gray-600">
-			hi
 			<svelte:component this={content} />
 		</p>
 	</div>
