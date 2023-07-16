@@ -1,6 +1,7 @@
 <script>
 	import { fade } from 'svelte/transition';
 	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
 
 	let pathname = '';
 
@@ -17,6 +18,18 @@
 	function profileButtonHandler() {
 		profileIsOpen = !profileIsOpen;
 	}
+	function handleClickOutsideProfileMenu({ target }) {
+		if (!target.closest('#user-menu-button')) {
+			profileIsOpen = false;
+		}
+	}
+
+	onMount(() => {
+		window.addEventListener('click', handleClickOutsideProfileMenu);
+		return () => {
+			window.removeEventListener('click', handleClickOutsideProfileMenu);
+		};
+	});
 </script>
 
 <nav class="bg-white shadow">
@@ -123,7 +136,7 @@
 				</button>
 
 				<!-- Profile dropdown -->
-				<div class="relative ml-3">
+				<div class="relative ml-3 profile-menu">
 					<div>
 						<button
 							type="button"
