@@ -103,6 +103,13 @@
 						>Blog</a
 					>
 					<a
+						href="/tools"
+						class="{pathname.includes('/tools')
+							? 'border-indigo-500 text-gray-900'
+							: 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'} inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium"
+						>Tools</a
+					>
+					<a
 						href="/about"
 						class="{pathname.includes('/about')
 							? 'border-indigo-500 text-gray-900'
@@ -216,6 +223,11 @@
 				href="/blog"
 				class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
 				>Blog</a
+			>
+			<a
+				href="/tools"
+				class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+				>Tools</a
 			>
 			<a
 				href="/about"

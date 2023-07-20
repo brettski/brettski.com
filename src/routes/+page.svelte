@@ -16,9 +16,9 @@
 			</h1>
 			<p class="mt-6 text-lg leading-8 text-gray-600">
 				Hi! I'm Brett, an IT operations engineer and software developer. Let's spend some time
-				together automating all the things and building cool applications with things like
-				JavaScript, GraphQL, Rust, Go, Sveltekit, etc., etc. Software is hard, and it's fun, let's
-				have some fun together!
+				together automating all the things and building cool applications with things like Node.js®,
+				GraphQL, Rust, Go, Sveltekit, etc., etc. Software is hard, and it's fun–let's have some fun
+				together!
 			</p>
 			<div class="mt-10 flex items-center justify-center gap-x-6">
 				<a
