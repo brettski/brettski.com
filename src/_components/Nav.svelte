@@ -7,7 +7,7 @@
 
 	$: pathname = $page.url.pathname;
 	console.log('pathname', pathname);
-	console.log('page', $page.url.pathname);
+	console.log('page.url.pathname', $page.url.pathname);
 
 	let menuIsOpen = false;
 	let profileIsOpen = false;

@@ -2,7 +2,6 @@ import { error } from '@sveltejs/kit';
 import { redirect } from '@sveltejs/kit';
 
 export async function load({ params, parent }) {
-	console.log('[]blog posts count', params);
 	const { slug } = params;
 	const { posts } = await parent();
 	const post = posts.find((p) => p.slug === slug);

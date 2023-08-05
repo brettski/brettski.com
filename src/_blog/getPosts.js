@@ -15,7 +15,7 @@ export async function getPosts() {
 	});
 
 	const results = await Promise.all(all);
-	console.log('results count', results.length);
+	console.log('results posts count', results.length);
 
 	return results;
 }

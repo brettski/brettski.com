@@ -1,11 +1,13 @@
 <script>
 	export let data;
 
+	import { page } from '$app/stores';
 	import dayjs from 'dayjs';
 	import Pagination from './_components/Pagination.svelte';
 	import BlogEntry from './_components/BlogEntry.svelte';
-	import { onMount } from 'svelte';
 
+	const { url } = $page;
+	const yearParam = url.searchParams.get('year');
 	const { posts, filterYear, filterCategory, filterTag } = data;
 	posts.sort((a, b) => dayjs(b.isoDate) - dayjs(a.isoDate));
 
@@ -58,6 +60,18 @@
 				);
 			}
 		}, 0);
+	}
+
+	let doRefresh = false;
+	yearFilterItems.forEach((item) => {
+		if (item.name === yearParam) {
+			item.isSelected = true;
+			doRefresh = true;
+		}
+	});
+	if (doRefresh) {
+		filterSelectHandler();
+		yearState = '';
 	}
 
 	$: {
