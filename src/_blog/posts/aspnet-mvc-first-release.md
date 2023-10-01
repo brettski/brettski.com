@@ -14,4 +14,4 @@ I read about it [here](http://blogs.msdn.com/webdevtools/archive/2009/03/18/asp-
 
 Remember if you have a previous version of ASP.NET MVC loaded, you will have to unistall it first.  A short time ago, Phil Haack, Scott Hanselman, Rob Conery, and ScottGu release a [FREE tutorial to MVC](http://weblogs.asp.net/scottgu/archive/2009/03/10/free-asp-net-mvc-ebook-tutorial.aspx), as a fist "Chapter" to their upcomming book, [ASP.NET MVC 1.0](http://www.amazon.com/gp/product/0470384611?ie=UTF8&tag=bretcook-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0470384611 'ASP.NET MVC 1.0').
 
-\[caption id="attachment_291" align="alignnone" width="127" caption="ASP.NET MVC 1.0"\][![ASP.NET MVC 1.0](images/51jz48ccnnl_sl160_.jpg '51jz48ccnnl_sl160_')](http://www.amazon.com/gp/product/0470384611?ie=UTF8&tag=bretcook-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0470384611)\[/caption\]
+<a href="http://www.amazon.com/gp/product/0470384611?ie=UTF8&tag=bretcook-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0470384611"><img alt="" width="200" src="/images/blog/51jz48ccnnl_sl160_.jpg"></a>

@@ -12,6 +12,6 @@ From the news today:
 
 Images from Pixar's Wall-e are not far off at all!
 
-![Wall-E ship through debris](http://brettski111.files.wordpress.com/2009/02/wall-e-ship.jpg?w=300 'Wall-E ship through debris')
+<a href="/images/blog/wall-e-ship.jpg"><img alt="Wall-E ship through debris" width="300" src="/images/blog/wall-e-ship.jpg"></a>
 
 _"in a cup!"_

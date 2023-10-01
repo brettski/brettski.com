@@ -13,7 +13,7 @@ slug: 'game-time'
 
 I love computer games.  I have been playing them since I was able to use a computer.  I can't say I am an avid gamer, I really don't have the time for that, but I sure enjoy playing them.
 
-![MC-Brettski111](http://brettski111.files.wordpress.com/2014/02/mc-brettski111.png?w=79)
+<a href="/images/blog/mc-brettski111.png"><img alt="" width="80" src="/images/blog/mc-brettski111.png"></a>
 
 One game I play often, and usually with my sons, is [Minecraft](http://minecraft.net 'Minecraft').  A sandbox adventure game which we have found very fun.  We have spent countless hours building different things, going on adventures and PvP fighting.
 
@@ -23,7 +23,7 @@ I really enjoyed manipulating the game play.  I found it very satisfying to int
 
 A month or so prior to this a friend of mine introduced me to [Unity3d](http://unity3d.com/).  A game development environment which allows you to release 2D and 3D games to many different platforms. And you can do all your scripting in C#!  JavaScript I believe is the other scripting language available.
 
-[![Unity_Pri](http://brettski111.files.wordpress.com/2014/02/unity_pri.png?w=300)](http://unity3d.com)
+<a href="http://unity3d.com"><img alt="Unity logo" width="300" src="/images/blog/unity_pri.png"></a>
 
 Acting on the bug which bit me writing the Minecraft mods I downloaded Unity3d and started playing around.  Quickly I figured out this stuff is pretty complex, there is simply a lot to it.  Off to the tutorials!
 
@@ -37,6 +37,6 @@ Next on the list is to build a tower defense game.  I found at least one [tutor
 
 See one of my ultimate goals is to build a [SimTower](http://en.wikipedia.org/wiki/SimTower) type game.  A game I _really_ enjoyed in the past, which doesn't work on most new hardware (though I do still run it in an XP VM on my Win8.1 box!).  Can I improve on the game?  I have no idea, but I am going to build my version and see how it goes.  I don't plan to get caught up in cloning the old game, I just want to take it a step (feature) at a time and see where it goes.  I think it will be a lot of really-frustrating fun to build.  The whole reason I build things in the first place.  What fun would it be if it was simple?  It would be boring and be lame.
 
-![Octocat](http://brettski111.files.wordpress.com/2014/02/octocat.jpg?w=150)
+<a href="/images/blog/octocat.jpg"><img alt="Octocat" width="150" src="/images/blog/octocat.jpg"></a>
 
 I'll update progress as I continue tutorials and build new stuff.  I plan to keep all of it available in [GitHub](https://github.com/brettski) so others may use it for examples or whatever.

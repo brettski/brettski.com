@@ -28,6 +28,7 @@ It turns out this isn't required in VS2012 as I found [here](http://stackoverflo
 
 > Starting with MVC 3 Tools Update we are now using Nuget package references, which means that your project is automatically bin-deployable. Since the tooling gesture is no longer necessary it was removed from VS 11.
 
-[![](http://brettski111.files.wordpress.com/2012/11/2012-11-19_22h56_05.png?w=247 '2012-11-19_22h56_05')](http://brettski111.files.wordpress.com/2012/11/2012-11-19_22h56_05.png)The fix here is really simple.  Remove the files and \_bin_deployableAssemblies folder from your project.  Everything should compile just fine.
+<a href="/images/blog/2012-11-19_22h56_05.png"><img alt="solution explorer showing bin deployables" width="247" src="/images/blog/2012-11-19_22h56_05.png"></a>
+The fix here is really simple.  Remove the files and \_bin_deployableAssemblies folder from your project.  Everything should compile just fine.
 
 Now the one part I have not figured out is where or how we get the files that used to be in \_bin_deployableAssemblies.  I don't see them in the bin folder as I assumed they would be.  I will need to do some test deployments at my host, [Arvixe](http://www.arvixe.com) (I think they didn't have MVC 3 loaded).  Add a comment below if you h ave some knowledge around this.

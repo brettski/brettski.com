@@ -8,7 +8,8 @@ slug: 'specifying-a-different-port-number-in-sql-management-studio'
 
 I couldn't believe the hassle it was trying to find how to specify a different port number when using SQL Server Management Studio. And of course it's pretty easy too.
 
-Below we have a typical connection dialog for Management Studio: ![SQL Management Studio Login](images/mssqlmanagmentpic.jpg)
+Below we have a typical connection dialog for Management Studio:
+<a href="/images/blog/mssqlmanagmentpic.jpg"><img alt="SQL Management Studio Login" width="200" src="/images/blog/mssqlmanagmentpic.jpg"></a>
 
 The Server name text box is where the server address (instance) goes. In this example I am using the IP address 192.168.38.1
 

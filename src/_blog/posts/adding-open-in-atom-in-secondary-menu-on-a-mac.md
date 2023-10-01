@@ -13,7 +13,10 @@ So recently I purchased my first Mac. After 30+ years of using Microsoft OS's fo
 
 One feature I use constantly on my Windows machines which is missing on the MacBook is to right click on a file and choose Notepad++ (or Atom, etc.) to open that file.  This is regardless of the file type, I am not referring to file associations to applications here.
 
-[![PC right-click](https://brettski111.files.wordpress.com/2015/07/pc-right-click1.png?w=150)](https://brettski111.files.wordpress.com/2015/07/pc-right-click1.png)
+<a href="/images/blog/pc-right-click1.png"><img alt="menu right click" width="200" src="/images/blog/pc-right-click1.png"></a>
+<!--
+<a href="/images/blog/"><img alt="" width="200" src="/images/blog/"></a>
+-->
 
 Not having this functionality while working on my Mac really slows me down at times.  I needed a solution and found one, and would like to share it with you now.
 
@@ -35,18 +38,8 @@ The solution uses an application called Automator.  Automator was already insta
 
 That is all there is to it. If you open Finder and right-click on a file or folder you will see the option Open with Atom (or whatever you decide to call it).
 
-[![Mac - Open in Atom](https://brettski111.files.wordpress.com/2015/07/finder-openinatom.png?w=150)](https://brettski111.files.wordpress.com/2015/07/finder-openinatom.png)
-
-
-
-
-
-
-
-
-
-
+<a href="/images/blog/finder-openinatom.png"><img alt="Mac - Open in Atom"  width="300" src="/images/blog/finder-openinatom.png"></a>
 
 Setup in Automator:
 
-[![automator-setup](https://brettski111.files.wordpress.com/2015/07/automator-setup.png?w=300)](https://brettski111.files.wordpress.com/2015/07/automator-setup.png)
+<a href="/images/blog/automator-setup.png"><img alt="automator-setup" width="300" src="/images/blog/automator-setup.png"></a>

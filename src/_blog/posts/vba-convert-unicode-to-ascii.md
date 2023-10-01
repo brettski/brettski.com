@@ -13,7 +13,7 @@ I hacking together a report today and discovered the Unicode text I received was
 
 Basically I have this:   こんにちは
 
-And I want this:   [![](images/unicodestring.png 'Unicode String as Text')](http://brettski111.files.wordpress.com/2009/12/unicodestring.png)
+<a href="/images/blog/unicodestring.png"><img title="Unicode String as Text" alt="Unicode as text" src="/images/blog/unicodestring.png"></a>
 
 By using AscW(Char) you can convert a Unicode character into an integer value.  Add some delimiters to encode the string and you have a [Unicode HTML Entity Reference](http://en.wikipedia.org/wiki/Unicode_and_HTML).  It isn't perfect, as AscW(Char) sometimes returns a negative number, which isn't allowed, though this is an easy work around explained [here](http://support.microsoft.com/kb/272138).  It is used below.
 
@@ -27,7 +27,7 @@ sAscii = "" For x = 1 To Len(sText) ascval = AscW(Mid(sText, x, 1)) If (ascval <
 
 ## Now lets go the other way: ASCII string to Unicode
 
-Now I have this:  [![](images/unicodestring.png 'UnicodeString')](http://brettski111.files.wordpress.com/2009/12/unicodestring.png)
+<a href="/images/blog/unicodestring.png"><img title="Unicode String as Text" alt="Unicode as text" src="/images/blog/unicodestring.png"></a>
 
 And I want this:   こんにちは
 

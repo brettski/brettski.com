@@ -6,6 +6,6 @@ categories:
 slug: 'new-google-favicon-looks-good'
 ---
 
-![new_google_favicon](images/new_google_favicon.jpg 'new_google_favicon')
+<a href="/images/blog/new_google_favicon.jpg"><img alt="google favicon" src="/images/blog/new_google_favicon.jpg"></a>
 
 Google has put up a new favicon, looks good.  Ah the little things...

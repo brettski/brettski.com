@@ -10,7 +10,9 @@ tags:
 slug: 'idps'
 ---
 
-2013 is the first year ever that I setup an IDP (Individual Development Plan) for my employees. ![small_336716715](images/small_336716715.jpg) That is any employees I have ever managed throughout my career.  I have to say when presented with the notion of having to do this, I questioned my ability to do it and its true worth.  Now into our first few months of the IDP, I have to say they are a good tool for learning more about your employees and helping them succeed in a direction they want to go.
+2013 is the first year ever that I setup an IDP (Individual Development Plan) for my employees.
+<a href="/images/blog/small_336716715.jpg"><img alt="Ships wheel" src="/images/blog/small_336716715.jpg"></a>
+That is any employees I have ever managed throughout my career.  I have to say when presented with the notion of having to do this, I questioned my ability to do it and its true worth.  Now into our first few months of the IDP, I have to say they are a good tool for learning more about your employees and helping them succeed in a direction they want to go.
 
 As a manager the concept sounded like a good one to me.  I approached it as how I would like to construct an IDP with my manager.  The most important part to setting up an IDP is to take the first step to do it.  Yes, it is that simple, take the first step toward implementing them with your employees.
 
@@ -26,7 +28,7 @@ Recall I said *most* employees went back to their desks to put some thought beh
 
 After the initial meeting I called meetings with each employee.  The meetings where set for an hour, but I left a half hour of slack afterwards, just in case.  Since I was learning here as well, I wanted to ensure there was enough time to formulate a plan, or at least have a good start of one.  I didn't fully know what to expect.  The order I set the meetings was not random.  During the initial meeting and a short time after I paid attention to employees reaction to the IDP.  Since this is my first time doing this, I wanted to make sure that I had more willing participants in the beginning--their plans will be easier to put together and this will be a way to get a few under my belt before tackling the more difficult cases.
 
-![boat_bows_320](images/boat_bows_320.jpg)
+<a href="/images/blog/boat_bows_320.jpg"><img alt="" width="200" src="/images/blog/boat_bows_320.jpg"></a>
 
 What happened during the first month was absolutely amazing to me; my employees were generally excited about their plan and what I was trying to do for them.  It made me excited.  I look forward to our next meetings to find out what they have learned and the progress made on their goals.
 
@@ -36,7 +38,8 @@ During creation the employee considers their strengths, development areas and sh
 
 The capture step is where the plan is finalized.  This is where I had very important conversations with employees about their future development and goals.  Some employees had a solid idea of where they wanted to go others had never given it a lot of thought.  For employees with solid ideas we set up goals for to move in this direction.  Where possible these goals were aligned with projects which could assist the company or our department.  In some cases we made up projects which would ultimately assist in some way, but most importantly provide all important focus to complete the tasks.  This is not always possible, and I feel this is okay too.  The goal is their development and if there are no correlating work withing the company I'm okay with that.
 
-Execution is obvious, it is the work performed by the employee outlined in the IDP.  During this ![sail_underway_400](images/sail_underway_400.jpg)time we try to meet every-other-week to discuss progress, ask questions, and show off what progress has been done.  Much of this is one-on-one is the reflection step.  This is the step I am in with my employees currently.  I am finding to help keep some focused regular meetings are benefitial.  These aren't long meetings, I am not a meeting zealot.  We set aside thirty minutes every-other-week.  Sometimes we've used the time, other times it lasted ten minutes.
+<a href="/images/blog/sail_underway_400.jpg"><img alt="" width="200" src="/images/blog/sail_underway_400.jpg"></a>
+Execution is obvious, it is the work performed by the employee outlined in the IDP.  During this time we try to meet every-other-week to discuss progress, ask questions, and show off what progress has been done.  Much of this is one-on-one is the reflection step.  This is the step I am in with my employees currently.  I am finding to help keep some focused regular meetings are beneficial.  These aren't long meetings, I am not a meeting zealot.  We set aside thirty minutes every-other-week.  Sometimes we've used the time, other times it lasted ten minutes.
 
 Reflection is the final step where the employee and manager use the IDP as a tool to discuss skill development on a regular basis.  Still being new to this process there hasn't been a lot of time spent on reflection yet.  There will be during the first quarter this year and I plan to fill in more details.  Some good questions for an employee to ask during this step are:
 

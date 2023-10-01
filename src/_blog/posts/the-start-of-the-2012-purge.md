@@ -22,7 +22,7 @@ Bag four! Progress has been made, two hours have gone by and I am wearing down. 
 
 You may have no idea how nice it feels to reduce and purge the crap out of your life, until you just dig in and toss out.  The stuff is just not needed, stop hording.
 
-By Getting a solid start in March, this will be a great Purging Year, just like some of [my](http://blog.brettski.com/2008/01/07/2008-the-great-purge/ '2008 The Great Purge') [previous](http://blog.brettski.com/2008/01/21/purge-purge-purge/ 'Purge, Purge, Purge') [ones](http://blog.brettski.com/2010/04/12/purge-2010/ 'Purge 2010').  My reward the return of a garage I can work in, and organize (Need to find a refrigerator though).  I have owned a vice for 6 years and haven't mounted on the work bench.  Instead I use make-shift clamps, stupid.
+By Getting a solid start in March, this will be a great Purging Year, just like some of [my](http://brettski111.wordpress.com/2008/01/07/2008-the-great-purge/ '2008 The Great Purge') [previous](http://brettski111.wordpress.com/2008/01/21/purge-purge-purge/ 'Purge, Purge, Purge') [ones](http://brettski111.wordpress.com/2010/04/12/purge-2010/ 'Purge 2010').  My reward the return of a garage I can work in, and organize (Need to find a refrigerator though).  I have owned a vice for 6 years and haven't mounted on the work bench.  Instead I use make-shift clamps, stupid.
 
 By the way, I have an old 1U and 2U server going to the recycler, I you need them let me know before they are gone.
 

@@ -13,11 +13,11 @@ slug: 'mercurial-on-iis-a-morning-of-pain'
 
 On and off for the last couple of months I have been learning Erlang.  My primary source for this is a decent booked named, "Learn You Some Erlang for Great Good!" (Fred Hebért, (c)2013 no starch press). What a great name, no starch press (:  I first found this tutorial online at [http://learnyousomeerlang.com/](http://learnyousomeerlang.com/).  The entire book is there, believe it or not.  I worked through the first few chapters and was hooked.  I decided to purchase the book to help pay for the work and for it to be more convenient to read.  But I digress, back to IIS & Mercurial.
 
-[![Mercurial Logo](images/hglogo-droplets-200.png)](http://mercurial.selenic.com/)
+<a href="http://mercurial.selenic.com/"><img alt="Mercurial logo" width="200" src="/images/blog/hglogo-droplets-200.png"></a>
 
 The whole reason for the Erlang digression is that I was going through examples in the book on different computers.  After I was done with the session I would have copy my practice files back to my home server, which was a pain on a disconnected Linux box.  To solve this, I figured, why not setup a repo at home.  I have been wanting to do this for a while anyhow.  Now I could setup an SVN repo in a few minutes, but I don't really use SVN anymore ("It's so 1990's (:  ).  Mercurial is my DSCM of choice.  I have nothing against GIT, and do use it, I just regularly use Mercurial.
 
-![IIS7 logo](http://brettski111.files.wordpress.com/2013/11/iis7.jpg?w=300)
+<a href="/images/blog/iis7.jpg"><img alt="IIS Logo" width="300" src="/images/blog/iis7.jpg"></a>
 
 My home server is Microsoft Windows Home Server 2011.  Basically Windows 2008 R2 (IIS 7.5) with some other "stuff" thrown in.  Finding installations for a Mercurial server under Windows is not a simple task.  There are articles out there, most of them are old or incomplete.
 
@@ -34,7 +34,7 @@ My suggestion after going though this, this morning is to use both articles.  R
 - "Configuring HgWeb in IIS on Windows"
   - [http://mercurial.selenic.com/wiki/HgWebInIisOnWindows](http://mercurial.selenic.com/wiki/HgWebInIisOnWindows)
 
-[![New hg site](http://brettski111.files.wordpress.com/2013/11/newhgsite1.png?w=300 'Gold star if you can guess why I used the port number 6867')](http://brettski111.files.wordpress.com/2013/11/newhgsite1.png)
+<a href="/images/blog/newhgsite1.png"><img alt="Mercurial" title="'Gold star if you can guess why I used the port number 6867" width="300" src="/images/blog/newhgsite1.png"></a>
 
 A few things I learned from this morning's adventures
 

@@ -23,8 +23,11 @@ I say Windows 10, but this is useful for other Windows versions.
 
 The firsts steps are the same as any other Bootcamp build to setup Windows on a Mac.  Though when you are done there will only be the OSX partition on your Mac drive proving all space to OSX.  Have your external drive connected to the machine.
 
-1. Open Bootcamp and start the process.  When you are asked to partition your drive, just select the minimum size. [![Boot_Camp_Assistant_blog1](https://brettski111.files.wordpress.com/2015/11/boot_camp_assistant_blog1.png?w=300)](https://brettski111.files.wordpress.com/2015/11/boot_camp_assistant_blog1.png)
-2. Select install and the files will be copied and configured on the partition just created.  This will take a little bit of time. [![Copying files](https://brettski111.files.wordpress.com/2015/11/copying-files_blog21.png?w=300)](https://brettski111.files.wordpress.com/2015/11/copying-files_blog21.png)
+1. Open Bootcamp and start the process.  When you are asked to partition your drive, just select the minimum size.
+<a href="/images/blog/boot_camp_assistant_blog1.png"><img alt="Apple bootcamp assistant" width="300" src="/images/blog/boot_camp_assistant_blog1.png"></a>
+
+2. Select install and the files will be copied and configured on the partition just created.  This will take a little bit of time.
+<a href="/images/blog/copying-files_blog21.png"><img alt="bootcamp copying files" width="300" src="/images/blog/copying-files_blog21.png"></a>
 3. Once complete the machine will restart and boot into the windows OS installer.
 4. Make sure you choose custom installation.
 5. I recommend you delete all partitions from your external drive and select the unpartitioned space to be installed into. Obviously be careful not to delete OSX partitions!
@@ -36,7 +39,8 @@ This is the point I wasted most of my time trying to get the drive to boot.  Th
 
 ## The Fix
 
-Ultimately I found a tool (yes this is a hack, but heck, it worked), [WinToUSB](http://www.easyuefi.com/wintousb) by EasyUEFI.  This tool quickly repaired the partition of the drive and made it bootable again.  No fuss, it just worked. Plus, you only need the free version to complete this as well.[![WinToUSB by easyuefi.com logo](images/easyuefi-logo.png)](https://brettski111.files.wordpress.com/2015/11/easyuefi-logo.png)
+Ultimately I found a tool (yes this is a hack, but heck, it worked), [WinToUSB](http://www.easyuefi.com/wintousb) by EasyUEFI.  This tool quickly repaired the partition of the drive and made it bootable again.  No fuss, it just worked. Plus, you only need the free version to complete this as well.
+<a href="/images/blog/easyuefi-logo.png"><img alt="WinToUSB by easyuefi.com logo" width="200" src="/images/blog/easyuefi-logo.png"></a>
 
 The instructions for this is on their site which you can find here: [http://www.easyuefi.com/wintousb/faq/en_US/How-to-convert-Local-Disk-To-Windows-To-Go.html](http://www.easyuefi.com/wintousb/faq/en_US/How-to-convert-Local-Disk-To-Windows-To-Go.html)
 

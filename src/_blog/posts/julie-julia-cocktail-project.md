@@ -12,6 +12,6 @@ After the movie, we stopped of at a book store to look around do some browsing w
 
 While looking through the cook books I found something interesting, "501 Must-drink Cocktails."
 
-[![501Must-DrinkCocktails](images/501must-drinkcocktails.jpg '501 Must-Drink Cocktails')](http://www.amazon.com/gp/product/0753715325?ie=UTF8&tag=bretcook-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0753715325)
+<a href="http://www.amazon.com/gp/product/0753715325?ie=UTF8&tag=bretcook-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0753715325"><img title="501 Must-Drink Cocktails" alt="501 Must-Drink Cocktails" width="200" src="/images/blog/501must-drinkcocktails.jpg"></a>
 
 So I have this intersting idea, to have 501 different cocktails in 365 days, and blog about my experience making and consuming the drinks.  My inebriated state could only help my writing I am sure.   What a perfect farce off of the movie.  It would sure make for an interesting time, nonetheless.
