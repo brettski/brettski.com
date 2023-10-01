@@ -19,6 +19,14 @@
 		{
 			name: 'Node.js®',
 			url: 'https://nodejs.org'
+		},
+		{
+			name: 'ESLint',
+			url: 'https://eslint.org/'
+		},
+		{
+			name: 'Prettier',
+			url: 'https://prettier.io/'
 		}
 	];
 </script>
