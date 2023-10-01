@@ -9,7 +9,7 @@ slug: '12-factor-app-its-that-important'
 
 The 12 factor app, guidelines to build applications which are scalable, flexible and simply great.
 
-https://12factor.net/
+[https://12factor.net/](https://12factor.net/)
 
 ## [I. Codebase](https://12factor.net/codebase)
 
