@@ -8,7 +8,7 @@ slug: '2015-in-review'
 
 The WordPress.com stats helper monkeys prepared a 2015 annual report for this blog.
 
-[![](images/2014-emailteaser.png)](http://brettski111.wordpress.com/2015/annual-report/)
+[![annual report](images/2014-emailteaser.png)](http://brettski111.wordpress.com/2015/annual-report/)
 
 Here's an excerpt:
 
