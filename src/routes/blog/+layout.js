@@ -9,7 +9,7 @@ export async function load() {
 		console.log('layout post count', posts?.length);
 	} catch (err) {
 		console.error(`error retrieving posts`, err);
-		throw error(404, 'no posts');
+		error(404, 'no posts');
 	}
 	const filterYear = new Set();
 	const filterCategory = new Set();

@@ -11,6 +11,6 @@ export async function load({ parent, params }) {
 		};
 	else {
 		console.error(`post '${params.slug}' not found`);
-		throw error(404, `post not found`);
+		error(404, `post not found`);
 	}
 }

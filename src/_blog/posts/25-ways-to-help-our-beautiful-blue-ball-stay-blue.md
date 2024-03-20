@@ -8,7 +8,7 @@ tags:
   - 'life'
 slug: '25-ways-to-help-our-beautiful-blue-ball-stay-blue'
 ---
-<!-- markdownlint-disable MD033 -->
+
 It's Earth Day which has grown into Earth Week.  Hopefully by the time my kids are my age it will be Earth Month or even Earth Year! I mean it needs to be part of our everyday lives.
 <a href="/images/blog/globe_west_2048.jpg"><img width="200" alt="Earth from space" src="/images/blog/globe_west_2048.jpg"></a>
 
