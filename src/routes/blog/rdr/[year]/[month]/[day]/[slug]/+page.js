@@ -7,8 +7,8 @@ export async function load({ params, parent }) {
 	const post = posts.find((p) => p.slug === slug);
 
 	if (post) {
-		throw redirect(308, `/blog/${post.slug}`);
+		redirect(308, `/blog/${post.slug}`);
 	} else {
-		throw error(404, `post not found`);
+		error(404, `post not found`);
 	}
 }
