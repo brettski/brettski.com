@@ -1,0 +1,62 @@
+---
+import { getPosts } from '../lib/content';
+import { buildArchive } from '../lib/archive';
+import { countTags } from '../lib/tags';
+import { monthUrl, tagUrl, yearUrl } from '../lib/urls';
+
+const posts = await getPosts();
+const archive = buildArchive(posts);
+const tags = countTags(posts);
+const monthName = (m: number) =>
+  new Date(Date.UTC(2000, m - 1, 1)).toLocaleString('en-US', {
+    month: 'long',
+    timeZone: 'UTC',
+  });
+---
+
+<aside class="space-y-8 text-sm">
+  <section aria-labelledby="archive-h">
+    <h2 id="archive-h" class="mb-2 font-semibold uppercase tracking-wide">
+      Archive
+    </h2>
+    <ul class="space-y-1">
+      {archive.map((y) => (
+        <li>
+          <details>
+            <summary class="cursor-pointer">
+              <a href={yearUrl(y.year)} class="hover:underline">
+                {y.year}
+              </a>{' '}
+              ({y.count})
+            </summary>
+            <ul class="ml-4 mt-1 space-y-1">
+              {y.months.map((m) => (
+                <li>
+                  <a href={monthUrl(y.year, m.month)} class="hover:underline">
+                    {monthName(m.month)}
+                  </a>{' '}
+                  ({m.count})
+                </li>
+              ))}
+            </ul>
+          </details>
+        </li>
+      ))}
+    </ul>
+  </section>
+  <section aria-labelledby="tags-h">
+    <h2 id="tags-h" class="mb-2 font-semibold uppercase tracking-wide">
+      Tags
+    </h2>
+    <ul class="flex flex-wrap gap-x-3 gap-y-1">
+      {tags.map((t) => (
+        <li>
+          <a href={tagUrl(t.tag)} class="hover:underline">
+            {t.tag}
+          </a>{' '}
+          <span class="text-slate-500">({t.count})</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+</aside>

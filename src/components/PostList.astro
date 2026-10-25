@@ -1,0 +1,36 @@
+---
+import type { Post } from '../lib/content';
+import { formatDate } from '../lib/posts';
+import { postUrl } from '../lib/urls';
+import TagList from './TagList.astro';
+
+interface Props {
+  posts: Post[];
+}
+const { posts } = Astro.props;
+---
+
+{posts.length === 0 ? (
+  <p>No posts.</p>
+) : (
+  <ul class="space-y-6">
+    {posts.map((p) => (
+      <li>
+        <h2 class="text-xl font-semibold">
+          <a href={postUrl(p.slug)} class="hover:underline">
+            {p.title}
+          </a>
+        </h2>
+        <time
+          datetime={p.date.toISOString()}
+          class="text-sm text-slate-600 dark:text-slate-400"
+        >
+          {formatDate(p.date)}
+        </time>
+        <div class="mt-1">
+          <TagList tags={p.tags} />
+        </div>
+      </li>
+    ))}
+  </ul>
+)}

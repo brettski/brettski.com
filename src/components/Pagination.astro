@@ -1,0 +1,31 @@
+---
+import { pageUrl } from '../lib/urls';
+
+interface Props {
+  page: number;
+  totalPages: number;
+}
+const { page, totalPages } = Astro.props;
+---
+
+{totalPages > 1 && (
+  <nav class="mt-8 flex items-center justify-between" aria-label="Pagination">
+    {page > 1 ? (
+      <a href={pageUrl(page - 1)} rel="prev" class="hover:underline">
+        ← Newer
+      </a>
+    ) : (
+      <span />
+    )}
+    <span class="text-sm">
+      Page {page} of {totalPages}
+    </span>
+    {page < totalPages ? (
+      <a href={pageUrl(page + 1)} rel="next" class="hover:underline">
+        Older →
+      </a>
+    ) : (
+      <span />
+    )}
+  </nav>
+)}

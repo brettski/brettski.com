@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostList from '../components/PostList.astro';
+import { getPosts } from '../lib/content';
+
+const recent = (await getPosts()).slice(0, 5);
+---
+
+<BaseLayout title="brettski.com">
+  <section class="mb-10">
+    <h1 class="text-3xl font-bold">Brett Slaski</h1>
+    <p class="mt-2 max-w-prose text-lg">
+      Backend developer. Writing about code, computers and life since 2007.
+    </p>
+  </section>
+  <h2 class="mb-4 text-2xl font-semibold">Recent posts</h2>
+  <PostList posts={recent} />
+  <p class="mt-6">
+    <a href="/blog/" class="font-semibold hover:underline">
+      All posts →
+    </a>
+  </p>
+</BaseLayout>

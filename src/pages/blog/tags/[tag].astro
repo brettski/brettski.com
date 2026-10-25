@@ -1,0 +1,21 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BlogLayout from '../../../layouts/BlogLayout.astro';
+import PostList from '../../../components/PostList.astro';
+import { getPosts } from '../../../lib/content';
+import { countTags, withTag } from '../../../lib/tags';
+
+export const getStaticPaths = (async () => {
+  const posts = await getPosts();
+  return countTags(posts).map(({ tag }) => ({
+    params: { tag },
+    props: { posts: withTag(posts, tag) },
+  }));
+}) satisfies GetStaticPaths;
+
+const { posts } = Astro.props;
+---
+
+<BlogLayout title={`Tagged “${Astro.params.tag}”`}>
+  <PostList posts={posts} />
+</BlogLayout>

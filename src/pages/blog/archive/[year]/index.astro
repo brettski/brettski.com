@@ -1,0 +1,21 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BlogLayout from '../../../../layouts/BlogLayout.astro';
+import PostList from '../../../../components/PostList.astro';
+import { getPosts } from '../../../../lib/content';
+import { buildArchive, inYear } from '../../../../lib/archive';
+
+export const getStaticPaths = (async () => {
+  const posts = await getPosts();
+  return buildArchive(posts).map(({ year }) => ({
+    params: { year: String(year) },
+    props: { posts: inYear(posts, year) },
+  }));
+}) satisfies GetStaticPaths;
+
+const { posts } = Astro.props;
+---
+
+<BlogLayout title={`Posts from ${Astro.params.year}`}>
+  <PostList posts={posts} />
+</BlogLayout>

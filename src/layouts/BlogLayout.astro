@@ -1,0 +1,20 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Sidebar from '../components/Sidebar.astro';
+
+interface Props {
+  title: string;
+  heading?: string;
+}
+const { title, heading = title } = Astro.props;
+---
+
+<BaseLayout title={title}>
+  <div class="grid gap-10 md:grid-cols-[1fr_16rem]">
+    <div>
+      <h1 class="mb-6 text-3xl font-bold">{heading}</h1>
+      <slot />
+    </div>
+    <Sidebar />
+  </div>
+</BaseLayout>

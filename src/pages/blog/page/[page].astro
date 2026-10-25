@@ -1,0 +1,31 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BlogLayout from '../../../layouts/BlogLayout.astro';
+import PostList from '../../../components/PostList.astro';
+import Pagination from '../../../components/Pagination.astro';
+import { getPosts } from '../../../lib/content';
+import { paginate } from '../../../lib/paginate';
+import { PAGE_SIZE } from '../../../lib/config';
+
+export const getStaticPaths = (async () => {
+  const posts = await getPosts();
+  const { totalPages } = paginate(posts, 1, PAGE_SIZE);
+  // page 1 is /blog/
+  return Array.from({ length: totalPages - 1 }, (_, i) => ({
+    params: { page: String(i + 2) },
+    props: { posts },
+  }));
+}) satisfies GetStaticPaths;
+
+const { posts } = Astro.props;
+const { items, page, totalPages } = paginate(
+  posts,
+  Number(Astro.params.page),
+  PAGE_SIZE,
+);
+---
+
+<BlogLayout title={`Blog, page ${page}`} heading="Blog">
+  <PostList posts={items} />
+  <Pagination page={page} totalPages={totalPages} />
+</BlogLayout>

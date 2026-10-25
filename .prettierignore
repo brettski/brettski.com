@@ -1,0 +1,5 @@
+dist
+.astro
+/blog
+src/content
+package-lock.json

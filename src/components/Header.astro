@@ -1,0 +1,32 @@
+---
+const links = [
+  { href: '/blog/', label: 'Blog' },
+  { href: '/about/', label: 'About' },
+  { href: '/search/', label: 'Search' },
+];
+const path = Astro.url.pathname;
+---
+
+<header class="border-b border-slate-200 dark:border-slate-800">
+  <nav
+    class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-2 px-4 py-4"
+    aria-label="Main"
+  >
+    <a href="/" class="text-xl font-bold">
+      brettski.com
+    </a>
+    <ul class="flex gap-4">
+      {links.map((l) => (
+        <li>
+          <a
+            href={l.href}
+            aria-current={path.startsWith(l.href) ? 'page' : undefined}
+            class="hover:underline aria-[current=page]:font-semibold aria-[current=page]:underline"
+          >
+            {l.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+</header>

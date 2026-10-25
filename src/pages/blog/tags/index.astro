@@ -1,0 +1,21 @@
+---
+import BlogLayout from '../../../layouts/BlogLayout.astro';
+import { getPosts } from '../../../lib/content';
+import { countTags } from '../../../lib/tags';
+import { tagUrl } from '../../../lib/urls';
+
+const tags = countTags(await getPosts());
+---
+
+<BlogLayout title="Tags">
+  <ul class="columns-2 gap-8 md:columns-3">
+    {tags.map((t) => (
+      <li>
+        <a href={tagUrl(t.tag)} class="hover:underline">
+          {t.tag}
+        </a>{' '}
+        ({t.count})
+      </li>
+    ))}
+  </ul>
+</BlogLayout>

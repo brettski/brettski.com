@@ -1,0 +1,15 @@
+---
+import BlogLayout from '../../layouts/BlogLayout.astro';
+import PostList from '../../components/PostList.astro';
+import Pagination from '../../components/Pagination.astro';
+import { getPosts } from '../../lib/content';
+import { paginate } from '../../lib/paginate';
+import { PAGE_SIZE } from '../../lib/config';
+
+const { items, page, totalPages } = paginate(await getPosts(), 1, PAGE_SIZE);
+---
+
+<BlogLayout title="Blog">
+  <PostList posts={items} />
+  <Pagination page={page} totalPages={totalPages} />
+</BlogLayout>

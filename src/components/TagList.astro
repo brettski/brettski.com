@@ -1,0 +1,23 @@
+---
+import { tagUrl } from '../lib/urls';
+
+interface Props {
+  tags: string[];
+}
+const { tags } = Astro.props;
+---
+
+{tags.length > 0 && (
+  <ul class="flex flex-wrap gap-2 text-sm">
+    {tags.map((t) => (
+      <li>
+        <a
+          href={tagUrl(t)}
+          class="rounded bg-slate-100 px-2 py-0.5 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700"
+        >
+          {t}
+        </a>
+      </li>
+    ))}
+  </ul>
+)}

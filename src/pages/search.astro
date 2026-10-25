@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Search">
+  <h1 class="mb-6 text-3xl font-bold">Search</h1>
+  <form role="search" class="mb-6" id="search-form">
+    <label for="q" class="sr-only">
+      Search posts
+    </label>
+    <input
+      id="q"
+      type="search"
+      autocomplete="off"
+      placeholder="Search titles and content…"
+      class="w-full rounded border border-slate-300 bg-white px-3 py-2 dark:border-slate-700 dark:bg-slate-900"
+    />
+  </form>
+  <p
+    id="status"
+    class="mb-4 text-sm text-slate-600 dark:text-slate-400"
+    aria-live="polite"
+  ></p>
+  <ul id="results" class="space-y-6"></ul>
+</BaseLayout>
+
+<script>
+  interface PagefindResult {
+    data(): Promise<{ url: string; excerpt: string; meta: { title?: string } }>;
+  }
+  interface Pagefind {
+    search(q: string): Promise<{ results: PagefindResult[] }>;
+  }
+
+  const input = document.querySelector<HTMLInputElement>('#q')!;
+  const status = document.querySelector<HTMLElement>('#status')!;
+  const list = document.querySelector<HTMLUListElement>('#results')!;
+  const MAX_RESULTS = 20;
+
+  let pagefind: Promise<Pagefind> | undefined;
+  // The index is generated after `astro build`, so it can't be resolved by the bundler.
+  const PAGEFIND_URL = '/pagefind/pagefind.js';
+  const load = () =>
+    (pagefind ??= import(/* @vite-ignore */ PAGEFIND_URL) as Promise<Pagefind>);
+
+  // Pagefind excerpts contain only <mark> tags around matches; everything else is escaped.
+  // Build DOM nodes rather than assigning HTML from the index.
+  function appendExcerpt(el: HTMLElement, excerpt: string) {
+    const doc = new DOMParser().parseFromString(excerpt, 'text/html');
+    for (const node of doc.body.childNodes) {
+      if (node.nodeName === 'MARK') {
+        const mark = document.createElement('mark');
+        mark.textContent = node.textContent;
+        el.append(mark);
+      } else {
+        el.append(document.createTextNode(node.textContent ?? ''));
+      }
+    }
+  }
+
+  let current = 0;
+  async function run(query: string) {
+    const id = ++current;
+    list.replaceChildren();
+    if (query.trim().length < 2) {
+      status.textContent = '';
+      return;
+    }
+    status.textContent = 'Searching…';
+    try {
+      const { results } = await (await load()).search(query);
+      const shown = await Promise.all(
+        results.slice(0, MAX_RESULTS).map((r) => r.data()),
+      );
+      if (id !== current) return;
+      status.textContent = `${results.length} result${results.length === 1 ? '' : 's'}`;
+      for (const d of shown) {
+        const li = document.createElement('li');
+        const h = document.createElement('h2');
+        h.className = 'text-xl font-semibold';
+        const a = document.createElement('a');
+        a.href = new URL(d.url, location.origin).pathname;
+        a.className = 'hover:underline';
+        a.textContent = d.meta.title ?? d.url;
+        h.append(a);
+        const p = document.createElement('p');
+        p.className = 'mt-1 text-sm';
+        appendExcerpt(p, d.excerpt);
+        li.append(h, p);
+        list.append(li);
+      }
+    } catch {
+      if (id === current) status.textContent = 'Search is unavailable.';
+    }
+  }
+
+  let timer: number | undefined;
+  input.addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = window.setTimeout(() => run(input.value), 150);
+  });
+  document.querySelector('#search-form')!.addEventListener('submit', (e) => {
+    e.preventDefault();
+    run(input.value);
+  });
+
+  const initial = new URLSearchParams(location.search).get('q');
+  if (initial) {
+    input.value = initial;
+    run(initial);
+  }
+</script>

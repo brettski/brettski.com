@@ -1,0 +1,31 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BlogLayout from '../../../../layouts/BlogLayout.astro';
+import PostList from '../../../../components/PostList.astro';
+import { getPosts } from '../../../../lib/content';
+import { buildArchive, inMonth } from '../../../../lib/archive';
+
+export const getStaticPaths = (async () => {
+  const posts = await getPosts();
+  return buildArchive(posts).flatMap(({ year, months }) =>
+    months.map(({ month }) => ({
+      params: { year: String(year), month: String(month).padStart(2, '0') },
+      props: { posts: inMonth(posts, year, month) },
+    })),
+  );
+}) satisfies GetStaticPaths;
+
+const { year, month } = Astro.params;
+const { posts } = Astro.props;
+const label = new Date(
+  Date.UTC(Number(year), Number(month) - 1, 1),
+).toLocaleDateString('en-US', {
+  month: 'long',
+  year: 'numeric',
+  timeZone: 'UTC',
+});
+---
+
+<BlogLayout title={`Posts from ${label}`}>
+  <PostList posts={posts} />
+</BlogLayout>
