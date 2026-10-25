@@ -26,3 +26,6 @@ pnpm-debug.log*
 # wrangler
 .wrangler/
 .dev.vars
+
+# dev search index
+.dev-index/

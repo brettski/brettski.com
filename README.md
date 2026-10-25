@@ -4,15 +4,15 @@ Personal site and blog. Astro (static output), Tailwind CSS v4, Pagefind search,
 
 ## Commands
 
-| Command                            | Action                                                                          |
-| ---------------------------------- | ------------------------------------------------------------------------------- |
-| `npm run dev`                      | Dev server (drafts visible, search unavailable: the index is built after build) |
-| `npm run build`                    | `astro build`, write `dist/_redirects`, build the Pagefind index                |
-| `npm run preview`                  | Not used. Use `npx wrangler dev` to serve `dist/` with headers and redirects    |
-| `npm run lint`                     | ESLint and Prettier check                                                       |
-| `npm run check`                    | `astro check` (types)                                                           |
-| `npm test`                         | Vitest                                                                          |
-| `npx tsx scripts/migrate-posts.ts` | One-time WordPress import (kept for reference)                                  |
+| Command                            | Action                                                                                                      |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `npm run dev`                      | Builds a search index, then starts the dev server (drafts visible). Restart to re-index after editing posts |
+| `npm run build`                    | `astro build`, write `dist/_redirects`, build the Pagefind index                                            |
+| `npm run preview`                  | Not used. Use `npx wrangler dev` to serve `dist/` with headers and redirects                                |
+| `npm run lint`                     | ESLint and Prettier check                                                                                   |
+| `npm run check`                    | `astro check` (types)                                                                                       |
+| `npm test`                         | Vitest                                                                                                      |
+| `npx tsx scripts/migrate-posts.ts` | One-time WordPress import (kept for reference)                                                              |
 
 Node version is in `.nvmrc`.
 

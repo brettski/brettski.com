@@ -2,13 +2,14 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
+import devPagefind from './integrations/dev-pagefind.mjs';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://brettski.com',
   output: 'static',
   trailingSlash: 'always',
-  integrations: [sitemap()],
+  integrations: [sitemap(), devPagefind()],
   markdown: {
     // Class-based highlighting: Shiki emits inline style attributes, which the CSP forbids.
     syntaxHighlight: 'prism',

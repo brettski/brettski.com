@@ -3,3 +3,4 @@ dist
 /blog
 src/content
 package-lock.json
+.dev-index
