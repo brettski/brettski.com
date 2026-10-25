@@ -9,6 +9,10 @@ export default defineConfig({
   output: 'static',
   trailingSlash: 'always',
   integrations: [sitemap()],
+  markdown: {
+    // Class-based highlighting: Shiki emits inline style attributes, which the CSP forbids.
+    syntaxHighlight: 'prism',
+  },
   build: {
     // Never inline CSS/JS so the CSP can forbid inline code.
     inlineStylesheets: 'never',
