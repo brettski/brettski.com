@@ -2,19 +2,23 @@
 import BlogLayout from '../../../layouts/BlogLayout.astro';
 import { getPosts } from '../../../lib/content';
 import { countTags } from '../../../lib/tags';
+import { tagColor } from '../../../lib/tagColor';
 import { tagUrl } from '../../../lib/urls';
 
 const tags = countTags(await getPosts());
 ---
 
 <BlogLayout title="Tags">
-  <ul class="columns-2 gap-8 md:columns-3">
+  <ul class="flex flex-wrap gap-2">
     {tags.map((t) => (
       <li>
-        <a href={tagUrl(t.tag)} class="hover:underline">
+        <a
+          href={tagUrl(t.tag)}
+          class={`inline-block rounded-md px-2.5 py-1 text-sm font-medium transition-colors ${tagColor(t.tag)}`}
+        >
           {t.tag}
-        </a>{' '}
-        ({t.count})
+          <span class="ml-1 font-normal">{t.count}</span>
+        </a>
       </li>
     ))}
   </ul>

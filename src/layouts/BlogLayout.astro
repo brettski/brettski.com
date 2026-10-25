@@ -10,9 +10,10 @@ const { title, heading = title } = Astro.props;
 ---
 
 <BaseLayout title={title}>
-  <div class="grid gap-10 md:grid-cols-[1fr_16rem]">
-    <div>
-      <h1 class="mb-6 text-3xl font-bold">{heading}</h1>
+  <div class="grid gap-10 md:grid-cols-[minmax(0,1fr)_16rem]">
+    <div class="min-w-0">
+      <h1 class="text-3xl font-bold tracking-tight">{heading}</h1>
+      <div class="mt-2 mb-8 h-1 w-12 rounded bg-accent-500"></div>
       <slot />
     </div>
     <Sidebar />

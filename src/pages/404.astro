@@ -1,15 +1,17 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+const link = 'text-accent-700 underline dark:text-accent-400';
 ---
 
 <BaseLayout title="Not found">
-  <h1 class="text-3xl font-bold">Page not found</h1>
-  <p class="mt-4">
-    <a href="/blog/" class="underline">
+  <h1 class="text-3xl font-bold tracking-tight">Page not found</h1>
+  <div class="mt-2 mb-6 h-1 w-12 rounded bg-accent-500"></div>
+  <p>
+    <a href="/blog/" class={link}>
       Browse the blog
     </a>{' '}
-    or{' '}
-    <a href="/search/" class="underline">
+    or
+    <a href="/search/" class={link}>
       search
     </a>
     .

@@ -2,6 +2,7 @@
 import { getPosts } from '../lib/content';
 import { buildArchive } from '../lib/archive';
 import { countTags } from '../lib/tags';
+import { tagColor } from '../lib/tagColor';
 import { monthUrl, tagUrl, yearUrl } from '../lib/urls';
 
 const posts = await getPosts();
@@ -12,11 +13,18 @@ const monthName = (m: number) =>
     month: 'long',
     timeZone: 'UTC',
   });
+const heading =
+  'mb-3 text-xs font-semibold uppercase tracking-widest text-accent-800 dark:text-accent-300';
+const link =
+  'text-slate-800 hover:text-accent-700 hover:underline dark:text-slate-200 dark:hover:text-accent-400';
 ---
 
 <aside class="space-y-8 text-sm">
-  <section aria-labelledby="archive-h">
-    <h2 id="archive-h" class="mb-2 font-semibold uppercase tracking-wide">
+  <section
+    aria-labelledby="archive-h"
+    class="rounded-lg border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900"
+  >
+    <h2 id="archive-h" class={heading}>
       Archive
     </h2>
     <ul class="space-y-1">
@@ -24,18 +32,22 @@ const monthName = (m: number) =>
         <li>
           <details>
             <summary class="cursor-pointer">
-              <a href={yearUrl(y.year)} class="hover:underline">
+              <a href={yearUrl(y.year)} class={link}>
                 {y.year}
               </a>{' '}
-              ({y.count})
+              <span class="text-slate-600 dark:text-slate-400">
+                ({y.count})
+              </span>
             </summary>
-            <ul class="ml-4 mt-1 space-y-1">
+            <ul class="mt-1 ml-4 space-y-1">
               {y.months.map((m) => (
                 <li>
-                  <a href={monthUrl(y.year, m.month)} class="hover:underline">
+                  <a href={monthUrl(y.year, m.month)} class={link}>
                     {monthName(m.month)}
                   </a>{' '}
-                  ({m.count})
+                  <span class="text-slate-600 dark:text-slate-400">
+                    ({m.count})
+                  </span>
                 </li>
               ))}
             </ul>
@@ -44,17 +56,23 @@ const monthName = (m: number) =>
       ))}
     </ul>
   </section>
-  <section aria-labelledby="tags-h">
-    <h2 id="tags-h" class="mb-2 font-semibold uppercase tracking-wide">
+  <section
+    aria-labelledby="tags-h"
+    class="rounded-lg border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900"
+  >
+    <h2 id="tags-h" class={heading}>
       Tags
     </h2>
-    <ul class="flex flex-wrap gap-x-3 gap-y-1">
+    <ul class="flex flex-wrap gap-1.5">
       {tags.map((t) => (
         <li>
-          <a href={tagUrl(t.tag)} class="hover:underline">
+          <a
+            href={tagUrl(t.tag)}
+            class={`inline-block rounded-md px-1.5 py-0.5 text-xs font-medium transition-colors ${tagColor(t.tag)}`}
+          >
             {t.tag}
-          </a>{' '}
-          <span class="text-slate-500">({t.count})</span>
+            <span class="ml-1 font-normal">{t.count}</span>
+          </a>
         </li>
       ))}
     </ul>

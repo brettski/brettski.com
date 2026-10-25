@@ -6,22 +6,24 @@ interface Props {
   totalPages: number;
 }
 const { page, totalPages } = Astro.props;
+const link =
+  'rounded-md px-3 py-1.5 font-medium text-accent-700 hover:bg-accent-100 dark:text-accent-400 dark:hover:bg-accent-900';
 ---
 
 {totalPages > 1 && (
   <nav class="mt-8 flex items-center justify-between" aria-label="Pagination">
     {page > 1 ? (
-      <a href={pageUrl(page - 1)} rel="prev" class="hover:underline">
+      <a href={pageUrl(page - 1)} rel="prev" class={link}>
         ← Newer
       </a>
     ) : (
       <span />
     )}
-    <span class="text-sm">
+    <span class="text-sm text-slate-600 dark:text-slate-400">
       Page {page} of {totalPages}
     </span>
     {page < totalPages ? (
-      <a href={pageUrl(page + 1)} rel="next" class="hover:underline">
+      <a href={pageUrl(page + 1)} rel="next" class={link}>
         Older →
       </a>
     ) : (

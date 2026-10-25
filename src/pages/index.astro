@@ -4,19 +4,41 @@ import PostList from '../components/PostList.astro';
 import { getPosts } from '../lib/content';
 
 const recent = (await getPosts()).slice(0, 5);
+const button =
+  'inline-block rounded-md px-4 py-2 font-semibold transition-colors';
 ---
 
 <BaseLayout title="brettski.com">
-  <section class="mb-10">
-    <h1 class="text-3xl font-bold">Brett Slaski</h1>
-    <p class="mt-2 max-w-prose text-lg">
+  <section class="mb-10 rounded-xl border border-accent-200 bg-accent-50 p-6 sm:p-8 dark:border-accent-800 dark:bg-accent-950">
+    <h1 class="text-4xl font-bold tracking-tight text-accent-900 dark:text-accent-100">
+      Brett Slaski
+    </h1>
+    <p class="mt-3 max-w-prose text-lg text-slate-700 dark:text-slate-300">
       Backend developer. Writing about code, computers and life since 2007.
     </p>
+    <div class="mt-5 flex flex-wrap gap-3">
+      <a
+        href="/blog/"
+        class={`${button} bg-accent-700 text-white hover:bg-accent-800 dark:bg-accent-500 dark:text-slate-950 dark:hover:bg-accent-400`}
+      >
+        Read the blog
+      </a>
+      <a
+        href="/about/"
+        class={`${button} border border-accent-300 text-accent-800 hover:bg-accent-100 dark:border-accent-700 dark:text-accent-300 dark:hover:bg-accent-900`}
+      >
+        About
+      </a>
+    </div>
   </section>
-  <h2 class="mb-4 text-2xl font-semibold">Recent posts</h2>
+  <h2 class="text-2xl font-semibold tracking-tight">Recent posts</h2>
+  <div class="mt-2 mb-6 h-1 w-12 rounded bg-accent-500"></div>
   <PostList posts={recent} />
   <p class="mt-6">
-    <a href="/blog/" class="font-semibold hover:underline">
+    <a
+      href="/blog/"
+      class="font-semibold text-accent-700 hover:underline dark:text-accent-400"
+    >
       All posts →
     </a>
   </p>

@@ -1,4 +1,5 @@
 ---
+import { tagColor } from '../lib/tagColor';
 import { tagUrl } from '../lib/urls';
 
 interface Props {
@@ -13,7 +14,7 @@ const { tags } = Astro.props;
       <li>
         <a
           href={tagUrl(t)}
-          class="rounded bg-slate-100 px-2 py-0.5 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700"
+          class={`rounded-md px-2 py-0.5 font-medium transition-colors ${tagColor(t)}`}
         >
           {t}
         </a>
