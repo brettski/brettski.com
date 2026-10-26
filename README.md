@@ -4,15 +4,15 @@ Personal site and blog. Astro (static output), Tailwind CSS v4, Pagefind search,
 
 ## Commands
 
-| Command                            | Action                                                                                                      |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| `npm run dev`                      | Builds a search index, then starts the dev server (drafts visible). Restart to re-index after editing posts |
-| `npm run build`                    | `astro build`, write `dist/_redirects`, build the Pagefind index                                            |
-| `npm run preview`                  | `wrangler dev`: serves `dist/` with the real headers and redirects (run `npm run build` first)              |
-| `npm run lint`                     | ESLint and Prettier check                                                                                   |
-| `npm run check`                    | `astro check` (types)                                                                                       |
-| `npm test`                         | Vitest                                                                                                      |
-| `npx tsx scripts/migrate-posts.ts` | One-time WordPress import (kept for reference)                                                              |
+| Command | Action |
+| --- | --- |
+| `npm run dev` | Builds a search index, then starts the dev server (drafts visible). Restart to re-index after editing posts |
+| `npm run build` | `astro build`, write `dist/_redirects`, build the Pagefind index |
+| `npm run preview` | `wrangler dev`: serves `dist/` with the real headers and redirects (run `npm run build` first) |
+| `npm run lint` | ESLint and Prettier check |
+| `npm run check` | `astro check` (types) |
+| `npm test` | Vitest |
+| `npx tsx scripts/migrate-posts.ts` | One-time WordPress import (kept for reference) |
 
 Node version is in `.nvmrc`.
 
@@ -37,7 +37,7 @@ Images go in `public/images/blog/` and are referenced as `/images/blog/name.png`
 
 ## Layout
 
-```
+```text
 public/                 static files, _headers (security headers/CSP)
 scripts/                migrate-posts.ts, write-redirects.ts (post-build)
 src/content/blog/       posts
