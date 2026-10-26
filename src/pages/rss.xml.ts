@@ -1,6 +1,7 @@
 import rss from '@astrojs/rss';
 import type { APIContext } from 'astro';
 import { getPosts } from '../lib/content';
+import { postDescription } from '../lib/excerpt';
 import { postUrl } from '../lib/urls';
 
 export async function GET(context: APIContext) {
@@ -13,7 +14,7 @@ export async function GET(context: APIContext) {
       title: p.title,
       pubDate: p.date,
       link: postUrl(p.slug),
-      description: p.entry.data.description,
+      description: postDescription(p.entry.data.description, p.entry.body),
     })),
   });
 }

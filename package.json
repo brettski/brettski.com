@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "npm run index:dev && astro dev",
     "build": "astro build && tsx scripts/write-redirects.ts && pagefind --site dist",
-    "preview": "astro preview",
+    "preview": "wrangler dev",
     "astro": "astro",
     "lint": "eslint . && prettier --check .",
     "format": "prettier --write .",
