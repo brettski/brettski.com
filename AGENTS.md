@@ -10,6 +10,11 @@ Astro static site (Tailwind v4, Pagefind search) on Cloudflare. See `README.md` 
 - Verify a change with `npm run lint && npm run check && npm test && npm run build`. To exercise headers, redirects and the CSP, build and serve `dist/` with `npx wrangler dev` (`npm run preview`).
 - When stopping servers, confirm with `lsof -nP -iTCP:4321 -iTCP:8787 -sTCP:LISTEN`. A `pgrep` pattern can silently miss the real command line.
 
+## Git workflow
+
+- Never push to `main`. A ruleset requires a pull request and a passing `build` check (`.github/workflows/ci.yml`), and merging to `main` deploys the site through Cloudflare Workers Builds.
+- Work on a branch, run `npm run lint && npm run check && npm test && npm run build` locally, push the branch and open a PR with `gh pr create`.
+
 ## Rules for this project
 
 - **CSP is strict** (`public/_headers`): no inline `<script>`, no `<style>` blocks, no third-party scripts, fonts, images or stylesheets. Inline `style=""` attributes are allowed on purpose. Scripts that must run before paint go in `public/` as external files (see `theme-init.js`). Check any UI change in a browser for CSP violations.

@@ -1,6 +1,6 @@
 # brettski.com
 
-Personal site and blog. Astro (static output), Tailwind CSS v4, Pagefind search, hosted on Cloudflare (Workers static assets), deployed from GitHub Actions.
+Personal site and blog. Astro (static output), Tailwind CSS v4, Pagefind search, hosted on Cloudflare (Workers static assets) and deployed by Cloudflare Workers Builds from `main`.
 
 ## Commands
 
@@ -70,10 +70,11 @@ Inline `style=""` attributes in Markdown are allowed on purpose (`style-src-attr
 
 ## Deploy
 
-Pushes to `main` run lint, typecheck, tests and build, then `wrangler deploy` (see `.github/workflows/ci.yml`). Pull requests run everything except the deploy.
+Nothing is pushed straight to `main`. Work on a branch and open a pull request. The CI workflow (`.github/workflows/ci.yml`) runs lint, typecheck, tests and build on the PR, and a branch rule on `main` requires its `build` check to pass before the PR can merge. When the PR merges, Cloudflare Workers Builds pulls `main` and deploys it. GitHub holds no Cloudflare credentials.
 
 One-time setup:
 
-1. GitHub repo secrets: `CLOUDFLARE_API_TOKEN` (permission: Workers Scripts: Edit, scoped to this account) and `CLOUDFLARE_ACCOUNT_ID`.
-2. Cloudflare: attach the custom domain `brettski.com` to the `brettski-com` Worker.
-3. Old blog host: keep `blog.brettski.com` in Cloudflare DNS (proxied) and add a Redirect Rule: any request to host `blog.brettski.com` → dynamic redirect to `concat("https://brettski.com", http.request.uri.path)`, status 301, preserve query string. Old post, category, tag and archive URLs then land on `_redirects` rules.
+1. Cloudflare: Workers & Pages, connect the GitHub repo to the `brettski-com` Worker (Settings > Builds). The Worker name must match `name` in `wrangler.jsonc`. Production branch `main`, build command `npm run build`, deploy command `npx wrangler deploy`. Cloudflare reads `.nvmrc` for the Node version; check that the first build log shows Node 24.
+2. GitHub: a ruleset on `main` that requires a pull request and the `build` status check, and blocks force pushes and deletion (Settings > Rules).
+3. Cloudflare: attach the custom domain `brettski.com` to the `brettski-com` Worker.
+4. Old blog host: keep `blog.brettski.com` in Cloudflare DNS (proxied) and add a Redirect Rule: any request to host `blog.brettski.com` → dynamic redirect to `concat("https://brettski.com", http.request.uri.path)`, status 301, preserve query string. Old post, category, tag and archive URLs then land on `_redirects` rules.
