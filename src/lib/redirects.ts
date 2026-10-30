@@ -1,3 +1,4 @@
+import { LEGACY_REDIRECTS, type LegacyRedirect } from './legacy-redirects';
 import { monthUrl, yearUrl } from './urls';
 
 export interface ArchiveMonths {
@@ -12,6 +13,25 @@ export const MAX_DYNAMIC_REDIRECTS = 100;
 /** A source with a splat (`*`) or a placeholder (`:name`) is a dynamic rule. */
 const DYNAMIC_SOURCE = /\*|:[A-Za-z]\w*/;
 
+/** `%e2%80%94` -> `%E2%80%94`. Rule matching is case-sensitive on the hex digits. */
+export const uppercasePercentEncoding = (path: string): string =>
+  path.replace(/%[0-9a-f]{2}/gi, (m) => m.toUpperCase());
+
+/**
+ * One rule per legacy redirect, plus an uppercase-hex twin when the path is percent-encoded:
+ * the old blog serves lowercase, but a client or redirect may send `%E2%80%94`, which would
+ * otherwise fall through to the generic rule and land on a 404.
+ */
+export function legacyRules(legacy: LegacyRedirect[]): string[] {
+  const rules: string[] = [];
+  for (const { from, to } of legacy) {
+    rules.push(`${from} ${to} 301`);
+    const upper = uppercasePercentEncoding(from);
+    if (upper !== from) rules.push(`${upper} ${to} 301`);
+  }
+  return rules;
+}
+
 /**
  * Cloudflare `_redirects` content for legacy WordPress URLs. blog.brettski.com/* is
  * redirected to brettski.com/* (path preserved) by a Cloudflare redirect rule, so these
@@ -20,8 +40,11 @@ const DYNAMIC_SOURCE = /\*|:[A-Za-z]\w*/;
  * Static rules come first on purpose: Cloudflare counts every rule after the first
  * placeholder/splat rule as dynamic (limit 100), even a plain one.
  */
-export function buildRedirects(archive: ArchiveMonths[]): string {
-  const staticRules: string[] = [];
+export function buildRedirects(
+  archive: ArchiveMonths[],
+  legacy: LegacyRedirect[] = LEGACY_REDIRECTS,
+): string {
+  const staticRules: string[] = legacyRules(legacy);
   const dynamicRules = [
     '/category/:name/ /blog/tags/:name/ 301',
     '/tag/:name/ /blog/tags/:name/ 301',

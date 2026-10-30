@@ -1,10 +1,40 @@
 import { describe, expect, it } from 'vitest';
+import { LEGACY_REDIRECTS } from './legacy-redirects';
 import {
   MAX_DYNAMIC_REDIRECTS,
   assertRedirectLimits,
   buildRedirects,
   countRedirectRules,
+  legacyRules,
+  uppercasePercentEncoding,
 } from './redirects';
+
+describe('uppercasePercentEncoding', () => {
+  it('uppercases only the hex digits of percent escapes', () => {
+    expect(uppercasePercentEncoding('/a-%e2%80%94-b/')).toBe('/a-%E2%80%94-b/');
+  });
+  it('leaves paths without escapes unchanged', () => {
+    expect(uppercasePercentEncoding('/2009/12/03/web_dav/')).toBe(
+      '/2009/12/03/web_dav/',
+    );
+  });
+});
+
+describe('legacyRules', () => {
+  it('emits a lowercase rule and an uppercase twin for encoded paths', () => {
+    expect(
+      legacyRules([{ from: '/2008/09/09/a-%e2%80%94-b/', to: '/blog/a-b/' }]),
+    ).toEqual([
+      '/2008/09/09/a-%e2%80%94-b/ /blog/a-b/ 301',
+      '/2008/09/09/a-%E2%80%94-b/ /blog/a-b/ 301',
+    ]);
+  });
+  it('emits a single rule when there is nothing to uppercase', () => {
+    expect(
+      legacyRules([{ from: '/2009/12/03/a_b/', to: '/blog/a-b/' }]),
+    ).toEqual(['/2009/12/03/a_b/ /blog/a-b/ 301']);
+  });
+});
 
 describe('buildRedirects', () => {
   const out = buildRedirects([{ year: 2008, months: [3] }]);
@@ -25,6 +55,19 @@ describe('buildRedirects', () => {
   it('emits only well-formed 301 rules', () => {
     for (const l of lines) expect(l).toMatch(/^\/\S* \/\S* 301$/);
   });
+  it('includes the explicit legacy rules, lowercase and uppercase', () => {
+    const sopa = LEGACY_REDIRECTS.at(-1)!;
+    expect(lines).toContain(`${sopa.from} ${sopa.to} 301`);
+    expect(lines).toContain(
+      '/2008/09/09/comcast-%e2%80%94-here-we-go-again-day-3/ /blog/comcast-here-we-go-again-day-3/ 301',
+    );
+    expect(lines).toContain(
+      '/2008/09/09/comcast-%E2%80%94-here-we-go-again-day-3/ /blog/comcast-here-we-go-again-day-3/ 301',
+    );
+    expect(lines).toContain(
+      '/2009/12/03/accessing-web_dav-from-windows-xp/ /blog/accessing-web-dav-from-windows-xp/ 301',
+    );
+  });
   it('puts every static rule before the first dynamic rule', () => {
     const firstDynamic = lines.findIndex((l) =>
       /:[A-Za-z]/.test(l.split(' ')[0]),
@@ -43,9 +86,17 @@ describe('Cloudflare rule limits', () => {
     months: Array.from({ length: 12 }, (_, m) => m + 1),
   }));
 
-  it('counts the real shape of our output as static + dynamic', () => {
-    const counts = countRedirectRules(buildRedirects(full));
+  it('counts the archive rules as static + dynamic', () => {
+    const counts = countRedirectRules(buildRedirects(full, []));
     expect(counts).toEqual({ static: 14 + 14 * 12, dynamic: 2 + 14 });
+  });
+
+  it('adds the legacy rules to the static count only', () => {
+    const counts = countRedirectRules(buildRedirects(full));
+    expect(counts).toEqual({
+      static: 14 + 14 * 12 + legacyRules(LEGACY_REDIRECTS).length,
+      dynamic: 2 + 14,
+    });
   });
 
   it('passes for a full 14-year, every-month archive', () => {
